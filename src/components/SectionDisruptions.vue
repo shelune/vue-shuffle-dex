@@ -6,7 +6,7 @@
         <disruptions-card :disruptions="disruptionBoard" :variations="disruptionBoardVariations" disruption-title="Board" class="is-hidden-touch"></disruptions-card>
         <disruptions-card :disruptions="disruptionInitial" :variations="disruptionInitialVariations" disruption-title="Initial"  class="is-hidden-touch"></disruptions-card>
         <disruptions-card :disruptions="disruptionTimer" :variations="disruptionTimerVariations" disruption-title="Timer"  class="is-hidden-touch"></disruptions-card>
-        <disruptions-card :disruptions="disruptionCondition" :disruptionsTrigger="disruptionConditionTrigger" disruption-title="Condition" class="is-hidden-touch"></disruptions-card>
+        <disruptions-card :disruptions="disruptionCondition" :variations="disruptionConditionVariations" :disruptionsTrigger="disruptionConditionTrigger" disruption-title="Condition" class="is-hidden-touch"></disruptions-card>
         <disruptions-card-group class="is-hidden-desktop"
         :disruption-board="disruptionBoard"
         :disruption-board-variations="disruptionBoardVariations"
@@ -14,7 +14,9 @@
         :disruption-initial-variations="disruptionInitialVariations"
         :disruption-timer="disruptionTimer"
         :disruption-timer-variations="disruptionTimerVariations"
-        :disruption-condition="disruptionCondition" :disruption-condition-trigger="disruptionConditionTrigger"></disruptions-card-group>
+        :disruption-condition="disruptionCondition"
+        :disruption-condition-trigger="disruptionConditionTrigger"
+        :disruption-condition-variations="disruptionConditionVariations"></disruptions-card-group>
       </div>
       <div class="section_ftr addedSupp">
         <div class="addedSupp_header">Added Support</div>
@@ -40,6 +42,7 @@ export default {
       disruptionTimer: [],
       disruptionCondition: null,
       disruptionConditionTrigger: null,
+      disruptionConditionVariations: [],
       disruptionBoardVariations: [],
       disruptionInitialVariations: [],
       disruptionTimerVariations: [],
@@ -65,6 +68,7 @@ export default {
       this.disruptionTimer = []
       this.disruptionCondition = null
       this.disruptionConditionTrigger = null
+      this.disruptionConditionVariations = []
       this.disruptionBoardVariations = []
       this.disruptionInitialVariations = []
       this.disruptionTimerVariations = []
@@ -115,10 +119,20 @@ export default {
         }
 
         if (this.checkHasKey(line, ['moves:', 'turn:', 'health:', '%:', 'hp:'])) {
-          disruptionCond = _.trim(_.split(line, ':')[1])
+          disruptionCond = _.join(_.drop(_.split(line, ':'), 2), ' ')
           disruptionCondTrigger = _.trim(_.split(line, ':')[0])
           this.disruptionConditionTrigger = disruptionCondTrigger
-          this.disruptionCondition = _.split(disruptionCond, '.')
+
+          console.log('conditions variation 1st check:', disruptionCond)
+
+          if (!_.includes(disruptionCond, '/')) {
+            this.disruptionCondition = _.split(disruptionCond, '.')
+            console.log('disruption conditions variations check not found: ', disruptionCond)
+          } else {
+            this.disruptionCondition = _.split((disruptionCond.match(/\:(.*?)\:/g) || 'Any of the following: '), '.')
+            this.disruptionConditionVariations = _.split(disruptionCond.slice(disruptionCond.lastIndexOf(':') + 1, disruptionCond.length), '/')
+            console.log('disruption conditions variations check: ', disruptionCond)
+          }
         }
       })
 

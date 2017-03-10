@@ -27,7 +27,7 @@
     <div :class="[currentMode == 'Timer' ? 'show' : '' ,'container card_body']">
       <ul class="disruptions">
         <li v-for="disruption in disruptionTimer">{{ capitalize(disruption) }}</li>
-        <li v-if="disruptionTimerVariations & disruptionTimerVariations.length > 0"> {{ 'Any of the following:' }}
+        <li v-if="disruptionTimerVariations && disruptionTimerVariations.length > 0">
           <ul>
             <li v-for="variation in disruptionTimerVariations"> {{ variation }}</li>
           </ul>
@@ -38,6 +38,11 @@
       <ul class="disruptions">
         <li v-if="disruptionConditionTrigger"> <strong>Condition:</strong> {{ disruptionConditionTrigger }}</li>
         <li v-for="disruption in disruptionCondition">{{ capitalize(disruption) }}</li>
+        <li v-if="disruptionConditionVariations && disruptionConditionVariations.length > 0">
+          <ul>
+            <li v-for="variation in disruptionConditionVariations"> {{ variation }}</li>
+          </ul>
+        </li>
       </ul>
     </div>
   </div>
@@ -53,7 +58,7 @@ export default {
       disruptionModeActive: 0
     }
   },
-  props: ['disruptionBoard', 'disruptionInitial', 'disruptionTimer', 'disruptionCondition', 'disruptionConditionTrigger', 'disruptionBoardVariations', 'disruptionInitialVariations', 'disruptionTimerVariations'],
+  props: ['disruptionBoard', 'disruptionInitial', 'disruptionTimer', 'disruptionCondition', 'disruptionConditionTrigger', 'disruptionBoardVariations', 'disruptionInitialVariations', 'disruptionTimerVariations', 'disruptionConditionVariations'],
   computed: {
     currentMode (mode) {
       return this.disruptionModes[this.disruptionModeActive]
@@ -62,6 +67,8 @@ export default {
   methods: {
     switchMode(mode) {
       this.disruptionModeActive = mode
+      console.log('disruption condition variations: ', this.disruptionConditionVariations)
+      console.log('disruption condition: ', this.disruptionCondition)
     },
     isCurrentMode(mode) {
       return mode == this.currentMode ? 'is-active' : ''
