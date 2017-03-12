@@ -4,9 +4,12 @@
     <div class="card-party_content">
       <div :class="['card-party_slot', 'card-party_slot-mega']">
         <img :src="megaSlot ? megaSlot.pokemonIcon : ''" alt="Mega Slot">
+        <div class="candy show"></div>
       </div>
       <div v-for="support in supportSlots" :class="['card-party_slot', support]">
         <img :src="support ? support.pokemonIcon : ''" :alt="support ? support.pokemonName : '?'">
+        <div class="ss show"></div>
+        <div class="sb sb-3 show"></div>
       </div>
     </div>
   </div>
@@ -26,7 +29,6 @@ export default {
   watch: {
     teamData() {
       this.resetData()
-      // this.updateThumbnails()
     }
   },
   props: ['teamData', 'partyTitle'],
@@ -46,24 +48,6 @@ export default {
     resetData() {
       this.megaData = {pokemonIcon: '', pokemonName: '', location: ''}
       this.supportsData = []
-    },
-    updateThumbnails() {
-      console.log('team data: ', this.teamData);
-
-      // mega thumbnails
-      let configMega = {name: _.trim(this.megaSlot) || '', isMega: true, separateDivision: ''}
-      Processor.getStagePokemon(configMega).then((data) => {
-        this.megaData = data
-      })
-
-      // supports thumbnails
-      _.each(this.supportSlots, (support) => {
-        let configSupport = {name: _.trim(support) || '', isMega: false, separateDivision: ''}
-        Processor.getStagePokemon(configSupport).then(data => {
-          this.supportsData.push(data)
-        })
-      })
-
     }
   }
 }

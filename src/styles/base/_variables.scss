@@ -34,3 +34,20 @@ $shadow-default: 0 3px 6px rgba(0, 0, 0, 0.16);
   transition: all 0.25s ease;
   color: $pal-white;
 }
+
+%enhancement {
+  height: 30px;
+  width: 30px;
+  background-size: 28px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-color: $pal-turquoise;
+  border-radius: 50%;
+  border: 2px solid $pal-navy;
+  display: none;
+  position: absolute;
+
+  &.show {
+    display: block;
+  }
+}
