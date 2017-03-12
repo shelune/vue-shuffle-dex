@@ -176,9 +176,9 @@
         "disruptions": "Board: 8 blocks, 6 barriers\nInitial: none\nTimer: After 3 moves, choose one: Add blocks in row 1 / Add blocks with 2 gaps in columns 2, 3 / Add blocks with 2 gaps in columns 4, 5",
         "pokemon": 4,
         "recommendedParty": "[Gengar] / [Rayquaza] / [Blaziken] / [Charizard] / [Scizor] / [Heracross]\n\nSalamence, Braviary, Volcarona, Heracross, Muk\n\nEntei, Charizard, Genesect, Heatran, Delphox, Gallade\n\nKyurem, Reshiram, Ho-Oh, Lugia, Leavanny, Talonflame",
-        "clearingStrategy": "Hard stage, the disruption is really bad (columns of blocks mixed with blocks in row 1). It requires a lot of luck for an itemless clear, maybe with M-Charizard Y",
-        "srankingStrategy": "Moves: at least 10 moves left\n\nDD+5 is required to avoid the horrible block disruption. It's important to bring a Block Smash+ user because of the initial board configuration, both Leavanny and Talonflame should do the job.",
-        "suggestedTeam": "[Rayquaza], Leavanny, Reshiram, Charizard\n\n[Blaziken], Talonflame, Delphox, Reshiram",
+        "clearingStrategy": "Hard stage, the disruption is really bad (columns of blocks mixed with blocks in row 1). This has become easier with the introduction of Tapper Megas. Still need some careful planning when doing it itemless",
+        "srankingStrategy": "Moves: at least 10 moves left\n\nDD+5 is required to avoid the horrible block disruption. It's important to bring a Block Smash+ user because of the initial board configuration, both Leavanny and Talonflame should do the job. If you use Tapper Megas, MS and M+5 would be fine too.",
+        "suggestedTeam": "[Rayquaza], Leavanny, Reshiram, Charizard\n\n[Blaziken], Talonflame, Delphox, Reshiram\n\n[Tyranitar], Charizard, Ho-Oh, Talonflame",
         "basePower": 60,
         "ability": "Block Smash+"
     },
@@ -736,7 +736,7 @@
         "recommendedParty": "[Gengar] / [Gyarados-S] / [Rayquaza] / [Garchomp]\n\nLandorus-T, Groudon, Golurk, Donphan, Rhyperior",
         "clearingStrategy": "The disruption is terrible, since it separates your icons in three areas, reducing a lot the combo available. Golurk is almost essential, and M-Garchomp helps clearing leftovers from the disruption (although it does remove only 2 tiles of it, if matched straight after!).",
         "srankingStrategy": "Moves: at least 10 moves left\n\nThe stage has quite high HP, and together with the disruption, it makes Moves+5 a necessity. Be careful because if you get really bad boards after the disruption kicks in, you may be in trouble.\n\nDisruption Delay trivializes the stage, since the initial board is clean. If you plan to use it, bring M-Rayquaza.",
-        "suggestedTeam": "[Garchomp], Landorus-T, Groudon, Golurk\n\n[Tyranitar], Landorus-T, Garchomp, Donphan",
+        "suggestedTeam": "[Garchomp], Landorus-T, Groudon, Golurk\n\n[Tyranitar], Landorus-T, Garchomp, Donphan\n\n[Camerupt], Garchomp, Groudon, Golurk",
         "basePower": 60,
         "ability": "T-Boost"
     },
