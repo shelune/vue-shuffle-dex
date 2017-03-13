@@ -276,9 +276,23 @@
   }
 }
 
-// card styling in strategy section
-.card-strategy {
+// card styling in team section
+.card-team {
+  &_content {
+    border-bottom: 5px solid $pal-turquoise;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
 
+  &_supports, &_items {
+    > strong {
+      color: $pal-red;
+    }
+
+    .mega {
+      font-family: AvenirHeavy;
+    }
+  }
 }
 
 // card styling in support section

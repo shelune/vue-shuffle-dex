@@ -658,7 +658,7 @@
         "type": "Normal",
         "moves": 13,
         "captureRate": "Base: 5%\nBonus: 10% move",
-        "initialBoardSetup": "http://i.imgur.com/SLzhsMU.png",
+        "initialBoardSetup": "http://i.imgur.com/ SLzhsMU.png",
         "disruptions": "Board: puzzle\nInitial: none\nTimer: After 6 moves, add 2 rocks. After 4 moves, add 2 rocks.",
         "pokemon": 4,
         "recommendedParty": "[Gengar] / [Gyarados-S] / [Rayquaza] / [Lucario]\n\nLucario, Machamp, Gallade, Sawk, Throh, Keldeo-R, Conkeldurr",
@@ -827,6 +827,7 @@
         "clearingStrategy": "The key here is to bring Block Smash+ users, you can deal with Skarmory either by bringing it in your team, or with your mega of choice.\n\nSince the disruption timer is 4, the stage itself is not too difficult.",
         "srankingStrategy": "Moves: at least 7 moves left.\n\nIt can be cleared itemless with M-Rayquaza and 3 Block Smash+ users (Talonflame, Golurk, Gallade), but you need good combo.\n\nIt is quite easy with just Moves+5, you can replace your weaker pokemon in the team with something like Landorus-T or Machamp.",
         "suggestedTeam": "[Rayquaza], Talonflame, Golurk, Gallade\n\n[Rayquaza], Golurk, Gallade, Landorus-T",
+        "suggestedSrank": "[Camerupt], Gallade, Machamp(SL4), Golurk _ Itemless",
         "basePower": 60,
         "ability": "Steely Resolve"
     },
@@ -898,6 +899,7 @@
         "clearingStrategy": "Very hard stage, I do not know if it is even possible to finish it itemless, since the disruption is just horrible, and the HP are stupidly high.\n\nYour best bet is go straight for the S-rank with Complexity-1 and a strong team.",
         "srankingStrategy": "Moves: at least 11 moves left.\n\nThe HP are monstrous, and you cannot buy Disruption Delay. This means that the cheapest strategy is Complexity-1, with an added Moves+5 for safety.\n\nRemember to bring a Block Smash+ user, to clear the initial board, and help with possible barriered blocks stuck somewhere.",
         "suggestedTeam": "[Garchomp], Golurk, Charizard\n\n[Garchomp], Gallade, Lucario",
+        "suggestedSrank": "[Camerupt], Machamp (SS / SL4), Lucario _ Moves+5, MS, C-1",
         "basePower": 80,
         "ability": "Mega Effect: Erases all Pokémon in an X-shaped pattern."
     }

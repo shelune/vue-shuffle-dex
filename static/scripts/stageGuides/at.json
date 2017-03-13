@@ -343,6 +343,7 @@
         "clearingStrategy": "A Hard stage since this one has\nadditional support. I suggest bringing\nGoomy along since it is Super\nEffective and appears in disruption.\nFor Mega, the best one would be\nAltaria since Goomy helps it with its\nability (Mega Boost)\n\nWith the addition of Latias, this stage\nbecomes more easier. Use Mega\nLatias instead if you have it",
         "srankingStrategy": "Moves: At least 7 moves left\nDD, Move+5 is the minimum\n\nComplexity + DD will also be good (in this\ncase, dont add Goomy to your team)",
         "suggestedTeam": "[Latios], Goomy, Zygarde-50, Kyuurem-W\n\n[Altaria], Goomy, Xerneas, Dragonite",
+        "suggestedSrank": "[Rayquaza-S], Goomy, Kyurem-W, Glalie(SL3) _ M+5",
         "basePower": 60,
         "ability": "Barrier Bash"
     },
@@ -361,6 +362,7 @@
         "clearingStrategy": "Lugia ejects the Medicham/Meditite\naway. Cresselia is also good for\nclearing away the Barriers. Seems to\nbe beatable only with items (Move+5\nis minimum)\n\nGengar seems to work alright here too",
         "srankingStrategy": "Moves: At least 9 moves left\nDD and Move+5 can do this.\n\nOr DD, Mega Start and Move+5 for full\neffect",
         "suggestedTeam": "[Mewtwo-Y], Mew (SS: BS+, RML), Victini, Cresselia\n\n[Slowbro], Uxie, Azelf, Lugia",
+        "suggestedSrank": "[Rayquaza-S], Mewtwo(SS / SL3), Salamence(SS / SL2), Braviary _ Itemless ",
         "basePower": 60,
         "ability": "Mega Boost"
     },
@@ -451,6 +453,7 @@
         "clearingStrategy": "The board will get full of Metal Blocks\nin no time. Still easy to beat because\nit stops after 5 turns and some Metal\nBlocks will disappear at a time.",
         "srankingStrategy": "Moves: At least 5 moves left\nMove+5 will guarantee this\n\nIf you want to do this itemless, try\nM-Gengar. M-Gengar can get a huge combo\nwhen some blocks are gone which will be\n5 turns left. Make sure not to delay\nPawniard's disruption when Mega Evolving\nso you'll have a free one turn.",
         "suggestedTeam": "[Gengar], Genesect, Xerneas\n\n[Gengar], Gallade, Leavanny",
+        "suggestedSrank": "[Beedrill], Gallade, Machamp (SL5) _ Itemless",
         "basePower": 50,
         "ability": "Block Smash"
     },

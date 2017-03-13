@@ -10,8 +10,8 @@
       </div>
       <h2 class="section_title">Suggested Team</h2>
       <div class="columns parties">
-        <supports-party v-if="teamOptimal && teamOptimal.length > 0" :teamData="teamOptimal" party-title="Optimal"></supports-party>
-        <supports-party v-if="teamsOthers && teamsOthers.length > 0" v-for="team in teamsOthers" :teamData="team" party-title="Alternate"></supports-party>
+        <supports-party-alt :teamData="teamsClearing" stratTitle="Clearing"></supports-party-alt>
+        <supports-party-alt :teamData="teamsSrank" stratTitle="S-Ranking"></supports-party-alt>
       </div>
     </div>
   </section>
@@ -20,6 +20,7 @@
 <script>
 import SupportsCard from 'components/SupportsCard.vue'
 import SupportsParty from 'components/SupportsParty.vue'
+import SupportsPartyAlt from 'components/SupportsPartyAlt.vue'
 
 import _ from 'lodash'
 import * as Processor from './../processor'
@@ -27,8 +28,8 @@ import * as Processor from './../processor'
 export default {
   data () {
     return {
-      teamOptimal: [],
-      teamsOthers: [],
+      teamsSrank: {},
+      teamsClearing: {},
       slotsMega: [],
       slotsMain: [],
       slotsExpert: [],
@@ -40,60 +41,52 @@ export default {
       this.resetData()
       this.updateMegaSlots()
       this.updateOtherSlots()
-      this.updateTeam()
+      this.updateTeam(this.stageData.suggestedTeam, this.teamsClearing)
+      this.updateTeam(this.stageData.suggestedSrank, this.teamsSrank)
     }
   },
   props: ['stageData'],
   components: {
     SupportsCard,
-    SupportsParty
+    SupportsPartyAlt
   },
   methods: {
     resetData() {
-      this.teamOptimal = []
-      this.teamsOthers = []
+      this.teamsSrank = [],
+      this.teamsClearing = []
       this.slotsMega = []
       this.slotsMain = []
       this.slotsExpert = []
       this.slotsSpecial = []
     },
-    updateTeam() {
-      let teams = _.split(this.stageData.suggestedTeam, '\n')
-      let teamNo1 = _.map(_.compact(_.split(teams.shift(), ',')), _.trim)
-      let teamOthers = _.compact(_.drop(teams))
+    updateTeam(source, destination) {
+      let teams = _.compact(_.split(source, '\n'))
 
-      let configMega = {name: _.trim(this.megaSlot(teamNo1)) || '', isMega: true, separateDivision: ''}
-      if (configMega.name.length > 0) {
-        Processor.getStagePokemon(configMega).then((data) => {
-          this.teamOptimal.push(data)
-        })
-      }
+      _.each(_.compact(teams), team => {
+        let teamSingleTemp = {items: '', slots: []}
+        let teamArr = []
 
-      _.each(this.supportSlots(teamNo1), (support) => {
-        let configSupport = {name: _.trim(support) || '', isMega: false, separateDivision: ''}
-        Processor.getStagePokemon(configSupport).then(data => {
-          this.teamOptimal.push(data)
+        if (_.indexOf(team, '_') != -1) {
+          let teamSlots = team.slice(0, _.indexOf(team, '_'))
+          teamArr = _.split(teamSlots, ',')
+          let teamItems = team.slice(_.indexOf(team, '_') + 1)
+          teamSingleTemp.items = _.trim(teamItems)
+        } else {
+          teamArr = _.split(team, ',')
+        }
+
+        _.each(teamArr, (support, index) => {
+
+          if (support.includes('[') && support.includes(']')) {
+            support = 'Mega ' + support.slice(1, -1)
+          }
+          teamSingleTemp.slots.push(_.trim(support))
         })
+
+        destination.push(teamSingleTemp)
       })
 
-      console.log('team optimal final: ', this.teamOptimal)
-
-      _.each(teamOthers, team => {
-        let teamFullTemp = []
-
-        let configMegaTemp = {name: _.trim(this.megaSlot(team)) || '', isMega: true, separateDivision: ''}
-        Processor.getStagePokemon(configMegaTemp).then((data) => {
-          teamFullTemp.push(data)
-        })
-
-        _.each(this.supportSlots(team), (support) => {
-          let configSupport = {name: _.trim(support) || '', isMega: false, separateDivision: ''}
-          Processor.getStagePokemon(configSupport).then(data => {
-            teamFullTemp.push(data)
-          })
-        })
-        this.teamsOthers.push(teamFullTemp)
-      })
+      console.log('teams formatted: ', destination)
     },
     updateMegaSlots() {
       let megas = Processor.getMegaSupports(this.stageData.recommendedParty)
