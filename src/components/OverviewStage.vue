@@ -106,7 +106,11 @@ export default {
       this.sRank = this.stageData.srankMoves
     },
     updateLayout() {
-      this.layout = this.stageData.initialBoardSetup
+      if (this.stageData.initialBoardSetup && this.stageData.initialBoardSetup.length > 0) {
+        this.layout = this.stageData.initialBoardSetup
+      } else {
+        this.layout = '/static/img/pikachu-angry.svg'
+      }
     },
     updateSupportLim() {
       this.supportLim = this.stageData.pokemon

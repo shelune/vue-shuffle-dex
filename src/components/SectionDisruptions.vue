@@ -21,7 +21,8 @@
       <div class="section_ftr addedSupp">
         <div class="addedSupp_header">Added Support</div>
         <div class="addedSupp_content">
-          <img :src="disruptionSupport ? disruptionSupport.pokemonIcon : './static/img/sprites/icon_01.png'" alt="added support">
+          <img v-if="disruptionSupportIsPokemon" :src="disruptionSupport ? disruptionSupport.pokemonIcon : './static/img/sprites/icon_01.png'" alt="added support">
+          <div v-if="!disruptionSupportIsPokemon"> {{ disruptionSupport }}. </div>
           <div :style="{marginLeft: '10px'}">{{ disruptionSupportReplace }}</div>
         </div>
       </div>
@@ -47,6 +48,7 @@ export default {
       disruptionInitialVariations: [],
       disruptionTimerVariations: [],
       disruptionSupport: null,
+      disruptionSupportIsPokemon: true,
       disruptionSupportReplace: null,
     }
   },
@@ -109,13 +111,18 @@ export default {
           let addedSupport = _.trim(_.split(line, '.')[0].slice(line.indexOf(':') + 1, line.length))
           this.disruptionSupportReplace = _.split(line, '.')[1]
 
-          let configSupport = {name: addedSupport || '', isMega: false, separateDivision: ''}
+          if (addedSupport.toLowerCase().includes('block') || addedSupport.toLowerCase().includes('rock')) {
+            this.disruptionSupport = addedSupport
+            this.disruptionSupportIsPokemon = false
+          } else {
+            let configSupport = {name: addedSupport || '', isMega: false, separateDivision: ''}
 
-          Processor.getStagePokemon(configSupport).then(data => {
-            if (data) {
-              this.disruptionSupport = data
-            }
-          })
+            Processor.getStagePokemon(configSupport).then(data => {
+              if (data) {
+                this.disruptionSupport = data
+              }
+            })
+          }
         }
 
         if (this.checkHasKey(line, ['moves:', 'turn:', 'health:', '%:', 'hp:'])) {
