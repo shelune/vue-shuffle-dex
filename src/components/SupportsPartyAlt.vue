@@ -5,7 +5,7 @@
       <div class="card-team_content" v-for="team in teamData">
         <p class="card-team_supports">
           <strong>Pokemons: </strong>
-          <span v-for="support, index in team.slots" :class="index == 0 ? 'mega' : ''">{{ support ? support : '?' }}{{ index == team.slots.length - 1 ? '' : ', ' }}</span>
+          <span v-for="support, index in team.slots" :class="index == 0 ? 'mega' : ''">{{ support ? support : '?' }}{{ index == team.slots.length - 1 ? '.' : ', ' }}</span>
         </p>
         <p class="card-team_items">
           <strong>Items: </strong>

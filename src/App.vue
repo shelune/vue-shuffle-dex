@@ -31,17 +31,16 @@
     <!-- <router-view></router-view> -->
     <stage :stageIdApp="this.stageIdApp" :mode="stageMode"></stage>
   </div>
-  <footer class="footer" :style="{padding: '30px 0 0 0'}">
-    <div class="container">
-      <div class="content has-text-centered">
+  <footer class="footer">
+    <div class="container is-flex">
+      <div><a href="https://www.reddit.com/r/PokemonShuffle/comments/584xvt/acronyms_used_on_rpokemonshuffle/" target="_blank">Glossary</a></div>
+      <div>
         <p>
           Built by <strong>Shelune</strong>. With <a href="http://bulma.io/">Bulma</a> & <a href="https://vuejs.org/">Vue</a>.
         </p>
-        <p>
-          <a class="icon" href="https://github.com/shelune/vue-shuffle-dex">
-            <i class="fa fa-github"></i>
-          </a>
-        </p>
+      </div>
+      <div>
+        <strong><a href="https://www.paypal.me/shelune" target="_blank">A bit of donation does help!</a></strong>
       </div>
     </div>
   </footer>
@@ -245,6 +244,22 @@ body {
   }
 }
 
+.footer {
+  padding: 30px 0 30px 0;
+
+  .container {
+    justify-content: space-between;
+
+    > div {
+      margin: 0 20px;
+
+      @include mobile() {
+        margin: 0 auto;
+      }
+    }
+  }
+}
+
 @include mobile() {
     .nav-right {
         margin-right: 20px;
@@ -256,6 +271,12 @@ body {
         .nav-item {
             justify-content: flex-end;
         }
+    }
+
+    footer {
+      .container {
+        flex-direction: column;
+      }
     }
 }
 </style>
