@@ -5,7 +5,8 @@ const mainStageCap = 530;
 const expertStageCap = 45;
 
 const pokemonCollectionUrl = './static/scripts/pokemonCollection.json'
-const expertStageUrl = './assets/scripts/expertGuides/expert.json'
+const stageCollectionUrl = './static/scripts/pokemonCollection-wiki.json'
+const expertStageUrl = './static/scripts/expertGuides/expert.json'
 
 const stageCollections = [
   {
@@ -85,4 +86,4 @@ function getStageUrl(mode, stageId) {
   }
 }
 
-export {mainStageCap, expertStageCap, pokemonCollectionUrl, expertStageUrl, getStageUrl}
+export {mainStageCap, expertStageCap, pokemonCollectionUrl, stageCollectionUrl, expertStageUrl, getStageUrl}

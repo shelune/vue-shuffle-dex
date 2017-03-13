@@ -9,7 +9,7 @@
         </p>
         <p class="card-team_items">
           <strong>Items: </strong>
-          <span>{{ team.items.length > 1 ? team.items : 'Itemless' }}</span>
+          <span>{{ team.items.length > 1 ? team.items : 'Varied' }}</span>
         </p>
       </div>
     </div>

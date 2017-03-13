@@ -103,33 +103,63 @@ export default {
       window.addEventListener('scroll', this.calculatePosY);
       this.calculatePosY()
       let self = this
+      let options = {}
 
-      let options = {
-				url: Resources.pokemonCollectionUrl,
-				listLocation: "main",
-				getValue: "pokemonName",
-				list: {
-					match: {
-						enabled: true
-					},
-					onClickEvent: function() {
-						let stageId = _.parseInt($('#stage-selector').getSelectedItemData()['location'])
-            if (isNaN(stageId)) {
-              self.stageIdApp = 0
-            } else {
-              self.stageIdApp = _.trim(_.toString(stageId))
-            }
-            self.$forceUpdate()
-					},
-				},
-				highlightPhrase: false,
-				template: {
-          type: "custom",
-        		method: function(name, pokemon) {
-        			return "<strong>" + name + " </strong> @" + pokemon.location;
-        		}
-				}
-			}
+      if (self.stageMode == 'main') {
+        options = {
+  				url: Resources.stageCollectionUrl,
+  				listLocation: "main",
+  				getValue: "pokemonName",
+  				list: {
+  					match: {
+  						enabled: true
+  					},
+  					onClickEvent: function() {
+  						let stageId = _.parseInt($('#stage-selector').getSelectedItemData()['location'])
+              if (isNaN(stageId)) {
+                self.stageIdApp = 0
+              } else {
+                self.stageIdApp = _.trim(_.toString(stageId))
+              }
+              self.$forceUpdate()
+  					},
+  				},
+  				highlightPhrase: false,
+  				template: {
+            type: "custom",
+          		method: function(name, pokemon) {
+          			return "<strong>" + name + " </strong> @" + pokemon.location;
+          		}
+  				}
+  			}
+      } else {
+        options = {
+  				url: Resources.stageCollectionUrl,
+  				listLocation: "expert",
+  				getValue: "pokemonName",
+  				list: {
+  					match: {
+  						enabled: true
+  					},
+  					onClickEvent: function() {
+  						let stageId = _.parseInt($('#stage-selector').getSelectedItemData()['location'])
+              if (isNaN(stageId)) {
+                self.stageIdApp = 0
+              } else {
+                self.stageIdApp = _.trim(_.toString(stageId))
+              }
+              self.$forceUpdate()
+  					},
+  				},
+  				highlightPhrase: false,
+  				template: {
+            type: "custom",
+          		method: function(name, pokemon) {
+          			return "<strong>" + name + " </strong> @" + pokemon.location;
+          		}
+  				}
+  			}
+      }
 
       $('#stage-selector').easyAutocomplete(options)
     })
