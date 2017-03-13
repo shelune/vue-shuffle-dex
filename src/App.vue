@@ -12,7 +12,7 @@
       <div class="level-left">
         <form>Stage
           <span class="eac">
-            <input id="stage-selector" v-model="stageIdApp" class="stagesSelector" type="text" placeholder="1" @keyup.enter.prevent="submit">
+            <input id="stage-selector" v-model="stageIdApp" class="stagesSelector" type="text" placeholder="?" @keyup.enter.prevent="submit">
           </span>
         </form>
       </div>
@@ -75,7 +75,9 @@ export default {
     Stage
   },
   watch: {
-
+    stageMode() {
+      this.autoComplete(this.stageMode)
+    }
   },
   methods: {
     calculatePosY() {
@@ -95,172 +97,145 @@ export default {
       } else {
         this.stageMode = 'main'
       }
+    },
+    autoComplete(mode) {
+      let self = this
+      let options = {
+        url: Resources.stageCollectionUrl,
+        listLocation: mode,
+        getValue: "pokemonName",
+        list: {
+          match: {
+            enabled: true
+          },
+          onClickEvent: function() {
+            let stageId = _.parseInt($('#stage-selector').getSelectedItemData()['location'])
+            if (isNaN(stageId)) {
+              self.stageIdApp = 0
+            } else {
+              self.stageIdApp = _.trim(_.toString(stageId))
+            }
+            self.$forceUpdate()
+          },
+        },
+        highlightPhrase: false,
+        template: {
+          type: "custom",
+            method: function(name, pokemon) {
+              return "<strong>" + name + " </strong> @" + pokemon.location;
+            }
+        }
+      }
+      $('#stage-selector').easyAutocomplete(options)
     }
   },
   mounted () {
     this.$nextTick(() => {
       window.addEventListener('scroll', this.calculatePosY);
       this.calculatePosY()
-      let self = this
-      let options = {}
 
-      if (self.stageMode == 'main') {
-        options = {
-  				url: Resources.stageCollectionUrl,
-  				listLocation: "main",
-  				getValue: "pokemonName",
-  				list: {
-  					match: {
-  						enabled: true
-  					},
-  					onClickEvent: function() {
-  						let stageId = _.parseInt($('#stage-selector').getSelectedItemData()['location'])
-              if (isNaN(stageId)) {
-                self.stageIdApp = 0
-              } else {
-                self.stageIdApp = _.trim(_.toString(stageId))
-              }
-              self.$forceUpdate()
-  					},
-  				},
-  				highlightPhrase: false,
-  				template: {
-            type: "custom",
-          		method: function(name, pokemon) {
-          			return "<strong>" + name + " </strong> @" + pokemon.location;
-          		}
-  				}
-  			}
-      } else {
-        options = {
-  				url: Resources.stageCollectionUrl,
-  				listLocation: "expert",
-  				getValue: "pokemonName",
-  				list: {
-  					match: {
-  						enabled: true
-  					},
-  					onClickEvent: function() {
-  						let stageId = _.parseInt($('#stage-selector').getSelectedItemData()['location'])
-              if (isNaN(stageId)) {
-                self.stageIdApp = 0
-              } else {
-                self.stageIdApp = _.trim(_.toString(stageId))
-              }
-              self.$forceUpdate()
-  					},
-  				},
-  				highlightPhrase: false,
-  				template: {
-            type: "custom",
-          		method: function(name, pokemon) {
-          			return "<strong>" + name + " </strong> @" + pokemon.location;
-          		}
-  				}
-  			}
-      }
-
-      $('#stage-selector').easyAutocomplete(options)
+      this.autoComplete(this.stageMode)
     })
   }
 }
 </script>
 
-<style lang="scss">@import "./styles/base/_all.scss";
-@import "~bulma/bulma.sass";
-@import "./styles/components/_all.scss";
-@import "~easy-autocomplete/src/sass/easy-autocomplete.scss";
+<style lang="scss">
+  @import "./styles/base/_all.scss";
+  @import "~bulma/bulma.sass";
+  @import "./styles/components/_all.scss";
+  @import "~easy-autocomplete/src/sass/easy-autocomplete.scss";
 
-html {
-    font-size: 16px;
-}
-
-body {
-    font-family: 'AvenirRoman', Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    background-color: $pal-white;
-}
-
-.nav {
-    .nav-item {
-        padding: 0;
-        &:hover {
-            color: $pal-red;
-        }
-    }
-}
-
-.nav-right {
-    margin-right: 40px;
-}
-
-.eac {
-  display: inline-block;
-  margin-left: 10px;
-
-  input {
-    border: none;
-    border-radius: 0;
-    border-bottom: 3px solid $pal-navy;
-    box-shadow: none;
-    min-width: 180px;
-
-    @include mobile() {
-      min-width: 140px;
-    }
-  }
-}
-
-.easy-autocomplete-container {
-  ul {
-    border-top: none;
-    box-shadow: $shadow-default;
+  html {
+      font-size: 16px;
   }
 
-  ul li {
-    padding: 10px 12px;
-    border: none;
+  body {
+      font-family: 'AvenirRoman', Helvetica, Arial, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      background-color: $pal-white;
+  }
 
-    div {
-      @include text-std;
-      @include font-size(12px/14);
-      text-transform: none;
-
-      strong {
-        @include font-size(12px/14);
-        font-weight: 700;
+  .nav {
+      .nav-item {
+          padding: 0;
+          &:hover {
+              color: $pal-red;
+          }
       }
-    }
-
-    &.selected {
-      background: $pal-navy;
-      color: $pal-white;
-
-      strong {
-        color: $pal-white;
-      }
-    }
   }
-}
 
-.footer {
-  padding: 30px 0 30px 0;
+  .nav-right {
+      margin-right: 40px;
+  }
 
-  .container {
-    justify-content: space-between;
+  .eac {
+    display: inline-block;
+    margin-left: 10px;
 
-    > div {
-      margin: 0 20px;
+    input {
+      border: none;
+      border-radius: 0;
+      border-bottom: 3px solid $pal-navy;
+      box-shadow: none;
+      min-width: 180px;
 
       @include mobile() {
-        margin: 0 auto;
+        min-width: 140px;
       }
     }
   }
-}
 
-@include mobile() {
+  .easy-autocomplete-container {
+    ul {
+      border-top: none;
+      box-shadow: $shadow-default;
+    }
+
+    ul li {
+      padding: 10px 12px;
+      border: none;
+
+      div {
+        @include text-std;
+        @include font-size(12px/14);
+        text-transform: none;
+
+        strong {
+          @include font-size(12px/14);
+          font-weight: 700;
+        }
+      }
+
+      &.selected {
+        background: $pal-navy;
+        color: $pal-white;
+
+        strong {
+          color: $pal-white;
+        }
+      }
+    }
+  }
+
+  .footer {
+    padding: 30px 0 30px 0;
+
+    .container {
+      justify-content: space-between;
+
+      > div {
+        margin: 0 20px;
+
+        @include mobile() {
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+
+  @include mobile() {
     .nav-right {
         margin-right: 20px;
     }
@@ -278,5 +253,5 @@ body {
         flex-direction: column;
       }
     }
-}
+  }
 </style>
