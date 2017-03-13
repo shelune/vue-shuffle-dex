@@ -197,7 +197,7 @@
         "type": "Electric",
         "moves": 16,
         "captureRate": "Base: 62%\nBonus:3% /move",
-        "initialBoardSetup": "http://i.imgur.com/SLx8ZeF.png",
+        "initialBoardSetup": "http://i.imgur.com/ SLx8ZeF.png",
         "disruptions": "Board: Lot of Rocks\nInitial: None\nTimer: Adds 2 Blitzle after 2 turns x2. Adds 1 Column of Rocks after 2 turns. Repeat",
         "pokemon": 3,
         "recommendedParty": "[Gengar]/[Any]\n\nMarowak, Stunfisk,\nDonphan\n\nNone\n\nGroudon",
@@ -221,6 +221,8 @@
         "recommendedParty": "[Lucario]/[Gengar]/\n[Any]\n\nMienshao, Throh,\nSawk\n\nLucario\n\nArceus*",
         "clearingStrategy": "* - Double Normal Team (can consist of\nM-Gengar/M-Luke, Lickitung, Lickilicky,\nand Arceus\n\nFor first time, you may want Lickitung\nwith you. This will lessen the Pokemons\nin the board and get combos without\nusing a move.\n\nB6 to E6 is a good starting move",
         "srankingStrategy": "Moves: At least 11 moves left\n\nBring both Lickitung and Lickilicky.\n\nYou may want to add a Move+5 if needed.\nIf Lickilicky/Lickitung strategy fails, just\ngo for your normal Fighting Team",
+        "suggestedTeam": "[Lucario], Machamp, Gallade, Sawk _ Itemless",
+        "suggestedSrank": "[Aggron], Lucario (SL2), Machamp (SS / SL5), Throh lvl15 _ Itemless",
         "mobileNotes": "Catch Rate: 20% +4%\n\nAgain. Just catch rate difference. All Pokemon\non 3ds version are also available in here.\n(Except for Double Normal Arceus Team)",
         "basePower": 70,
         "ability": "Hitting Streak"
@@ -419,7 +421,8 @@
         "recommendedParty": "[Lucario]/[Blaziken]/\n[Gengar]/[Any]\n\nTyranitar, Conkeldurr,\nSteelix, Ninetales\n\n, Heatran, Blaziken,\nMoltres, Delphox\n\nDialga, Jirachi\n",
         "clearingStrategy": "You may want to get at least a 2\ncombo every turn or else you'll get\nclog in barriers. Not really much that\nhard. M-Gengar is good at combos if\nyou are getting some trouble\n\nAlso note you may need some items\nif you are using M-Blaziken team\nunless you are lucky with combos",
         "srankingStrategy": "Moves: At least 13 moves left\n\nIf you are having trouble itemless,\nMove+5 will do this\n\nOr go with Move+5, DD, Mega Start\n(I used only DD, depends on your team\nlevel)",
-        "suggestedTeam": "[Blaziken], Reshiram, Delphox, Charizard",
+        "suggestedTeam": "[Blaziken], Reshiram, Delphox, Charizard _ Itemless",
+        "suggestedSrank": "[Houndoom], Emboar lvl15 (SS / SL5), Throh lvl15 (SS), Machamp lvl16 (SS / SL5) _ Itemless",
         "basePower": 70,
         "ability": "Barrier Bash"
     },

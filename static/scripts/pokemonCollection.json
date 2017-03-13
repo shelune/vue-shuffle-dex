@@ -696,6 +696,11 @@
 			"location": "92"
 		},
 		{
+			"pokemonName": "Emolga",
+			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/587.png",
+			"location": "503"
+		},
+		{
 			"pokemonName": "Scyther",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/123.png",
 			"location": "94"
