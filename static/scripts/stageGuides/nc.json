@@ -555,7 +555,9 @@
         "pokemon": 3,
         "srankingStrategy": "Moves: At least 4 moves left.",
         "suggestedTeam": "[Salamence], Braviary, Lugia _ Itemless",
-        "suggestedSrank": "[Salamence], Braviary, Lugia _ Itemless"
+        "suggestedSrank": "[Salamence], Braviary, Lugia _ Itemless",
+        "basePower": 30,
+        "ability": "Barrier Bash++"
     },
     {
         "stageNo": 532,
@@ -566,7 +568,9 @@
         "moves": 15,
         "captureRate": "Base: 8%\nBonus: 9% /move",
         "pokemon": 4,
-        "srankingStrategy": "Moves: At least 7 moves left."
+        "srankingStrategy": "Moves: At least 7 moves left.",
+        "basePower": 50,
+        "ability": "Opprtunist"
     },
     {
         "stageNo": 533,
@@ -577,7 +581,9 @@
         "moves": 10,
         "captureRate": "Base: 13%\nBonus: 11% /move",
         "pokemon": 3,
-        "srankingStrategy": "Moves: At least 5 moves left."
+        "srankingStrategy": "Moves: At least 5 moves left.",
+        "basePower": 40,
+        "ability": "Astonish"
     },
     {
         "stageNo": 534,
@@ -589,7 +595,9 @@
         "captureRate": "Base: 10%\nBonus: 5% /move",
         "pokemon": 4,
         "srankingStrategy": "Moves: At least 5 moves left.",
-        "suggestedTeam": "[Salamence], Lugia, Braviary, Glalie"
+        "suggestedTeam": "[Salamence], Lugia, Braviary, Glalie",
+        "basePower": 50,
+        "ability": "Sleep Combo"
     },
     {
         "stageNo": 535,
@@ -600,7 +608,9 @@
         "moves": 15,
         "captureRate": "Base: 10%\nBonus: 8% /move",
         "pokemon": 4,
-        "srankingStrategy": "Moves: At least 7 moves left."
+        "srankingStrategy": "Moves: At least 7 moves left.",
+        "basePower": 60,
+        "ability": "Dancing Dragons"
     },
     {
         "stageNo": 536,
@@ -611,7 +621,9 @@
         "moves": 12,
         "captureRate": "Base: 13%\nBonus: 9% /move",
         "pokemon": 4,
-        "srankingStrategy": "Moves: At least 6 moves left."
+        "srankingStrategy": "Moves: At least 6 moves left.",
+        "basePower": 50,
+        "ability": "Mega Boost"
     },
     {
         "stageNo": 537,
@@ -622,7 +634,9 @@
         "moves": 13,
         "captureRate": "Base: 7%\nBonus: 4% /move",
         "pokemon": 4,
-        "srankingStrategy": "Moves: At least 6 moves left."
+        "srankingStrategy": "Moves: At least 6 moves left.",
+        "basePower": 50,
+        "ability": "Whirlpool"
     },
     {
         "stageNo": 538,
@@ -633,7 +647,9 @@
         "moves": 14,
         "captureRate": "Base: 8%\nBonus: 9% /move",
         "pokemon": 4,
-        "srankingStrategy": "Moves: At least 7 moves left."
+        "srankingStrategy": "Moves: At least 7 moves left.",
+        "basePower": 40,
+        "ability": "Opportunist"
     },
     {
         "stageNo": 539,
@@ -644,7 +660,9 @@
         "moves": 6,
         "captureRate": "Base: 19%\nBonus: 8% /move",
         "pokemon": 3,
-        "srankingStrategy": "Moves: At least 3 moves left."
+        "srankingStrategy": "Moves: At least 3 moves left.",
+        "basePower": 50,
+        "ability": "Mega Boost"
     },
     {
         "stageNo": 540,
@@ -655,7 +673,9 @@
         "moves": 22,
         "captureRate": "Base: 5%\nBonus: 4% /move",
         "pokemon": 4,
-        "srankingStrategy": "Moves: At least 11 moves left."
+        "srankingStrategy": "Moves: At least 11 moves left.",
+        "basePower": 80,
+        "ability": "Dancing Dragons"
     },
     {
         "stageNo": 541,
@@ -666,7 +686,9 @@
         "moves": 20,
         "captureRate": "Base: 5%\nBonus: 5% /move",
         "pokemon": 4,
-        "srankingStrategy": "Moves: At least 10 moves left."
+        "srankingStrategy": "Moves: At least 10 moves left.",
+        "basePower": 50,
+        "ability": "Toxic Stress"
     },
     {
         "stageNo": 542,
@@ -677,7 +699,9 @@
         "moves": 10,
         "captureRate": "Base: 15%\nBonus: 10% /move",
         "pokemon": 3,
-        "srankingStrategy": "Moves: At least 5 moves left."
+        "srankingStrategy": "Moves: At least 5 moves left.",
+        "basePower": 50,
+        "ability": "Opportunist"
     },
     {
         "stageNo": 543,
@@ -688,7 +712,9 @@
         "moves": 20,
         "captureRate": "Base: 5%\nBonus: 5% /move",
         "pokemon": 4,
-        "srankingStrategy": "Moves: At least 10 moves left."
+        "srankingStrategy": "Moves: At least 10 moves left.",
+        "basePower": 60,
+        "ability": "Shock Attack"
     },
     {
         "stageNo": 544,
@@ -699,7 +725,9 @@
         "moves": 12,
         "captureRate": "Base: 8%\nBonus: 6% /move",
         "pokemon": 4,
-        "srankingStrategy": "Moves: At least 6 moves left."
+        "srankingStrategy": "Moves: At least 6 moves left.",
+        "basePower": 50,
+        "ability": "Mega Boost+"
     },
     {
         "stageNo": 545,
@@ -710,7 +738,9 @@
         "moves": 12,
         "captureRate": "Base: 10%\nBonus: 5% /move",
         "pokemon": 4,
-        "srankingStrategy": "Moves: At least 6 moves left."
+        "srankingStrategy": "Moves: At least 6 moves left.",
+        "basePower": 70,
+        "ability": "Dancing Dragon"
     },
     {
         "stageNo": 546,
@@ -722,7 +752,9 @@
         "captureRate": "Base: 9%\nBonus: 7% /move",
         "pokemon": 4,
         "srankingStrategy": "Moves: At least 7 moves left.",
-        "suggestedSrank": "[Tyranitar], Mewtwo(SS / SL3), Groudon(SL3), Landorus-T(SL5) _ M+5, DD, MS\n\n[Tyranitar], Cresselia), Groudon, Landorus-T(SL5) _ M+5, DD, MS"
+        "suggestedSrank": "[Tyranitar], Mewtwo(SS / SL3), Groudon(SL3), Landorus-T(SL5) _ M+5, DD, MS\n\n[Tyranitar], Cresselia), Groudon, Landorus-T(SL5) _ M+5, DD, MS",
+        "basePower": 70,
+        "ability": "Poison Pact"
     },
     {
         "stageNo": 547,
@@ -734,7 +766,9 @@
         "captureRate": "Base: 9%\nBonus: 4% /move",
         "pokemon": 4,
         "srankingStrategy": "Moves: At least 8 moves left.",
-        "suggestedTeam": "[Gengar], Hoopa-C, Bisharp, Hoopa-U(SL5)"
+        "suggestedTeam": "[Gengar], Hoopa-C, Bisharp, Hoopa-U(SL5)",
+        "basePower": 60,
+        "ability": "Mega Boost"
     },
     {
         "stageNo": 548,
@@ -747,7 +781,9 @@
         "disruptions": "Added Support: Blocks",
         "pokemon": 4,
         "srankingStrategy": "Moves: At least 10 moves left.",
-        "suggestedSrank": "[Steelix], Machamp(SS / SL5), Emboar(SS / SL5), Reshiram _ M+5, DD, MS"
+        "suggestedSrank": "[Steelix], Machamp(SS / SL5), Emboar(SS / SL5), Reshiram _ M+5, DD, MS",
+        "basePower": 60,
+        "ability": "Ice Dance"
     },
     {
         "stageNo": 549,
@@ -758,7 +794,9 @@
         "moves": 15,
         "captureRate": "Base: 6%\nBonus: 8% /move",
         "pokemon": 4,
-        "srankingStrategy": "Moves: At least 7 moves left."
+        "srankingStrategy": "Moves: At least 7 moves left.",
+        "basePower": 50,
+        "ability": "Power of 4"
     },
     {
         "stageNo": 550,
@@ -771,6 +809,8 @@
         "pokemon": 4,
         "clearingStrategy": "Very hard stage. ",
         "srankingStrategy": "Moves: At least 10 moves left.\n\nI recommend full items, though if your team is strong enough, maybe you can drop M+5 and still make it.",
-        "suggestedTeam": "[Garchomp], Landorus-T(SL5), Machamp(SS / SL5), Emboar(SS / SL5)\n\n[Camerupt], Landorus-T(SL4), Reshiram, Emboar(SS / SL5)\n[Camerupt], Lucario(SL2), Machamp(SS / SL5), Throh(SS)"
+        "suggestedTeam": "[Garchomp], Landorus-T(SL5), Machamp(SS / SL5), Emboar(SS / SL5)\n\n[Camerupt], Landorus-T(SL4), Reshiram, Emboar(SS / SL5)\n[Camerupt], Lucario(SL2), Machamp(SS / SL5), Throh(SS)",
+        "basePower": 70,
+        "ability": "Mega Effect:  Tap up to 3 spots to clear up to 15 icons (5 each) in a + shape."
     }
 ]
