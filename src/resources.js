@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import _ from 'lodash'
 
-const mainStageCap = 530;
+const mainStageCap = 550;
 const expertStageCap = 45;
 
 const pokemonCollectionUrl = './static/scripts/pokemonCollection.json'
@@ -67,7 +67,7 @@ const stageCollections = [
     levelCap: 500,
     stageUrl: 'gh'
   }, {
-    levelCap: 530,
+    levelCap: 550,
     stageUrl: 'nc'
   }
 ];

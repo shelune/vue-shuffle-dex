@@ -553,6 +553,7 @@
         "moves": 8,
         "captureRate": "Base: 10%\nBonus: 5% /move",
         "pokemon": 3,
+        "srankingStrategy": "Moves: At least 4 moves left.",
         "suggestedTeam": "[Salamence], Braviary, Lugia _ Itemless",
         "suggestedSrank": "[Salamence], Braviary, Lugia _ Itemless"
     },
@@ -564,7 +565,8 @@
         "type": "Dragon",
         "moves": 15,
         "captureRate": "Base: 8%\nBonus: 9% /move",
-        "pokemon": 4
+        "pokemon": 4,
+        "srankingStrategy": "Moves: At least 7 moves left."
     },
     {
         "stageNo": 533,
@@ -574,7 +576,8 @@
         "type": "Ghost",
         "moves": 10,
         "captureRate": "Base: 13%\nBonus: 11% /move",
-        "pokemon": 3
+        "pokemon": 3,
+        "srankingStrategy": "Moves: At least 5 moves left."
     },
     {
         "stageNo": 534,
@@ -585,6 +588,7 @@
         "moves": 11,
         "captureRate": "Base: 10%\nBonus: 5% /move",
         "pokemon": 4,
+        "srankingStrategy": "Moves: At least 5 moves left.",
         "suggestedTeam": "[Salamence], Lugia, Braviary, Glalie"
     },
     {
@@ -595,7 +599,8 @@
         "type": "Dragon",
         "moves": 15,
         "captureRate": "Base: 10%\nBonus: 8% /move",
-        "pokemon": 4
+        "pokemon": 4,
+        "srankingStrategy": "Moves: At least 7 moves left."
     },
     {
         "stageNo": 536,
@@ -605,7 +610,8 @@
         "type": "Fairy",
         "moves": 12,
         "captureRate": "Base: 13%\nBonus: 9% /move",
-        "pokemon": 4
+        "pokemon": 4,
+        "srankingStrategy": "Moves: At least 6 moves left."
     },
     {
         "stageNo": 537,
@@ -615,7 +621,8 @@
         "type": "Water",
         "moves": 13,
         "captureRate": "Base: 7%\nBonus: 4% /move",
-        "pokemon": 4
+        "pokemon": 4,
+        "srankingStrategy": "Moves: At least 6 moves left."
     },
     {
         "stageNo": 538,
@@ -625,7 +632,8 @@
         "type": "Electric",
         "moves": 14,
         "captureRate": "Base: 8%\nBonus: 9% /move",
-        "pokemon": 4
+        "pokemon": 4,
+        "srankingStrategy": "Moves: At least 7 moves left."
     },
     {
         "stageNo": 539,
@@ -635,7 +643,8 @@
         "type": "Ghost",
         "moves": 6,
         "captureRate": "Base: 19%\nBonus: 8% /move",
-        "pokemon": 3
+        "pokemon": 3,
+        "srankingStrategy": "Moves: At least 3 moves left."
     },
     {
         "stageNo": 540,
@@ -645,7 +654,8 @@
         "type": "Dragon",
         "moves": 22,
         "captureRate": "Base: 5%\nBonus: 4% /move",
-        "pokemon": 4
+        "pokemon": 4,
+        "srankingStrategy": "Moves: At least 11 moves left."
     },
     {
         "stageNo": 541,
@@ -655,7 +665,8 @@
         "type": "Poison",
         "moves": 20,
         "captureRate": "Base: 5%\nBonus: 5% /move",
-        "pokemon": 4
+        "pokemon": 4,
+        "srankingStrategy": "Moves: At least 10 moves left."
     },
     {
         "stageNo": 542,
@@ -665,7 +676,8 @@
         "type": "Electric",
         "moves": 10,
         "captureRate": "Base: 15%\nBonus: 10% /move",
-        "pokemon": 3
+        "pokemon": 3,
+        "srankingStrategy": "Moves: At least 5 moves left."
     },
     {
         "stageNo": 543,
@@ -675,7 +687,8 @@
         "type": "Water",
         "moves": 20,
         "captureRate": "Base: 5%\nBonus: 5% /move",
-        "pokemon": 4
+        "pokemon": 4,
+        "srankingStrategy": "Moves: At least 10 moves left."
     },
     {
         "stageNo": 544,
@@ -685,7 +698,8 @@
         "type": "Ice",
         "moves": 12,
         "captureRate": "Base: 8%\nBonus: 6% /move",
-        "pokemon": 4
+        "pokemon": 4,
+        "srankingStrategy": "Moves: At least 6 moves left."
     },
     {
         "stageNo": 545,
@@ -695,7 +709,8 @@
         "type": "Electric",
         "moves": 12,
         "captureRate": "Base: 10%\nBonus: 5% /move",
-        "pokemon": 4
+        "pokemon": 4,
+        "srankingStrategy": "Moves: At least 6 moves left."
     },
     {
         "stageNo": 546,
@@ -706,6 +721,7 @@
         "moves": 15,
         "captureRate": "Base: 9%\nBonus: 7% /move",
         "pokemon": 4,
+        "srankingStrategy": "Moves: At least 7 moves left.",
         "suggestedSrank": "[Tyranitar], Mewtwo(SS / SL3), Groudon(SL3), Landorus-T(SL5) _ M+5, DD, MS\n\n[Tyranitar], Cresselia), Groudon, Landorus-T(SL5) _ M+5, DD, MS"
     },
     {
@@ -717,6 +733,7 @@
         "moves": 16,
         "captureRate": "Base: 9%\nBonus: 4% /move",
         "pokemon": 4,
+        "srankingStrategy": "Moves: At least 8 moves left.",
         "suggestedTeam": "[Gengar], Hoopa-C, Bisharp, Hoopa-U(SL5)"
     },
     {
@@ -727,7 +744,9 @@
         "type": "Ice",
         "moves": 20,
         "captureRate": "Base: 10%\nBonus: 6% /move",
+        "disruptions": "Added Support: Blocks",
         "pokemon": 4,
+        "srankingStrategy": "Moves: At least 10 moves left.",
         "suggestedSrank": "[Steelix], Machamp(SS / SL5), Emboar(SS / SL5), Reshiram _ M+5, DD, MS"
     },
     {
@@ -738,7 +757,8 @@
         "type": "Water",
         "moves": 15,
         "captureRate": "Base: 6%\nBonus: 8% /move",
-        "pokemon": 4
+        "pokemon": 4,
+        "srankingStrategy": "Moves: At least 7 moves left."
     },
     {
         "stageNo": 550,
