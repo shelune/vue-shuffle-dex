@@ -257,7 +257,7 @@
         "stageNo": 135,
         "icon": 10,
         "name": "Mega Gengar",
-        "hitPts": "8090\n5663",
+        "hitPts": 5663,
         "type": "Ghost",
         "moves": 20,
         "captureRate": "Base: N/A\nBonus:N/A",

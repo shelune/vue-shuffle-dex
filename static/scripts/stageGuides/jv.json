@@ -245,7 +245,7 @@
         "stageNo": 150,
         "icon": 16,
         "name": "Mega Mewtwo Y",
-        "hitPts": "11111\n7777",
+        "hitPts": 7777,
         "type": "Psychic",
         "moves": 23,
         "captureRate": "Base: N/A\nBonus:N/A",
