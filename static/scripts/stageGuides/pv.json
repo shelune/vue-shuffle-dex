@@ -35,6 +35,7 @@
         "clearingStrategy": "Easy with Mega Gengar team",
         "srankingStrategy": "Moves: At least 5 moves left\n\nEasy without items\n\nAdd a Move+5 if it doesn't work",
         "suggestedTeam": "[Gengar], Zoroark, Heracross",
+        "suggestedSrank": "[Gengar], Zoroark, Heracross _ Moves+5",
         "mobileNotes": "100% Same with 3ds version. Still easy with\nM-Gengar",
         "basePower": 50,
         "ability": "Swap"
@@ -333,6 +334,7 @@
         "clearingStrategy": "Slowbro or\nAerodactyl for good combos. Also\ndont use Mega Mewtwo Y here",
         "srankingStrategy": "Moves: At least 12 moves left\n\nMove+5, Mega Start and a \ndecent Mega Aero/Mega Slowbro team.\n\nIf you really cant do it, then try adding a\nComplexity",
         "suggestedTeam": "[Alakazam], Xerneas, Mewtwo, Lugia",
+        "suggestedSrank": "[Rayquaza-S], Staraptor lvl20 (SL3), Braviary lvl10 (SL4), Salamence lvl10 _ Itemless",
         "mobileNotes": "100% same with 3ds version.\nSame strategy with 3ds version",
         "basePower": 70,
         "ability": "Last-Ditch Effort"
