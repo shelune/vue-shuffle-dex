@@ -76,9 +76,6 @@ export default {
     capitalize(string) {
       return _.upperFirst(string)
     }
-  },
-  mounted () {
-
   }
 }
 </script>

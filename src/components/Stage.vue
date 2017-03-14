@@ -55,18 +55,15 @@ export default {
           let sranking = data.srankingStrategy
           let srankMoves = sranking.match(/\d+/g, '')[0]
           this.stageData.srankMoves = srankMoves
+          console.log('FINAL STAGE DATA: ', this.stageData);
         } else {
           console.log('encountered error when getting stage')
         }
       })
-      console.log('FINAL STAGE DATA: ', this.stageData);
     }, 1000),
     getUrlFromId () {
       this.stageUrlStage = Resources.getStageUrl(this.mode, this.stageIdApp)
     }
-  },
-  mounted () {
-
   }
 }
 </script>

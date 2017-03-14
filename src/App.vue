@@ -89,7 +89,7 @@ export default {
       }
     },
     submit() {
-
+      console.log('pressed Enter does nothing though... Should send you away but idk')
     },
     toggleMode() {
       if (this.stageMode == 'main') {
@@ -133,7 +133,6 @@ export default {
     this.$nextTick(() => {
       window.addEventListener('scroll', this.calculatePosY);
       this.calculatePosY()
-
       this.autoComplete(this.stageMode)
     })
   }

@@ -63,27 +63,28 @@ export default {
       let teams = _.compact(_.split(source, '\n'))
 
       _.each(_.compact(teams), team => {
-        let teamSingleTemp = {items: '', slots: []}
-        let teamArr = []
+        let teamNames = []
+        let teamSingleObj = {items: '', slots: []}
 
+        // if source provides items choice
         if (_.indexOf(team, '_') != -1) {
-          let teamSlots = team.slice(0, _.indexOf(team, '_'))
-          teamArr = _.split(teamSlots, ',')
-          let teamItems = team.slice(_.indexOf(team, '_') + 1)
-          teamSingleTemp.items = _.trim(teamItems)
+          // extract the 'team' part and split into array of names
+          teamNames = _.split(team.slice(0, _.indexOf(team, '_')), ',')
+
+          // extract the 'item' part
+          teamSingleObj.items = _.trim(team.slice(_.indexOf(team, '_') + 1))
         } else {
-          teamArr = _.split(team, ',')
+          teamNames = _.split(team, ',')
         }
 
-        _.each(teamArr, (support, index) => {
-
+        // find the mega from teamNames and format it
+        _.each(teamNames, (support, index) => {
           if (support.includes('[') && support.includes(']')) {
             support = 'Mega ' + support.slice(1, -1)
           }
-          teamSingleTemp.slots.push(_.trim(support))
+          teamSingleObj.slots.push(_.trim(support))
         })
-
-        destination.push(teamSingleTemp)
+        destination.push(teamSingleObj)
       })
     },
     updateMegaSlots() {
@@ -104,6 +105,7 @@ export default {
       let supports = Processor.getOtherSupports(this.stageData.recommendedParty)
       console.log('support choices: ', supports)
 
+      // NEED REWORKING
       _.each(supports, (support) => {
         let configSupportMain = {name: support || '', isMega: false, separateDivision: 'main'}
         let configSupportExpert = {name: support || '', isMega: false, separateDivision: 'expert'}
@@ -114,33 +116,18 @@ export default {
             this.slotsMain.push(data)
           }
         })
-
         Processor.getStagePokemon(configSupportExpert).then(data => {
           if (data) {
             this.slotsExpert.push(data)
           }
         })
-
         Processor.getStagePokemon(configSupportSpecial).then(data => {
           if (data) {
             this.slotsSpecial.push(data)
           }
         })
       })
-      console.log('special supports: ', this.slotsSpecial)
-    },
-    megaSlot(teamArr) {
-      let target = Processor.getMembers(teamArr)[0]
-      if (target) {
-        console.log('mega slot target: ', target)
-        return target.slice(1, -1)
-      } else {
-        return ''
-      }
-    },
-    supportSlots(teamArr) {
-      let supports = _.drop(Processor.getMembers(teamArr))
-      return supports
+      // console.log('special supports: ', this.slotsSpecial)
     }
   }
 }

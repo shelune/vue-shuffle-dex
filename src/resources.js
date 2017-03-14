@@ -5,7 +5,7 @@ const mainStageCap = 550;
 const expertStageCap = 45;
 
 const pokemonCollectionUrl = './static/scripts/pokemonCollection.json'
-const stageCollectionUrl = './static/scripts/pokemonCollection-wiki.json'
+const stageCollectionUrl = './static/scripts/stageCollection.json'
 const expertStageUrl = './static/scripts/expertGuides/expert.json'
 
 const stageCollections = [

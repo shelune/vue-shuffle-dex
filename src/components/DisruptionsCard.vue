@@ -4,8 +4,8 @@
     <div class="container card_body">
       <ul class="disruptions">
         <li v-if="disruptionsTrigger"> <strong>Condition:</strong> {{ disruptionsTrigger }}</li>
-        <li v-for="disruption in disruptions">{{ capitalize(disruption) }}</li>
-        <li v-if="variations.length > 0"> {{ hasVariations ? 'Any of the following:' : '' }}
+        <li v-for="disruption in disruptions">{{ capitalize(disruption) }}{{ capitalize(disruption).endsWith('.') ? '' : '.' }}</li>
+        <li v-if="variations.length > 0">
           <ul>
             <li v-for="variation in variations"> {{ capitalize(variation) }}</li>
           </ul>

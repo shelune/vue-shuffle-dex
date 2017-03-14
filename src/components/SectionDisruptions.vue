@@ -96,15 +96,16 @@ export default {
           if (!_.includes(line, '/')) {
             disruptionInitial = _.trim(line.substring(line.indexOf(':') + 1, line.length))
           }
-          this.disruptionInitial = _.split(disruptionInitial, '.')
+          this.disruptionInitial = _.compact(_.split(disruptionInitial, '.'))
         }
         if (_.includes(_.toLower(line), 'timer:') && line.length > line.indexOf(':')) {
           disruptionTimer = _.trim(line.substring(line.indexOf(':') + 1, line.length))
+          // check if timer has variations
           if (!_.includes(line, '/')) {
-            this.disruptionTimer = _.split(disruptionTimer, '.')
+            this.disruptionTimer = _.compact(_.split(disruptionTimer, '.'))
           } else {
-            this.disruptionTimer = _.split((disruptionTimer.match(/\:(.*?)\:/g) || 'Any of the following: '), '.')
-            this.disruptionTimerVariations = _.split(disruptionTimer.slice(disruptionTimer.lastIndexOf(':') + 1, disruptionTimer.length), '/')
+            this.disruptionTimer = _.compact(_.split((disruptionTimer.match(/\:(.*?)\:/g) || 'Any of the following: '), '.'))
+            this.disruptionTimerVariations = _.compact(_.split(disruptionTimer.slice(disruptionTimer.lastIndexOf(':') + 1, disruptionTimer.length), '/'))
           }
         }
         if (_.includes(_.toLower(line), 'support:') || _.includes(_.toLower(line), 'added:')) {

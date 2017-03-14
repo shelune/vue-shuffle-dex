@@ -1,5 +1,5 @@
 <template>
-  <div class="column card card-strategy card-strategy-clear">
+  <div class="column card card-strategy">
     <div class="card_hdr">{{ stratTitle }}</div>
     <div class="container card_body">
       <p>{{ strat }}{{ strat && strat.endsWith('.') ? '' : '.' }}</p>

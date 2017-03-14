@@ -1,5 +1,5 @@
 <template>
-  <div class="column card card-strategy card-strategy-clear">
+  <div class="column card card-strategy">
     <div class="card_hdr">{{ this.stratTitle }}</div>
     <div class="columns card_tabs is-mobile">
       <div v-for="mode, index in strategyModes" :class="['column is-gapless', isCurrentMode(mode)]" @click="switchMode(index)">{{ mode }}</div>

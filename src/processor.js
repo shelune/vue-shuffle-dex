@@ -108,40 +108,24 @@ function getCaptureRate(source) {
   }
 }
 
-function getTeams(teams) {
-  let results = []
-
-  // get array of recommended teams
-  let teamsTruncated = _.trim(teams)
-  let teamsArr = breakSentences({string: teamsTruncated, mark: '\n'})
-
-  // split 1 team into array of members
-  _.each(teamsArr, (team) => {
-    if (team.length > 0) {
-      let memberArr = _.words(team, /[^, ]+/g)
-      results.push(memberArr)
-    }
-  })
-  return results
-}
-
 function getMembers(team) {
-  let results = _.words(team, /[^, ]+/g)
-  return results
+  // break team string into array of members
+  return _.words(team, /[^, ]+/g)
 }
 
 function getMegaSupports(source) {
-  let results = _.words(source, /\[(.*?)\]/g)
-  return results
+  // get the mega array in brackets
+  return _.words(source, /\[(.*?)\]/g)
 }
 
 function getOtherSupports(source) {
-  let supportsArrFull = breakLine(source)
-  let supportsArrOther = _.drop(supportsArrFull)
-  return _.words(_.compact(supportsArrOther), /[^, ]+/g)
+  // break the suggestions into mega & support arrays, drop the mega array
+  let supportsArr = _.drop(breakLine(source))
+  return _.words(_.compact(supportsArr), /[^, ]+/g)
 }
 
-function getStageCollection() {
+function getCollectionData() {
+  // fetch the pokemonCollection blob
   let url = './static/scripts/pokemonCollection.json'
 
   return api.get(url)
@@ -154,10 +138,11 @@ function getStageCollection() {
 }
 
 function getStagePokemon(config) {
+  // match pokemon name with full pokemon data from serebii
   let divisionMega = {}, divisionOthers = {},
       divisionMain = [], divisionSpecial = [], divisionExpert = []
 
-  return getStageCollection()
+  return getCollectionData()
   .then((collection) => {
     divisionMega = _.flatten(_.toArray(_.pick(collection, 'mega')))
     divisionOthers = _.flatten(_.toArray(_.pick(collection, ['expert', 'main', 'special'])))
@@ -216,4 +201,4 @@ function isIncluded(target, source) {
   return _.toLower(source).includes(_.toLower(target))
 }
 
-export {getStage, getTypeColor, getCaptureRate, getTeams, getMembers, getStageCollection, getStagePokemon, getMegaSupports, getOtherSupports}
+export {getStage, getTypeColor, getCaptureRate, getMembers, getCollectionData, getStagePokemon, getMegaSupports, getOtherSupports}

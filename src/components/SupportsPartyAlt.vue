@@ -17,8 +17,6 @@
 </template>
 
 <script>
-import _ from 'lodash'
-import * as Processor from './../processor'
 
 export default {
   data () {
@@ -27,15 +25,7 @@ export default {
       supportsData: []
     }
   },
-  watch: {
-    teamData() {
-
-    }
-  },
   props: ['teamData', 'stratTitle'],
-  computed: {
-
-  },
   methods: {
     resetData() {
       this.megaData = {pokemonIcon: '', pokemonName: '', location: ''}

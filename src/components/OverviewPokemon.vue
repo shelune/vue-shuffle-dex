@@ -90,9 +90,6 @@ export default {
     pokemonThumbnail () {
       return `url('./static/img/sprites/icon_${this.thumbnail}.png')`
     }
-  },
-  mounted () {
-
   }
 }
 </script>

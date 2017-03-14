@@ -13,9 +13,6 @@
 <script>
 import OverviewStage from 'components/OverviewStage.vue'
 import OverviewPokemon from 'components/OverviewPokemon.vue'
-import * as Resources from './../resources'
-
-import bus from './../bus'
 
 export default {
   data () {
@@ -24,10 +21,11 @@ export default {
       screenMode: ''
     }
   },
-  props: ['stageData'],
-  watch: {
-
+  components: {
+    OverviewStage,
+    OverviewPokemon
   },
+  props: ['stageData'],
   methods: {
     switchView() {
       this.viewIsPokemon = !this.viewIsPokemon
@@ -62,10 +60,6 @@ export default {
         return false
       }
     }
-  },
-  components: {
-    OverviewStage,
-    OverviewPokemon
   },
   mounted () {
     this.$nextTick(() => {

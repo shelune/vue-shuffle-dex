@@ -7,7 +7,7 @@
       </div>
       <button class="modal-close" @click="closeModal"></button>
     </div>
-    <h2>Stage {{ number }}</h2>
+    <h2>Stage {{ number }} </h2>
     <div :class="['stage_supportLimit', parseInt(supportLim) >= 4 ? 'stage_supportLimit-4' : 'stage_supportLimit-3']"></div>
     <div class="card_tag">
       Stage Info
@@ -46,8 +46,6 @@
 
 <script>
 import _ from 'lodash'
-import * as api from './../api'
-import * as Resources from './../resources'
 
 export default {
   data () {
@@ -98,7 +96,6 @@ export default {
     updateRanksRequirements() {
       this.requirements = ''
       if (this.stageData.srank) {
-        console.log('srank reqs: ', this.stageData.srank)
         this.requirements = _.parseInt(this.stageData.srank)
       }
     },
@@ -121,9 +118,6 @@ export default {
     closeModal() {
       this.modalOpened = false
     }
-  },
-  mounted () {
-
   }
 }
 </script>
