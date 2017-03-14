@@ -85,8 +85,6 @@ export default {
 
         destination.push(teamSingleTemp)
       })
-
-      console.log('teams formatted: ', destination)
     },
     updateMegaSlots() {
       let megas = Processor.getMegaSupports(this.stageData.recommendedParty)
@@ -129,6 +127,7 @@ export default {
           }
         })
       })
+      console.log('special supports: ', this.slotsSpecial)
     },
     megaSlot(teamArr) {
       let target = Processor.getMembers(teamArr)[0]

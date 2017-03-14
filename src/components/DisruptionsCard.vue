@@ -5,9 +5,9 @@
       <ul class="disruptions">
         <li v-if="disruptionsTrigger"> <strong>Condition:</strong> {{ disruptionsTrigger }}</li>
         <li v-for="disruption in disruptions">{{ capitalize(disruption) }}</li>
-        <li v-if="variations"> {{ hasVariations ? 'Any of the following:' : '' }}
+        <li v-if="variations.length > 0"> {{ hasVariations ? 'Any of the following:' : '' }}
           <ul>
-            <li v-for="variation in variations"> {{ variation }}</li>
+            <li v-for="variation in variations"> {{ capitalize(variation) }}</li>
           </ul>
         </li>
       </ul>
@@ -35,7 +35,7 @@ export default {
       }
     },
     capitalize(string) {
-      return _.upperFirst(string)
+      return string.length > 0 ? _.upperFirst(string) : 'Unknown'
     }
   }
 }

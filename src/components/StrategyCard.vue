@@ -2,7 +2,7 @@
   <div class="column card card-strategy card-strategy-clear">
     <div class="card_hdr">{{ stratTitle }}</div>
     <div class="container card_body">
-      <p>{{ strat }}</p>
+      <p>{{ strat }}{{ strat && strat.endsWith('.') ? '' : '.' }}</p>
     </div>
   </div>
 </template>
