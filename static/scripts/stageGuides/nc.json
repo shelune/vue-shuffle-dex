@@ -181,6 +181,7 @@
         "clearingStrategy": "Very very bulky stage, bringing Snorlax is highly recommended to avoid clogging the board with a 5th pokemon. Gallade and Barrier Bash+ Throh may be useful for the starting blocks and the barriers, but they are not mandatory.\n\nYou really need a strong mega here, like candied Rayquaza or Tyranitar. Mewtwo X and Lucario may also work.",
         "srankingStrategy": "Moves: At least 10 moves left.\n\nThe stage does not have Mega Start nor Disruption Delay available.\n\nMoves+5 is enough but requires a very strong team (candied Rayquaza, RMLd Machamp, etc.), otherwise you need Complexity-1. Remember to bring Snorlax, and do not put it in the 4th slot when using Complexity! ",
         "suggestedTeam": "[Rayquaza], Machamp, Lucario, Snorlax\n\n[Rayquaza], Gallade, Throh, Snorlax",
+        "suggestedSrank": "[Rayquaza], Snorlax, Machamp lvl12 (SS / SL3) _ Moves+5, C-1",
         "basePower": 70,
         "ability": "Brute Force"
     },
@@ -325,6 +326,7 @@
         "clearingStrategy": "3-support stage, remember to bring Togekiss and a suitable mega, optimize the last slot.",
         "srankingStrategy": "Moves: At least 4 moves left.\n\nLike all 3-support stage: try itemless and add Moves+5 if you really don't get good combos.",
         "suggestedTeam": "[Gengar], Togekiss, Metagross\n\n[Gengar], Cobalion, Manaphy\n\n[Aggron], Cobalion, Togekiss",
+        "suggestedSrank": "[Aggron], Cobalion, Togekiss _ Itemless\n\n[Gengar], Togekiss, Muk _ Moves+5",
         "basePower": 60,
         "ability": "Pixie Power"
     },
@@ -429,7 +431,7 @@
         "initialBoardSetup": "http://i.imgur.com/Q2NnuEa.png",
         "disruptions": "Board: puzzle\nInitial: none\nTimer: ",
         "pokemon": 4,
-        "recommendedParty": "[Tyranitar] / [Pidgeot] / [Rayquaza] / [Charizard]\n\nDelphox, Reshiram, Ho-Oh, Emboar, Lugia, Salamence, Braviary, Leavanny",
+        "recommendedParty": "[Tyranitar] / [Pidgeot] / [Rayquaza] / [Charizard] / [Rayquaza-S]\n\nDelphox, Reshiram, Ho-Oh, Emboar, Lugia, Salamence, Braviary, Leavanny",
         "clearingStrategy": "F3 > A3, F4 > E3, F4 > D4, A4 > C4, C5 >D4 \n\nLugia must be brought along to deal with disrupted Foongus icons reliably, otherwise the strongest team available to blitz down its low HP is the best option. +5 moves is recommended for clearing consistenly.",
         "srankingStrategy": "Moves: At least 7 moves left.\n\nThe puzzle wastes too many initial turns to S-rank itemless without extreme luck, so M+5. M-Beedrill is the only mega that has a chance of evolving before hitting the cutoff. If you don't use the Bee, might as well add in MS.",
         "suggestedTeam": "[Tyranitar], Delphox, Emboar, Lugia\n\n[Beedrill], Leavanny, Emboar, Lugia",
@@ -523,6 +525,7 @@
         "clearingStrategy": "Not so high HP but the starting board is quite bad. You can go all out with your Risk Takers and a Barrier Bash+ support.",
         "srankingStrategy": "Moves: At least 7 moves left.\n\nM+5 is needed since you need a couple of turns to clear the board. DD is not a luxury if you fail hard with M+5. This can happen when your Risk Takers don't have high SL.",
         "suggestedTeam": "[Tyranitar], Reshiram, Machamp, Emboar\n\n[Tyranitar], Throh, Lucario, Machamp\n\n[Houndoom], Reshiram, Emboar(SS / SL5), Throh",
+        "suggestedSrank": "[Aggron], Jirachi lvl13 (SL2), Mawile lvl15 (SS / SL5), Throh lvl15 (SS) _ Itemless",
         "basePower": 60,
         "ability": "Freeze"
     },
@@ -553,6 +556,7 @@
         "moves": 8,
         "captureRate": "Base: 10%\nBonus: 5% /move",
         "pokemon": 3,
+        "recommendedParty": "[Blaziken], [Gengar], [Beedrill], [Rayquaza-SM]\n\nLugia, Salamence, Braviary, Delphox, Ho-Oh, Emboar, Tornadus-T",
         "srankingStrategy": "Moves: At least 4 moves left.",
         "suggestedTeam": "[Salamence], Braviary, Lugia _ Itemless",
         "suggestedSrank": "[Salamence], Braviary, Lugia _ Itemless",
