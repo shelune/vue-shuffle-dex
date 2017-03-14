@@ -1,7 +1,7 @@
 import * as api from './api'
 import _ from 'lodash'
 
-let typeColors = [
+const typeColors = [
   {
     type: 'bug',
     code: '#87980F'
@@ -122,7 +122,6 @@ function getTeams(teams) {
       results.push(memberArr)
     }
   })
-  console.log('compact team suggestion: ', results);
   return results
 }
 
@@ -170,28 +169,31 @@ function getStagePokemon(config) {
   .then(() => {
     if (config.isMega) {
       return _.find(divisionMega, (pokemon) => {
-        return _.toLower(pokemon.pokemonName).includes(_.toLower(config.name))
+        return isIncluded(config.name, pokemon.pokemonName)
       })
     } else if (config.separateDivision == '') {
       return _.find(divisionOthers, (pokemon) => {
-        return _.toLower(pokemon.pokemonName).includes(_.toLower(config.name))
+        return isIncluded(config.name, pokemon.pokemonName)
       })
     } else {
       if (config.separateDivision == 'main') {
         return _.find(divisionMain, (pokemon) => {
-          return _.toLower(pokemon.pokemonName) == _.toLower(config.name) && !_.toLower(pokemon.pokemonName).includes('mega ')
+          return isIncluded(config.name, pokemon.pokemonName) && !_.toLower(pokemon.pokemonName).includes('mega ')
         })
       }
 
       if (config.separateDivision == 'expert') {
         return _.find(divisionExpert, (pokemon) => {
-          return _.toLower(pokemon.pokemonName) == _.toLower(config.name)
+          return isIncluded(config.name, pokemon.pokemonName)
         })
       }
 
       if (config.separateDivision == 'special') {
+        if (config.name.toLowerCase().includes('costume')) {
+          return isIncluded(config.name, pokemon.pokemonName)
+        }
         return _.find(divisionSpecial, (pokemon) => {
-          return _.toLower(pokemon.pokemonName).startsWith(_.toLower(config.name)) && !_.toLower(pokemon.pokemonName).includes('mega ')
+          return isIncluded(config.name, pokemon.pokemonName) && !_.toLower(pokemon.pokemonName).includes('mega ') && !_.toLower(pokemon.pokemonName).includes('costume')
         })
       }
     }
@@ -208,6 +210,10 @@ function breakSentences(config) {
   if (config.string) {
     return config.string.split(config.mark)
   }
+}
+
+function isIncluded(target, source) {
+  return _.toLower(source).includes(_.toLower(target))
 }
 
 export {getStage, getTypeColor, getCaptureRate, getTeams, getMembers, getStageCollection, getStagePokemon, getMegaSupports, getOtherSupports}
