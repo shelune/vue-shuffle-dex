@@ -4,6 +4,7 @@
     <section-disruptions :stageData="stageData"></section-disruptions>
     <section-strategy :stageData="stageData"></section-strategy>
     <section-supports :stageData="stageData"></section-supports>
+    <p :style="{textAlign: 'center', marginBottom: '20px'}">--- You can contribute to this guide by filling in <strong><a href="https://docs.google.com/forms/d/e/1FAIpQLSeXthwhdfmoUm9GOGjkGP-S-7N_reKfWVhPQYE3UfBUdMsBoA/viewform?c=0&w=1" target="_blank">this form</a></strong> too! ---</p>
   </div>
 </template>
 

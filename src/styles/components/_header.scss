@@ -17,6 +17,14 @@
 
     .level-left {
       margin-left: 40px;
+
+      form {
+        > strong {
+          font-size: 18px;
+          vertical-align: middle;
+          display: inline-block;
+        }
+      }
     }
 
     .level-right {

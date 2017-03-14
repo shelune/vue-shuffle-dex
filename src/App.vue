@@ -10,7 +10,7 @@
   <div class="container is-fluid" :style="[stickUp ? stickyStyling : null, {margin: '0'}]">
     <nav class="level nav-stages">
       <div class="level-left">
-        <form>Stage
+        <form><strong>Stage</strong>
           <span class="eac">
             <input id="stage-selector" v-model="stageIdApp" class="stagesSelector" type="text" placeholder="?" @keyup.enter.prevent="submit">
           </span>
@@ -40,7 +40,7 @@
         </p>
       </div>
       <div>
-        <strong><a href="https://www.paypal.me/shelune" target="_blank">A bit of donation does help!</a></strong>
+        <strong><a href="https://www.paypal.me/shelune" target="_blank">Donation goes here maybe?</a></strong>
       </div>
     </div>
   </footer>

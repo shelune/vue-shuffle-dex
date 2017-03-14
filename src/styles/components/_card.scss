@@ -48,6 +48,7 @@
     > div {
       border-bottom: 2px solid $pal-red;
       transition: all 0.25s ease;
+      padding: 10px;
       @include text-label;
 
       &.is-active {
