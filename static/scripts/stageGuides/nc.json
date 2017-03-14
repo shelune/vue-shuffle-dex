@@ -544,6 +544,7 @@
         "clearingStrategy": "The stage can be done with MS, DD and M+5. However, it's recommended that you just go all in and get this over with once and for all.",
         "srankingStrategy": "Moves: At least 10 moves left.\n\nFull Item Run for maximum joy!",
         "suggestedTeam": "[Tyranitar], Kyurem, Raikou, Zekrom\n\n[Tyranitar], Terrakion, Kyurem, Articuno",
+        "suggestedSrank": "[Tyranitar], Kyurem, Raikou lvl15, Articuno lvl15 (SL3) _ Full Items",
         "basePower": 80,
         "ability": "Mega Effects: Erases Pokémon (max 10) of the same type as this Pokémon."
     },
@@ -572,6 +573,7 @@
         "moves": 15,
         "captureRate": "Base: 8%\nBonus: 9% /move",
         "pokemon": 4,
+        "recommendedParty": "[Rayquaza], [Beedrill], [Gengar], [Glalie]\n\nArticuno, Glalie, Dragonite, Reshiram, Kyurem-B, Azumarill, Mamoswine, Glaceon",
         "srankingStrategy": "Moves: At least 7 moves left.",
         "basePower": 50,
         "ability": "Opprtunist"
@@ -585,6 +587,7 @@
         "moves": 10,
         "captureRate": "Base: 13%\nBonus: 11% /move",
         "pokemon": 3,
+        "recommendedParty": "[Gengar], [Tyranitar], [Absol]\n\nAbsol, Hoopa-U, Hoopa, Litwick, Zoroark, Yveltal, Gengar",
         "srankingStrategy": "Moves: At least 5 moves left.",
         "basePower": 40,
         "ability": "Astonish"
@@ -598,8 +601,9 @@
         "moves": 11,
         "captureRate": "Base: 10%\nBonus: 5% /move",
         "pokemon": 4,
+        "recommendedParty": "[Beedrill], [Pidgeot], [Rayquaza-S], [Salamence], [Charizard]\n\nEmboar, Salamence, Braviary, Lugia, Delphox, Ho-Oh, Staraptor",
         "srankingStrategy": "Moves: At least 5 moves left.",
-        "suggestedTeam": "[Salamence], Lugia, Braviary, Glalie",
+        "suggestedTeam": "[Salamence], Lugia, Braviary, Glalie _ Itemless",
         "basePower": 50,
         "ability": "Sleep Combo"
     },
@@ -612,6 +616,7 @@
         "moves": 15,
         "captureRate": "Base: 10%\nBonus: 8% /move",
         "pokemon": 4,
+        "recommendedParty": "[Rayquaza], [Glalie], [Tyranitar]\n\nArticuno, Kyurem-W, Kyurem, Snorunt, Glalie, Azumarill, Togekiss, Clefable, Dragonite, Zygarde-C",
         "srankingStrategy": "Moves: At least 7 moves left.",
         "basePower": 60,
         "ability": "Dancing Dragons"
@@ -625,6 +630,7 @@
         "moves": 12,
         "captureRate": "Base: 13%\nBonus: 9% /move",
         "pokemon": 4,
+        "recommendedParty": "[Beedrill], [Mawile]\n\nMuk, Cobalion, Metagross, Mawile, Dialga",
         "srankingStrategy": "Moves: At least 6 moves left.",
         "basePower": 50,
         "ability": "Mega Boost"
@@ -638,6 +644,7 @@
         "moves": 13,
         "captureRate": "Base: 7%\nBonus: 4% /move",
         "pokemon": 4,
+        "recommendedParty": "[Rayquaza], [Tyranitar], [Rayquaza-S]\n\nEmolga, Raikou, Virizion, Shaymin, Bellossom, Thundurus-T, Zekrom",
         "srankingStrategy": "Moves: At least 6 moves left.",
         "basePower": 50,
         "ability": "Whirlpool"
@@ -651,7 +658,9 @@
         "moves": 14,
         "captureRate": "Base: 8%\nBonus: 9% /move",
         "pokemon": 4,
+        "recommendedParty": "[Garchomp], [Tyranitar], [Camerupt]\n\nClaydol, Garchomp, Landorus-T, Golurk, Gliscor",
         "srankingStrategy": "Moves: At least 7 moves left.",
+        "suggestedTeam": "[Tyranitar], Groudon, Gliscor, Claydol_ Itemless",
         "basePower": 40,
         "ability": "Opportunist"
     },
@@ -664,6 +673,7 @@
         "moves": 6,
         "captureRate": "Base: 19%\nBonus: 8% /move",
         "pokemon": 3,
+        "recommendedParty": "[Gengar], [Absol], [Tyranitar], [Rayquaza]\n\nZoroark, Hoopa-U, Yveltal, Darkrai, Gengar",
         "srankingStrategy": "Moves: At least 3 moves left.",
         "basePower": 50,
         "ability": "Mega Boost"
@@ -677,6 +687,7 @@
         "moves": 22,
         "captureRate": "Base: 5%\nBonus: 4% /move",
         "pokemon": 4,
+        "recommendedParty": "[Tyranitar], [Rayquaza]\n\nDragonite, Kyurem-W, Kyurem-B, Kyurem, Articuno, Azumarill, Mamoswine, Glalie",
         "srankingStrategy": "Moves: At least 11 moves left.",
         "basePower": 80,
         "ability": "Dancing Dragons"
@@ -690,6 +701,7 @@
         "moves": 20,
         "captureRate": "Base: 5%\nBonus: 5% /move",
         "pokemon": 4,
+        "recommendedParty": "[Garchomp], [Tyranitar], [Aggron], [Mewtwo-Y]\n\nGarchomp, Golurk, Landorus-T, Cresselia, Uxie, Victini",
         "srankingStrategy": "Moves: At least 10 moves left.",
         "basePower": 50,
         "ability": "Toxic Stress"
@@ -703,7 +715,9 @@
         "moves": 10,
         "captureRate": "Base: 15%\nBonus: 10% /move",
         "pokemon": 3,
+        "recommendedParty": "[Camerupt], [Garchomp], [Rayquaza]\n\nLandorus-T, Flygon, Gliscor, Claydol, Golurk",
         "srankingStrategy": "Moves: At least 5 moves left.",
+        "suggestedTeam": "[Tyranitar], Groudon, Golurk lvl10, Landorus-T _ Itemless",
         "basePower": 50,
         "ability": "Opportunist"
     },
@@ -716,6 +730,7 @@
         "moves": 20,
         "captureRate": "Base: 5%\nBonus: 5% /move",
         "pokemon": 4,
+        "recommendedParty": "[Rayquaza], [Tyranitar]\n\nRaikou, Shaymin, Zekrom, Bellossom, Sceptile, Emolga",
         "srankingStrategy": "Moves: At least 10 moves left.",
         "basePower": 60,
         "ability": "Shock Attack"
@@ -729,7 +744,9 @@
         "moves": 12,
         "captureRate": "Base: 8%\nBonus: 6% /move",
         "pokemon": 4,
+        "recommendedParty": "[Aggron], [Tyranitar], [Rayquaza]\n\nLucario, Machamp, Mawile, Metagross, Jirachi, Emboar, Throh, Gigalith, Reshiram, Delphox",
         "srankingStrategy": "Moves: At least 6 moves left.",
+        "suggestedTeam": "[Tyranitar], Emboar lv15 (SS / SL5), Machamp lv15 (SS / SL5), Reshiram _ Itemless",
         "basePower": 50,
         "ability": "Mega Boost+"
     },
@@ -742,7 +759,9 @@
         "moves": 12,
         "captureRate": "Base: 10%\nBonus: 5% /move",
         "pokemon": 4,
+        "recommendedParty": "[Camerupt], [Garchomp], [Tyranitar]\n\nLandorus-T, Golurk, Claydol, Gliscor, Garchomp",
         "srankingStrategy": "Moves: At least 6 moves left.",
+        "suggestedTeam": "[Tyranitar], Garchomp, Claydol, Golurk _ Itemless",
         "basePower": 70,
         "ability": "Dancing Dragon"
     },
@@ -755,7 +774,9 @@
         "moves": 15,
         "captureRate": "Base: 9%\nBonus: 7% /move",
         "pokemon": 4,
+        "recommendedParty": "[Tyranitar], [Camerupt], [Rayquaza]\n\nGolurk, Garchomp, Groudon, Claydol, Landorus-T, Flygon, Donphan",
         "srankingStrategy": "Moves: At least 7 moves left.",
+        "suggestedTeam": "[Mewtwo-Y], Cresselia, Landorus-T, Uxie _ Moves+5",
         "suggestedSrank": "[Tyranitar], Mewtwo(SS / SL3), Groudon(SL3), Landorus-T(SL5) _ M+5, DD, MS\n\n[Tyranitar], Cresselia), Groudon, Landorus-T(SL5) _ M+5, DD, MS",
         "basePower": 70,
         "ability": "Poison Pact"
@@ -769,6 +790,7 @@
         "moves": 16,
         "captureRate": "Base: 9%\nBonus: 4% /move",
         "pokemon": 4,
+        "recommendedParty": "[Gengar], [Tyranitar], [Rayquaza]\n\nGengar, Zoroark, Hoopa-U, Darkrai, Yveltal, Banette",
         "srankingStrategy": "Moves: At least 8 moves left.",
         "suggestedTeam": "[Gengar], Hoopa-C, Bisharp, Hoopa-U(SL5)",
         "basePower": 60,
@@ -784,6 +806,7 @@
         "captureRate": "Base: 10%\nBonus: 6% /move",
         "disruptions": "Added Support: Blocks",
         "pokemon": 4,
+        "recommendedParty": "[Tyranitar], [Aggron], [Mewtwo-X], [Rayquaza]\n\nReshiram, Emboar, Machamp, Mawile, Throh, Archeops, Lucario",
         "srankingStrategy": "Moves: At least 10 moves left.",
         "suggestedSrank": "[Steelix], Machamp(SS / SL5), Emboar(SS / SL5), Reshiram _ M+5, DD, MS",
         "basePower": 60,
@@ -798,6 +821,7 @@
         "moves": 15,
         "captureRate": "Base: 6%\nBonus: 8% /move",
         "pokemon": 4,
+        "recommendedParty": "[Tyranitar], [Ampharos], [Rayquaza]\n\nRaikou, Zekrom, Shaymin, Bellossom, Ferrothorn, Thundurus-T, Emolga",
         "srankingStrategy": "Moves: At least 7 moves left.",
         "basePower": 50,
         "ability": "Power of 4"
@@ -811,6 +835,7 @@
         "moves": 20,
         "captureRate": "Base: NA\nBonus: NA",
         "pokemon": 4,
+        "recommendedParty": "[Garchomp], [Camerupt]\n\nGroudon, Machamp, Emboar, Reshiram, Throh, Lucario, Landorus-T",
         "clearingStrategy": "Very hard stage. ",
         "srankingStrategy": "Moves: At least 10 moves left.\n\nI recommend full items, though if your team is strong enough, maybe you can drop M+5 and still make it.",
         "suggestedTeam": "[Garchomp], Landorus-T(SL5), Machamp(SS / SL5), Emboar(SS / SL5)\n\n[Camerupt], Landorus-T(SL4), Reshiram, Emboar(SS / SL5)\n[Camerupt], Lucario(SL2), Machamp(SS / SL5), Throh(SS)",
