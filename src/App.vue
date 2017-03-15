@@ -182,10 +182,10 @@ export default {
 
       &:focus {
         width: 180px;
-      }
 
-      @include mobile() {
-        min-width: 140px;
+        @include mobile() {
+          width: 140px;
+        }
       }
     }
   }
@@ -195,6 +195,10 @@ export default {
       border-top: none;
       box-shadow: $shadow-default;
       width: 180px;
+
+      @include mobile() {
+        width: 140px;
+      }
     }
 
     ul li {

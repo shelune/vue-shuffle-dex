@@ -15,6 +15,7 @@ import SectionStrategy from 'components/SectionStrategy.vue'
 import SectionSupports from 'components/SectionSupports.vue'
 
 import _ from 'lodash'
+import $ from 'jquery'
 import * as Processor from './../processor'
 import * as Resources from './../resources'
 
@@ -56,7 +57,8 @@ export default {
           let sranking = data.srankingStrategy
           let srankMoves = sranking.match(/\d+/g, '')[0]
           this.stageData.srankMoves = srankMoves
-          console.log('FINAL STAGE DATA: ', this.stageData);
+          console.log('FINAL STAGE DATA: ', this.stageData)
+          $('#stage-selector').blur()
         } else {
           console.log('encountered error when getting stage')
         }
