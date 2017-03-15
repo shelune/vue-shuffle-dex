@@ -178,7 +178,11 @@ export default {
       border-radius: 0;
       border-bottom: 3px solid $pal-navy;
       box-shadow: none;
-      min-width: 180px;
+      width: 60px;
+
+      &:focus {
+        width: 180px;
+      }
 
       @include mobile() {
         min-width: 140px;
@@ -190,6 +194,7 @@ export default {
     ul {
       border-top: none;
       box-shadow: $shadow-default;
+      width: 180px;
     }
 
     ul li {

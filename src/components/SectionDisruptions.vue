@@ -87,8 +87,6 @@ export default {
         if (_.includes(_.toLower(line), 'board:') && line.length > line.indexOf(':')) {
           if (!_.includes(line, '/')) {
             disruptionBoard = _.trim(line.substring(line.indexOf(':') + 1, line.length))
-          } else {
-            // this.disruptionBoardVariations = true
           }
           this.disruptionBoard = _.split(disruptionBoard, '.')
         }
