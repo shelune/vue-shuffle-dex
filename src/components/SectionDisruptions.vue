@@ -127,7 +127,8 @@ export default {
         }
 
         if (this.checkHasKey(line, ['moves:', 'turn:', 'health:', '%:', 'hp:'])) {
-          disruptionCond = _.join(_.drop(_.split(line, ':'), 2), ' ')
+          disruptionCond = _.join(_.drop(_.split(line, ':')), ' ')
+          console.log('source disruption condition: ', line)
           disruptionCondTrigger = _.trim(_.split(line, ':')[0])
           this.disruptionConditionTrigger = disruptionCondTrigger
 
