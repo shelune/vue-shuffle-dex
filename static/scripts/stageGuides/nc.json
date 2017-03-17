@@ -380,7 +380,7 @@
         "recommendedParty": "[Tyranitar] / [Rayquaza] / [Charizard-Y]\n\nEmboar, Machamp, Reshiram, Delphox, Ho-Oh",
         "clearingStrategy": "Reshiram would be very useful here for initial turns. Preferrably you should Mega Evolve before the big disruption strikes, but that would not stop you from finishing the stage. Overall an easy stage at this phase of the game, especially if you have high RT Pokemons (Machamp / Mawile / Emboar)",
         "srankingStrategy": "Moves: At least 7 moves left.\n\nM+5 should do the job nicely if you have good firepower. Focus on Risk-Taker matches and evolve T-Tar as fast as you could. MS and M+5 would be overkill already",
-        "suggestedTeam": "[Tyranitar], Reshiram, Machamp, Emboar\n\n[Tyranitar], Reshiram, Delphox, Ho-Oh",
+        "suggestedTeam": "[Tyranitar], Reshiram, Machamp, Emboar\n\n[Tyranitar], Reshiram, Delphox, Ho-Oh\n\n[Mawile], Jirachi, Tyranitar, Reshiram _ Itemless",
         "basePower": 40,
         "ability": "Opportunist"
     },
@@ -416,7 +416,7 @@
         "recommendedParty": "[Tyranitar] / [Pidgeot] / [Rayquaza]\n\nDelphox, Reshiram, Ho-Oh, Emboar, Lugia, Salamence, Braviary, Gigalith, Terrakion",
         "clearingStrategy": "Using Pyre team here is safer though Skyblast team will have chance to clear it faster. The stage is quite tanky and the board is not friendly either so M+5 is needed to guarantee clearing. Focus on evolving and make the board clean.",
         "srankingStrategy": "Moves: At least 10 moves left.\n\nM+5 and DD with Pyre team should be suffcient. Though if you are not confident, add in MS. Just keep the combos rolling after the first few turns and you should be fine",
-        "suggestedTeam": "[Tyranitar], Delphox, Emboar, Reshiram\n\n[Tyranitar], Lugia, Salamence, Braviary",
+        "suggestedTeam": "[Tyranitar], Delphox, Emboar, Reshiram\n\n[Tyranitar], Lugia, Salamence, Braviary\n\n[Blaziken], Delphox, Charizard, Heatran _ Moves+5, DD",
         "basePower": 50,
         "ability": "T-Boost"
     },

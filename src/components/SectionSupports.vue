@@ -28,8 +28,8 @@ import * as Processor from './../processor'
 export default {
   data () {
     return {
-      teamsSrank: {},
-      teamsClearing: {},
+      teamsSrank: [],
+      teamsClearing: [],
       slotsMega: [],
       slotsMain: [],
       slotsExpert: [],

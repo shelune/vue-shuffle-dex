@@ -66,7 +66,7 @@
 
 // card styling in overview section
 .card-overview {
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), inset 0 5px $pal-navy;
+  box-shadow: $shadow-default, inset 0 5px $pal-navy;
   background: $pal-white;
   color: $pal-black;
   padding: 40px;
@@ -153,7 +153,7 @@
       height: 100px;
       background-size: 100px;
       border: 5px solid $pal-white;
-      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+      box-shadow: $shadow-default;
       background-color: $pal-turquoise;
       background-repeat: no-repeat;
       background-position: 50%;
@@ -332,7 +332,7 @@
 
 // card styling in team section
 .card-party {
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), inset 0 5px $pal-navy;
+  box-shadow: $shadow-default, inset 0 5px $pal-navy;
   background: $pal-white;
   color: $pal-black;
   padding: 10px;
@@ -406,7 +406,7 @@
   }
 
   &.party-optimal {
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), inset 0 5px $pal-red;
+    box-shadow: $shadow-default, inset 0 5px $pal-red;
 
     .card_tag {
       background: $pal-red;

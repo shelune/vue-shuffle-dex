@@ -2,7 +2,10 @@
   <div class="column card card-team">
     <div class="card_hdr">{{ stratTitle }}</div>
     <div class="container card_body">
-      <div class="card-team_content" v-for="team in teamData">
+      <div class="card-team_content" v-if="teamData.length < 1">
+        <p><em>Currently unknown.</em></p>
+      </div>
+      <div class="card-team_content" v-if="teamData.length > 0" v-for="team in teamData">
         <p class="card-team_supports">
           <strong>Pokemons: </strong>
           <span v-for="support, index in team.slots" :class="index == 0 ? 'mega' : ''">{{ support ? support : '?' }}{{ index == team.slots.length - 1 ? '.' : ', ' }}</span>
