@@ -1,7 +1,7 @@
 <template>
-  <section class="section section-overview">
+  <section class="section section-overview" :style="{paddingTop: '0'}">
     <div class="container">
-      <h1 class="section_title">Overview</h1>
+      <h1 class="section_title" :style="{marginTop: '0'}">Overview</h1>
       <div class="columns">
         <overview-stage :stageData="stageData" :class="showStage ? '' : 'is-hidden-mobile'" @switch-overview="switchView"></overview-stage>
         <overview-pokemon :stageData="stageData" :class="showPokemon ? '' : 'is-hidden-mobile'" @switch-overview="switchView"></overview-pokemon>

@@ -1,5 +1,5 @@
 <template>
-  <div class="column card card-overview card-overview-pokemon is-5">
+  <div class="column card card-overview card-overview-pokemon">
     <div class="card_tag">
       Pokemon Info
     </div>
