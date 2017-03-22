@@ -29,7 +29,17 @@
   <div class="container">
     <!-- STAGE COMPONENT -->
     <!-- <router-view></router-view> -->
+    <div class="stageSteps is-clearfix">
+      <a href="#0" class="is-pulled-left" @click.prevent="back()"> &larr; Previous</a>
+      <a href="#0" class="is-pulled-right" @click.prevent="next()" :style="{marginTop: '0'}">Next &rarr;</a>
+    </div>
+
     <stage :stageIdApp="this.stageIdApp" :mode="stageMode"></stage>
+
+    <div class="stageSteps is-clearfix">
+      <a href="#0" class="is-pulled-left" @click.prevent="back()"> &larr; Previous</a>
+      <a href="#0" class="is-pulled-right" @click.prevent="next()" :style="{marginTop: '0'}">Next &rarr;</a>
+    </div>
   </div>
   <footer class="footer">
     <div class="container is-flex">
@@ -90,6 +100,12 @@ export default {
     },
     submit() {
       console.log('pressed Enter does nothing though... Should send you away but idk')
+    },
+    next() {
+      this.stageIdApp = _.parseInt(this.stageIdApp) + 1
+    },
+    back() {
+      this.stageIdApp = _.parseInt(this.stageIdApp) - 1
     },
     toggleMode() {
       if (this.stageMode == 'main') {
@@ -167,6 +183,32 @@ export default {
 
   .nav-right {
       margin-right: 40px;
+  }
+
+  .stageSteps {
+    padding: 24px;
+    margin: 0;
+
+    > a {
+      font-family: AvenirHeavy;
+      color: $pal-red;
+    }
+
+    &-left, &-right {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      background-size: 20px;
+      background-repeat: no-repeat;
+    }
+
+    &-left {
+      background-image: url('/static/img/back.png');
+    }
+
+    &-right {
+      background-image: url
+    }
   }
 
   .eac {
