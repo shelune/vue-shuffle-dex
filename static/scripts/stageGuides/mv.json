@@ -245,7 +245,7 @@
         "stageNo": 120,
         "icon": 37,
         "name": "Mega Glalie",
-        "hitPts": "7655\n5358",
+        "hitPts": 5358,
         "type": "Ice",
         "moves": 20,
         "captureRate": "Base: N/A\nBonus:N/A",
@@ -255,6 +255,7 @@
         "recommendedParty": "[Mawile]/[Lucario]\n\nKlefki, Combusken,\nCarbink, Mienshao\n\nLucario, Blaziken,\nHeatran, Moltres",
         "clearingStrategy": "Another hard stage. Constant\ndisruptions so use a Disruption Delay\nto be able to make combo for some \nturns. Hopefully, you have manage\nto deplete its life by a big amount.\nYou can also get some Move+5 to\nmake sure you'll pass this stage.",
         "srankingStrategy": "Moves: At least 10 moves left\nDD if you can afford with a decent Mega\n(Mega Mawile LVL5, M-Luke or M-Gengar)\nIf you are short in moves, then add up a\nMove+5 (if you dont want to train up more)",
+        "suggestedSrank": "[Charizard], Combusken, Moltres, Snorunt _ Itemless",
         "notes": "We got the 9th Megastone and\nwe can use it right now :D",
         "basePower": 60,
         "ability": "Mega Effects: Erases all Pokémon in a V-shaped pattern."

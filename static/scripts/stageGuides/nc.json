@@ -73,6 +73,7 @@
         "clearingStrategy": "Difficult stage both because of the disruption and the high HP. It has both blocks and added Weepinbell so you need a way to deal with both.\n\nTyranitar and Beedrill are very solid choices to pass the stage, if candied, while other mega like Rayquaza require a Block Smash+ user (Talonflame, Leavanny).",
         "srankingStrategy": "Moves: At least 10 moves left.\n\nHigh HP and bad disruption and starting board make Disruption Delay and Moves+5 a necessity. If your team does not boast a high attack overall, or if you don't have a good mega candied, you might need to add a Mega Start.\n",
         "suggestedTeam": "[Beedrill], Braviary, Salamence, Lugia\n\n[Rayquaza], Lugia, Leavanny, Glalie",
+        "suggestedSrank": "[Gengar], Machamp lvl19 (SS / SL5), Munchlax _ Itemless",
         "basePower": 60,
         "ability": "L-Boost"
     },
@@ -689,6 +690,7 @@
         "pokemon": 4,
         "recommendedParty": "[Tyranitar], [Rayquaza]\n\nDragonite, Kyurem-W, Kyurem-B, Kyurem, Articuno, Azumarill, Mamoswine, Glalie",
         "srankingStrategy": "Moves: At least 11 moves left.",
+        "suggestedSrank": "[Rayquaza-S], Dragonite, Zygarce-C, Kyurem-B _ Moves+5",
         "basePower": 80,
         "ability": "Dancing Dragons"
     },

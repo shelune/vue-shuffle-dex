@@ -69,6 +69,7 @@
         "recommendedParty": "[Lucario]/[Medicham]\n\nConkeldurr, Pangoro,\nMedicham\n\nGallade, Lucario\n\nNone",
         "clearingStrategy": "B4-E4 will clear the Whismur's\nBarrier on 1st turn. Another Whismur\nwill fall. Use that to completely\nremove them. The barrier disruption\ncan be easily cleared by both Mega's\nMega effect",
         "srankingStrategy": "Moves: At least 7 moves left\n\nSeems to be doable with Move+5.",
+        "suggestedSrank": "[Rayquaza], Lucario, Throh, Machamp lvl20 (SS / SL5)",
         "notes": "     ",
         "basePower": 30,
         "ability": "Paralyze"
@@ -177,6 +178,7 @@
         "recommendedParty": "[Glalie]/[Charizard Y]/\n[Blaziken]\n\nSalamence, Heracross,\nAvalugg, Braviary,\n\n\nDelphox, Emboar,\nHeatran, Genesect\n\nHo-Oh, Lugia,\nReshiram",
         "clearingStrategy": "Quite another frustrating stage, yes.\nBarriers are nuisance unless you bring\na DD to prevent them. \n\nHP total got decreased end of July,\nand by quite a lot. This should make\nthis stage a lot easier to beat.\n\nYou can try your luck with M-Blaziken\nand may be able to clear Rocks very\nfast. The Budew support will fall at\nthe bottom matching theirselves. Or\nM-Blaziken will not do that. M-Charizard\nmay also be good at clearing the center.\n(Better than M-Glalie) if you have it. If\nyou dont have both, stick with M-Glalie.\nYou wont be doing too much damage\nwith Crowd Control here so Muk's\nPower of 4+ may be better here.\n(unless you are using Complexity)\n\nAvalugg can support a bit but not\nreally that helpful. Lugia can Eject\nthe Roselia away. Other are just\nfor pure damage\n\nReshiram can help with the\nbarriers. Still a lot of them.",
         "srankingStrategy": "Moves: At least 10 moves left\n\nComplexity was usually needed before, but\nnow it is not so sure.\nMove+5, DD, Mega Start can do this.\n",
+        "suggestedSrank": "[Houndoom], Ho-Oh, Genesect, Rayquaza-S _ Itemless",
         "notes": "     ",
         "basePower": 70,
         "ability": "Stabilize+"
@@ -728,6 +730,7 @@
         "clearingStrategy": "  M-Steelix is really good on this stage.\nJirachi will help it evolve faster, and\nthen use Cobalion's Power of 4+\nto deal the damage.\n\nDialga is nice as long as you don't\nhave evolved Steelix, but after\nthaat it deals more damage to let\nSteelix remove the metal blocks.\n\nWith Mawile, you may need Moves+5\nto finish the stage depending on\nwhether you have Dialga or not.",
         "srankingStrategy": "Moves: At least 12 moves left\n\nMoves+5 should do it. If you're using\nMawile because you don't have Steelix,\nthen, you probably will require the \n4300 coins package: Mega Start,\nMoves +5 and Disruption Delay.",
         "suggestedTeam": "[Steelix], Dialga, Muk, Cobalion",
+        "suggestedSrank": "[Aggron], Cobalion (SL2), Jirachi (SL2), Mawile lvl14 (SS / SL3) _ Itemless",
         "notes": "     ",
         "basePower": 70,
         "ability": "Swap+"
@@ -1037,6 +1040,7 @@
         "recommendedParty": "[Lucario]/[Medicham]\n\nConkeldurr, Pangoro,\nMedicham\n\nGallade, Lucario\n\nMachamp",
         "clearingStrategy": "Solution: C3-B2, C3-C2, D4-D3, \nB5-B4, E5-E4\n(Careful not to activate Porygon's\nBarrier Bash+ or Metal blocks\ncould prevent you from doing these\nmoves correctly). To do so, always\nmove Porygon2 first.\n\nThen, the metal blocks will\n disappear, so combo a lot\nto beat the level. Doable itemless.",
         "srankingStrategy": "Moves: At least 12 moves left\n\nPossible itemless using M-Lucario. If you're\nshort by less than 5 moves, then add\nMoves+5. If more, it means you need\na Mega Start on top of it.\n\nAlt strat with Moves +5: Get Porygon and\nPorygon2 to level 6, and always move\nC4 -> C1. Guaranteed S rank with Moves+5",
+        "suggestedSrank": "[Rayquaza-S], Machamp lvl20 (SS / SL5), Lucario, Gallade _ Itemless",
         "notes": "     ",
         "basePower": 70,
         "ability": "Crowd Power"
@@ -1092,6 +1096,7 @@
         "clearingStrategy": "Well, this was a nice run in Roseus\nCenter. Big bad Mega Rayquaza is\nvery hard to beat.\nI would say that Mega Start, Disruption\nDelay, and Moves +5 can beat this\nstage. With these items, M-Latios\nis the best to use.\n\nWill try if M-Diancie can help in this\nstage, maybe it can avoid using\na Disruption Delay, message me if\nyou have already tried.",
         "srankingStrategy": "Moves: At least 11 moves left\n\nFull item run is what you need here for\nthis stage. Mega Start, Disruption Delay,\nMoves +5 and Complexity-1 is what\nit takes to beat this monster.\nFull item run with MLatios/Dragonite/\nXerneas/Goodra gave me S rank with\n4 moves spare.\n\nYou can use Shufflemove to help you\nmake the moves yielding the more combos\nor the most score depending on the\nsituation of the boar.",
         "suggestedTeam": "[Gengar], Kyurem-W, Zygarde-C, Dragonite\n\n[Latios], Kyurem, Diancie, Articuno",
+        "suggestedSrank": "[Rayquaza], Xerneas, Glalie (SL4), Dragonite _ DD, C-1",
         "notes": "You get the Mega Stone for\nRayquaza!",
         "basePower": 70,
         "ability": "Mega Effects: Erases a Pokémon of a different type from this Pokémon (max 10)."

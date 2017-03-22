@@ -67,6 +67,7 @@
         "recommendedParty": "[Garchomp]/[Rayquaza]/\n[Gengar]\n\nExcadrill, Krookodile,\nGolurk, Marowak\n\nGliscor\n\nLandorus T+L, Groudon",
         "clearingStrategy": "A bit of a tough stage to beat itemless.\nThe disruptions can really mess you up.\nM-Garchomp can remove some of\nthem, but it takes a while to evolve \n(unless candied).\n\nOverall still beatable itemless, but\nif you struggle, a Disruption Delay will\nbe a huge help.",
         "srankingStrategy": "Moves: At least 10 moves left\n\nDisruption Delay alone can do this.\nAs always, Moves+5 is a safety net.",
+        "suggestedTeam": "[Beedrill], Camerupt, Groudon (SL5), Golurk _ Itemless",
         "basePower": 60,
         "ability": "Paralyze Combo"
     },
@@ -695,6 +696,7 @@
         "recommendedParty": "[Gengar]/[Sharpedo]/\n[Absol]/[Heracross]/\n[Banette]/[Rayquaza]\n\nScyther, Scizor,\nVolcarona, Zoroark\n\nGenesect, Yveltal,\nBisharp, Malamar,\nGenesect\n\nGiratina (O), Pinsir,\nDarkrai, Hoopa",
         "clearingStrategy": "The 1st disruption will remove rows 2\nand 3. Only match on top of them\nbefore that.",
         "srankingStrategy": "Moves: At least 6 moves left",
+        "suggestedSrank": "[Heracross] (candied), Hoopa-C, Darkrai, Giratina-A _ Itemless",
         "basePower": 50,
         "ability": "Mega Boost"
     },
