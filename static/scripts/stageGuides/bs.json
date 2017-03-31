@@ -339,6 +339,7 @@
         "recommendedParty": "[Garchomp]/[Lucario]/\n[Medicham]/[Sceptile]/\n[Swampert]/[Steelix]\n\nConkeldurr, Roserade,\nMilotic, Aggron\n\nGallade, Suicune, \nVirizion, Cobalion\n\nShaymin, Landorus T+L,\nKyurem",
         "clearingStrategy": "No added support for this Mega\nbattle, it's quite a relief.\n\nThe disruptions hit quite hard though,\nso unless Groudon or\nBellossom delay them consistently,\nyou better buy a Disruption Delay\nto crush this stage.",
         "srankingStrategy": "Moves: At least 10 moves left\n\nDisruption Delay and Moves +5 will do this.\nSkill boosted Groundon/Bellossom can\navoid you buying the DD, but you never\nknow with % activation...",
+        "suggestedSrank": "[Camerupt], Machamp lvl20 (SS / SL5), Volcanion (SL5), Virizion lvl15 (SL4) _ M+5, DD, MS",
         "basePower": 80,
         "ability": "Mega Effects: Erases Pokémon and disruptions around three spots you tap."
     },

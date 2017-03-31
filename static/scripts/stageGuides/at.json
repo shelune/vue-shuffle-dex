@@ -109,6 +109,7 @@
         "clearingStrategy": "Skill Swapped Yveltal can give you\nextra room to work with on the board.\nFocus on mega evolving and \nremoving as many blocks as you can.\nPO4+ and Crowd control will help you\ndeal enough damage to clear the stage\n\n",
         "srankingStrategy": "Moves: At least 7 moves left\n\nA combination of Move+5\nand DD will be sufficient to do this",
         "suggestedTeam": "[Gengar], Yveltal, Darkrai, Giratina-A\n\n[Gengar], Yveltal, Genesect, Zoroark",
+        "suggestedSrank": "[Beedrill], Hoopa-U (SL5), Yveltal (SS), Darkrai _ M+5",
         "basePower": 50,
         "ability": "Sleep Charm0"
     },
@@ -324,7 +325,7 @@
         "recommendedParty": "[Gengar]/[Heracross]/\n[Sharpedo]/[Absol]/\n[Banette]\n\nGengar, Zoroark,\nHeracross, Scizor\n\nGenesect, Yveltal\n\nGiratina, Darkrai",
         "clearingStrategy": "Another very hard stage. DD will\nhelp lessen the threats if you can't\nbeat it with Move+5.\n\nTry clearing the Gothita and Gothorita\nfirst by matching them (Even by doing\nthis a Gothita and a Gothitelle will still\nexist) D5-B4/E4 , D6-C4, C4-D4 is\none way of clearing them away",
         "srankingStrategy": "Moves: At least 7 moves left\nMove+5 and DD seems to be the minimum\nitems to use here.\n\nMega Start and DD can do this (you can\nuse Move+5 if you are unsure)",
-        "suggestedTeam": "[Gengar], Darkrai, Giratina-A, Genesect\n\n[Gengar], Hoppa-C, Yveltal (SS: BS+), Genesect",
+        "suggestedTeam": "[Gengar], Darkrai, Giratina-A, Genesect\n\n[Gengar], Hoppa-C, Yveltal (SS), Genesect",
         "basePower": 60,
         "ability": "Quirky+"
     },

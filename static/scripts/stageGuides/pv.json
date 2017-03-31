@@ -187,6 +187,7 @@
         "recommendedParty": "[Any]/[Aerodactyl]/\n[Garchomp]/[Lucario]\n\nNinetales, Stunfisk,\nMarowak\n\nLucario, Blaziken, \nHeatran, Entei, Moltres\n\nGroudon",
         "clearingStrategy": "Another really hard stage. Better to buy\na DD for a lot easier.",
         "srankingStrategy": "Moves: At least 13 moves left\n\nMega Start + DD + Move+5 for this one.\n(No DD if using Mega Aero)\n\nWith the release of M-Garchomp, it seems\nit was doable with just Mega Start",
+        "suggestedSrank": "[Camerupt], Golurk lvl15, Machamp lvl15 (SS / SL5), Emboar lvl15 (SL5) _ Itemless",
         "mobileNotes": "HP: 11666\nCatch Rate: 14% +2%\n\nThe stage become a little harder (2000 more HP)\nUse Mega Lucario/Aerodactyl since you\ndont have Mega Garchomp. For support, just\nuse Optimize to get the best Pokemon (You\nmight want to add Ninetales to help you a bit in\ndecreasing Metal Blocks). Same strategy with\n3ds.DD or Mega Start if you are using M-Lucario\nor M-Aerodactyl (Aero is preferred but both works)",
         "basePower": 70,
         "ability": "Steely Resolve"
@@ -205,6 +206,7 @@
         "recommendedParty": "[Gengar]/[Any]\n\nMarowak, Stunfisk,\nDonphan\n\nNone\n\nGroudon",
         "clearingStrategy": "You may want to use Gengar to get\nlarge combos here. Making sure to\nclear out the last 3 columns first",
         "srankingStrategy": "Moves: At least 8 moves left\n\nThis can be done with Move+5",
+        "suggestedSrank": "[Camerupt], Golurk lvl15, Landorus (SL3) _ Itemless",
         "mobileNotes": "Catch Rate: 27% +3%\n\nAside from the catch rate, nothing really was\nchange. Gengar is the best Mega for this stage.",
         "basePower": 40,
         "ability": "Rock Break"
@@ -354,6 +356,7 @@
         "recommendedParty": "[Glalie]\n\nNinetales, Vanilluxe,\nSwellow, Chatot\n\nHeatran, Entei,\nMoltres, Blaziken,\nDelphox\n\nNone\n",
         "clearingStrategy": "Switch D3 with C3 or switch B1\nwith D3 to make Tangrowth remove\nthe disruptions",
         "srankingStrategy": "Moves: At least 8 moves left\n\nYour team can do this if you remove\nthe disruptions",
+        "suggestedSrank": "[Beedrill], Charizard, Genesect, Emboar _ Itemless",
         "mobileNotes": "HP: 13416\nCatch Rate: 25% +3%\n\nThat is 4500+ more HP than 3ds version. 3ds\nversion was easy anyway. The strategy for\n3ds still works in here. If itemless cannot do this,\ntry adding a Move+5.",
         "basePower": 70,
         "ability": "Cloud Clear"
@@ -372,6 +375,7 @@
         "recommendedParty": "[Lucario]/[Mawile]/\n[Blastoise]/[Venusaur]/\n[Garchomp]\n\nMilotic, Marowak,\nStunfisk\n\nLucario, Sceptile,\nSwampert, Suicune\n\nKyogre, Groudon,\nDialga",
         "clearingStrategy": "You may also try Mega Aero if it is\neffective for you. ",
         "srankingStrategy": "Moves: At least 15 moves left\n\nSeems to be doable with just Move+5.\nYou will need a good team to do this\n(Hint: M-Garchomp+Dialga for destroying\ndisruptions)\n\nMove+5 and Mega Start can also be\ngood if you dont have Dialga or Garchomp.",
+        "suggestedSrank": "[Aggron], Machamp (SS / SL5), Suicune, Landorus (SL5) _ Itemless",
         "mobileNotes": "HP: 18345\n\nAside from the HP increase (about 1500+)\nno really change from 3ds version. Mobile\nversion don't have M-Garchomp yet so you should\nstick with other Megas. Blastoise, Lucario or\nMawile can be great. You may need a Mega\nStart only if your Mega is slow",
         "basePower": 80,
         "ability": "Eject"

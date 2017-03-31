@@ -73,7 +73,7 @@
         "clearingStrategy": "Difficult stage both because of the disruption and the high HP. It has both blocks and added Weepinbell so you need a way to deal with both.\n\nTyranitar and Beedrill are very solid choices to pass the stage, if candied, while other mega like Rayquaza require a Block Smash+ user (Talonflame, Leavanny).",
         "srankingStrategy": "Moves: At least 10 moves left.\n\nHigh HP and bad disruption and starting board make Disruption Delay and Moves+5 a necessity. If your team does not boast a high attack overall, or if you don't have a good mega candied, you might need to add a Mega Start.\n",
         "suggestedTeam": "[Beedrill], Braviary, Salamence, Lugia\n\n[Rayquaza], Lugia, Leavanny, Glalie",
-        "suggestedSrank": "[Gengar], Machamp lvl19 (SS / SL5), Munchlax _ Itemless",
+        "suggestedSrank": "[Rayquaza-S], Lugia, Glalie, Heracross _ M+5",
         "basePower": 60,
         "ability": "L-Boost"
     },
@@ -92,6 +92,7 @@
         "clearingStrategy": "Not a hard stage, but you might need to bring your own Munchlax to make sure to get long combos, since the HP are quite high.",
         "srankingStrategy": "Moves: At least 4 moves left.\n\n3-support stage, doable itemless by bringing Munchlax. Moves+5 guarantees the S-rank if you don't want to lose time on this stage.",
         "suggestedTeam": "[Gengar], Machamp, Munchlax\n\n[Mewtwo X], Lucario, Munchlax",
+        "suggestedSrank": "[Gengar], Machamp lvl19 (SS / SL5), Munchlax _ Itemless",
         "basePower": 50,
         "ability": "Risk-Taker"
     },
@@ -362,7 +363,7 @@
         "pokemon": 4,
         "recommendedParty": "[Tyranitar] / [Rayquaza] / [Sceptile] / [Camerupt]\n\nGroudon, Kingdra, Bellossom, Shaymin-L, Palkia\n\n",
         "clearingStrategy": "Grab a Barrier Bash+ with a disruptor (Bellossom / Shaymin-L / Kingdra boosted) and you should be good to go. Focus on breaking the barriers first since they hinder your combos heavily if left unchecked. Either Rayquaza / Tyranitar / Camerupt can be picked as Mega here.",
-        "srankingStrategy": "Moves: At least 10 moves left.\n\nM+5 should already be sufficient, or you can add in another MS for safety purpose. Its HP is rather high so Sleep Charm would help a lot here",
+        "srankingStrategy": "Moves: At least 10 moves left.\n\nM+5 should already be sufficient, or you can add in another MS for safety purpose.",
         "suggestedTeam": "[Tyranitar], Palkia, Keldeo, Kingdra\n\n[Camerupt], Bellossom, Palkia, Virizion",
         "basePower": 50,
         "ability": "Mega Boost+"
@@ -472,6 +473,7 @@
         "clearingStrategy": "Clearing the barriers is of importance here, then Mega evolve. Tyranitar is a safer choice for mega since you can control the clearing pattern, but Rayquaza never disappoints, too. Machamp and Emboar with high level of Risk Taker works wonder here",
         "srankingStrategy": "Moves: At least 7 moves left.\n\nM+5 can already be enough, but you can add in DD for safety measure. Still need to focus on barriers.",
         "suggestedTeam": "[Tyranitar], Emboar, Machamp, Reshiram\n\n[Tyranitar], Reshiram, Throh, Machamp\n\n[Houndoom], Reshiram, Ho-Oh, Charizard",
+        "suggestedSrank": "[Lucario], Reshiram, Tyranitar, Metagross _ M+5, DD",
         "basePower": 50,
         "ability": "Opportunist"
     },
@@ -490,6 +492,7 @@
         "clearingStrategy": "Zekrom and Raikou are much appreciated here. Probably you will need Bellossom / Shaymin-L for disabling too. The starting board is quite bad so you may have trouble Mega evolve early but it's not that hard. M+5 should be enough if you fail it too hard.",
         "srankingStrategy": "Moves: At least 10 moves left.\n\nM+5 and MS should do the job, provided that you have Shaymin-L at high SL. Otherwise add in DD (in that case replace Shaymin-L with some high power support like Virizion / Magnezone)",
         "suggestedTeam": "[Tyranitar], Raikou, Zekrom, Shaymin-L\n\n[Rayquaza], Raikou, Zekrom, Bellossom",
+        "suggestedSrank": "[Rayquaza], Shaymin-L, Zekrom, Raikou _ M+5, DD, MS",
         "basePower": 60,
         "ability": "Block Smash+"
     },
@@ -507,7 +510,7 @@
         "recommendedParty": "[Tyranitar] / [Charizard]\n\nReshiram, Emboar, Ho-Oh, Delphox, Lugia, Salamence",
         "clearingStrategy": "Quite tricky actually, you have to wait for a few turns to clear the supported Pokemons. Just break the barriers after the first disruption and focus on comboing it down. If you feel annoyed with the first few wasted turns, go with MS.\n\nReshiram with Barrier Bash+ is very useful here too but it's not so reliable since a 4-icon match is not always available for you.",
         "srankingStrategy": "Moves: At least 6 moves left.\n\nM+5 with Shelmet would be enough here, though a bit tricky.\n\nOtherwise you can go for full firepower and add MS in for safety",
-        "suggestedTeam": "[Tyranitar], Shelmet, Emboar, Reshiram\n\n[Tyranitar], Ho-Oh, Delphox, Emboar",
+        "suggestedTeam": "[Tyranitar], Shelmet, Emboar, Reshiram\n\n[Tyranitar], Ho-Oh, Delphox, Emboar\n\n[Rayquaza], Braviary, Lugia, Salamence _ M+5, MS",
         "basePower": 50,
         "ability": "Final Effort"
     },
@@ -841,6 +844,7 @@
         "clearingStrategy": "Very hard stage. ",
         "srankingStrategy": "Moves: At least 10 moves left.\n\nI recommend full items, though if your team is strong enough, maybe you can drop M+5 and still make it.",
         "suggestedTeam": "[Garchomp], Landorus-T(SL5), Machamp(SS / SL5), Emboar(SS / SL5)\n\n[Camerupt], Landorus-T(SL4), Reshiram, Emboar(SS / SL5)\n[Camerupt], Lucario(SL2), Machamp(SS / SL5), Throh(SS)",
+        "suggestedSrank": "[Tyranitar], Machamp lvl20 (SS / SL5), Gallade, Lucario lvl15 (SL3) _ Full Items",
         "basePower": 70,
         "ability": "Mega Effect:  Tap up to 3 spots to clear up to 15 icons (5 each) in a + shape."
     }
