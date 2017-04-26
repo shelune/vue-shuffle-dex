@@ -1,0 +1,487 @@
+[
+    {
+        "stageNo": "Prasino Woods"
+    },
+    {
+        "stageNo": 551,
+        "icon": 141,
+        "name": "Gastly (Repeat)",
+        "hitPts": 13125,
+        "type": "Ghost",
+        "moves": 10,
+        "captureRate": "Base: 7%\nBonus: 3% /move",
+        "disruptions": "Spawns barriered rocks and has them in starting board.",
+        "clearingStrategy": "Hoopa Unbound, Hoopa Confined",
+        "srankingStrategy": "Moves: At least 5 moves left.\n\n",
+        "basePower": 50,
+        "ability": "Spookify"
+    },
+    {
+        "stageNo": 552,
+        "icon": 177,
+        "name": "Tauros (Repeat)",
+        "hitPts": 16100,
+        "type": "Normal",
+        "moves": 16,
+        "captureRate": "Base: 10%\nBonus: 5% /move",
+        "disruptions": "Spawns blocks and has them in starting board.",
+        "clearingStrategy": "Jirachi, Machamp, Meloetta Pirouette, Gallade",
+        "srankingStrategy": "Moves: At least 5 moves left.\n\n",
+        "basePower": 70,
+        "ability": "Quake"
+    },
+    {
+        "stageNo": 553,
+        "icon": 126,
+        "name": "Ponyta",
+        "hitPts": 9187,
+        "type": "Fire",
+        "moves": 12,
+        "captureRate": "Base: 8%\nBonus: 2% /move",
+        "disruptions": "Has Ponyta in skyfall and spawns rocks and Ponyta icons.",
+        "clearingStrategy": "Ash-Greninja, Risk-Taker (Volcanion, Landorus Therian), Ponyta (?), Flash Mob (Keldeo, Wailord)",
+        "srankingStrategy": "Moves: At least 5 moves left.\n\n",
+        "basePower": 60,
+        "ability": "Flash Mob"
+    },
+    {
+        "stageNo": 554,
+        "icon": 506,
+        "name": "Shellos (East Sea)",
+        "hitPts": 7580,
+        "type": "Water",
+        "moves": 15,
+        "captureRate": "Base: 9%\nBonus: 2% /move",
+        "disruptions": "Solution is B6-E4, C2-D4, C4-F3, A6-A5, A6-A2 (credit to /u/bigpapijugg ) . After that spawns Shellos East icons.",
+        "clearingStrategy": "Virizion, Emolga, Kyurem-White",
+        "srankingStrategy": "Moves: At least 5 moves left.\n\n",
+        "basePower": 50,
+        "ability": "Cross Attack"
+    },
+    {
+        "stageNo": 555,
+        "icon": 142,
+        "name": "Haunter (Repeat)",
+        "hitPts": 13300,
+        "type": "Ghost",
+        "moves": 10,
+        "captureRate": "Base: 7%\nBonus: 8% /move",
+        "disruptions": "Spawns barriers.",
+        "clearingStrategy": "Zoroark, Hoopa Unbound, Hoopa Confined, Yveltal",
+        "srankingStrategy": "Moves: At least 5 moves left.\n\n",
+        "basePower": 60,
+        "ability": "Quirky"
+    },
+    {
+        "stageNo": 556,
+        "icon": 72,
+        "name": "Ekans",
+        "hitPts": 17850,
+        "type": "Poison",
+        "moves": 8,
+        "captureRate": "Base: 6%\nBonus: 2% /move",
+        "disruptions": "Rocks and barriered rocks.",
+        "clearingStrategy": "Landorus Therian, Donphan",
+        "srankingStrategy": "Moves: At least 5 moves left.\n\n",
+        "basePower": 40,
+        "ability": "Constrict"
+    },
+    {
+        "stageNo": 557,
+        "icon": 143,
+        "name": "Gengar (Repeat)",
+        "hitPts": 22443,
+        "type": "Ghost",
+        "moves": 16,
+        "captureRate": "Base: 6%\nBonus: 5% /move",
+        "disruptions": "Spawns blocks and has a few blocks in starting board.",
+        "clearingStrategy": "Yveltal, Zoroark, Hoopa Unbound",
+        "srankingStrategy": "Moves: At least 5 moves left.\n\n",
+        "basePower": 70,
+        "ability": "Power of 5"
+    },
+    {
+        "stageNo": 558,
+        "icon": 356,
+        "name": "Ralts (Repeat)",
+        "hitPts": 11200,
+        "type": "Fairy",
+        "moves": 10,
+        "captureRate": "Base: 8%\nBonus: 8% /move",
+        "disruptions": "Has initial Ralts icons and spawns Ralts icons.",
+        "clearingStrategy": "Ralts, Poison Team (Gulpin, Croagunk/Tentacruel) / Steel Burst Damage (Mawile, Cobalion, Skarmory), Jirachi (for M-Aggron)",
+        "srankingStrategy": "Moves: At least 5 moves left.\n\n",
+        "basePower": 30,
+        "ability": "Prank"
+    },
+    {
+        "stageNo": 559,
+        "icon": 508,
+        "name": "Gastrodon (East Sea)",
+        "hitPts": 26880,
+        "type": "Ground",
+        "moves": 15,
+        "captureRate": "Base: 13%\nBonus: 5% /move",
+        "disruptions": "Initially disrupts with three rows of rocks + metal blocks for a few times, later disrupts with a big ring of rocks.",
+        "clearingStrategy": "Burst Damage (Volcanion, Ash-Greninja), Disruption Delayers (Greninja, Bellossom, Shaymin), Suicune",
+        "srankingStrategy": "Moves: At least 5 moves left.\n\n",
+        "basePower": 60,
+        "ability": "Swap+"
+    },
+    {
+        "stageNo": 560,
+        "icon": 73,
+        "name": "Arbok",
+        "hitPts": 17640,
+        "type": "Poison",
+        "moves": 12,
+        "captureRate": "Base: 11%\nBonus: 3% /move",
+        "disruptions": "Initial board has two columns of barriered rocks + blocks in the middle. Later disrupts with 3 diagonal rocks for a few times and then disrupts with two rows of barriered rocks + blocks.",
+        "clearingStrategy": "Burst Damage (Mewtwo, Landorus-Therian), Cresselia",
+        "srankingStrategy": "Moves: At least 5 moves left.\n\n",
+        "suggestedSrank": "[Alakazam], Cresselia, Mewtwo, Landorus-T lvl10 (SL5) _ M+5, MS",
+        "basePower": 60,
+        "ability": "Poison"
+    },
+    {
+        "stageNo": 561,
+        "icon": 785,
+        "name": "Pancham (Repeat)",
+        "hitPts": 11200,
+        "type": "Fighting",
+        "moves": 10,
+        "captureRate": "Base: 4%\nBonus: 6% /move",
+        "disruptions": "-",
+        "clearingStrategy": "-",
+        "srankingStrategy": "Moves: At least 5 moves left.\n\n",
+        "basePower": 50,
+        "ability": "Mega Boost"
+    },
+    {
+        "stageNo": 562,
+        "icon": 379,
+        "name": "Mawile (Repeat)",
+        "hitPts": 19600,
+        "type": "Steel",
+        "moves": 16,
+        "captureRate": "Base: 5%\nBonus: 4% /move",
+        "disruptions": "-",
+        "clearingStrategy": "-",
+        "srankingStrategy": "Moves: At least 5 moves left.\n\n",
+        "basePower": 50,
+        "ability": "Steely Resolve"
+    },
+    {
+        "stageNo": 563,
+        "icon": 674,
+        "name": "Ducklett",
+        "hitPts": 6207,
+        "type": "Flying",
+        "moves": 12,
+        "captureRate": "Base: 7%\nBonus: 3% /move",
+        "disruptions": "-",
+        "clearingStrategy": "-",
+        "srankingStrategy": "Moves: At least 5 moves left.\n\n",
+        "basePower": 50,
+        "ability": "Prank"
+    },
+    {
+        "stageNo": 564,
+        "icon": 357,
+        "name": "Kirlia (Repeat)",
+        "hitPts": 12250,
+        "type": "Fairy",
+        "moves": 15,
+        "captureRate": "Base: 10%\nBonus: 6% /move",
+        "disruptions": "-",
+        "clearingStrategy": "-",
+        "srankingStrategy": "Moves: At least 5 moves left.\n\n",
+        "basePower": 40,
+        "ability": "Eject"
+    },
+    {
+        "stageNo": 565,
+        "icon": 804,
+        "name": "Clauncher",
+        "hitPts": 12600,
+        "type": "Water",
+        "moves": 10,
+        "captureRate": "Base: 9%\nBonus: 2% /move",
+        "disruptions": "-",
+        "clearingStrategy": "-",
+        "srankingStrategy": "Moves: At least 5 moves left.\n\n",
+        "basePower": 50,
+        "ability": "Block Smash"
+    },
+    {
+        "stageNo": 566,
+        "icon": 675,
+        "name": "Swanna",
+        "hitPts": 23184,
+        "type": "Flying",
+        "moves": 20,
+        "captureRate": "Base: 8%\nBonus: 5% /move",
+        "disruptions": "-",
+        "clearingStrategy": "-",
+        "srankingStrategy": "Moves: At least 5 moves left.\n\n",
+        "basePower": 60,
+        "ability": "T-Boost"
+    },
+    {
+        "stageNo": 567,
+        "icon": 341,
+        "name": "Wurmple",
+        "hitPts": 12600,
+        "type": "Bug",
+        "moves": 8,
+        "captureRate": "Base: 2%\nBonus: 2% /move",
+        "disruptions": "-",
+        "clearingStrategy": "-",
+        "srankingStrategy": "Moves: At least 5 moves left.\n\n",
+        "basePower": 30,
+        "ability": "Paralysis Combo"
+    },
+    {
+        "stageNo": 568,
+        "icon": 786,
+        "name": "Pangoro (Repeat)",
+        "hitPts": 27124,
+        "type": "Fighting",
+        "moves": 16,
+        "captureRate": "Base: 5%\nBonus: 8% /move",
+        "disruptions": "-",
+        "clearingStrategy": "-",
+        "srankingStrategy": "Moves: At least 8 moves left.\n\n\nRayquaza-S seems like a good choice for S-ranking here as well. M+5 and DD seem like a must if you want to have a decent chance at this. MS is a safety net. Alternative for Mega is M-Salamence, with the same items and Flying team",
+        "suggestedSrank": "[Salamence], Tornadus-T lvl10 (SL3), Lugia lvl10, Braviary lvl10 (SL3) _ M+5, DD",
+        "basePower": 60,
+        "ability": "Pummel"
+    },
+    {
+        "stageNo": 569,
+        "icon": 99,
+        "name": "Diglett",
+        "hitPts": 9450,
+        "type": "Ground",
+        "moves": 10,
+        "captureRate": "Base: 8%\nBonus: 3% /move",
+        "disruptions": "-",
+        "clearingStrategy": "-",
+        "srankingStrategy": "Moves: At least 5 moves left.\n\n",
+        "basePower": 30,
+        "ability": "Stabilize+"
+    },
+    {
+        "stageNo": 570,
+        "icon": 805,
+        "name": "Clawitzer",
+        "hitPts": 23275,
+        "type": "Water",
+        "moves": 16,
+        "captureRate": "Base: 12%\nBonus: 4% /move",
+        "disruptions": "-",
+        "clearingStrategy": "-",
+        "srankingStrategy": "Moves: At least 5 moves left.\n\n",
+        "basePower": 70,
+        "ability": "Rock Break+"
+    },
+    {
+        "stageNo": 571,
+        "icon": 342,
+        "name": "Silcoon",
+        "hitPts": 33062,
+        "type": "Bug",
+        "moves": 10,
+        "captureRate": "Base: 10%\nBonus: 4% /move",
+        "disruptions": "-",
+        "clearingStrategy": "-",
+        "srankingStrategy": "Moves: At least 5 moves left.\n\n",
+        "basePower": 40,
+        "ability": "Mega Boost+"
+    },
+    {
+        "stageNo": 572,
+        "icon": 358,
+        "name": "Gardevoir (Repeat)",
+        "hitPts": 20020,
+        "type": "Fairy",
+        "moves": 12,
+        "captureRate": "Base: 8%\nBonus: 5% /move",
+        "disruptions": "-",
+        "clearingStrategy": "-",
+        "srankingStrategy": "Moves: At least 5 moves left.\n\n",
+        "basePower": 70,
+        "ability": "Swap"
+    },
+    {
+        "stageNo": 573,
+        "icon": 337,
+        "name": "Poochyena (Repeat)",
+        "hitPts": 10710,
+        "type": "Dark",
+        "moves": 10,
+        "captureRate": "Base: 5%\nBonus: 7% /move",
+        "disruptions": "-",
+        "clearingStrategy": "-",
+        "srankingStrategy": "Moves: At least 5 moves left.\n\n",
+        "basePower": 30,
+        "ability": "Counterattack"
+    },
+    {
+        "stageNo": 574,
+        "icon": 181,
+        "name": "Ditto",
+        "hitPts": 10080,
+        "type": "Normal",
+        "moves": 15,
+        "captureRate": "Base: 8%\nBonus: 5% /move",
+        "disruptions": "-",
+        "clearingStrategy": "-",
+        "srankingStrategy": "Moves: At least 5 moves left.\n\n",
+        "basePower": 40,
+        "ability": "Transform"
+    },
+    {
+        "stageNo": 575,
+        "icon": 560,
+        "name": "Gallade (Repeat)",
+        "hitPts": 23520,
+        "type": "Fighting",
+        "moves": 16,
+        "captureRate": "Base: 7%\nBonus: 5% /move",
+        "disruptions": "-",
+        "clearingStrategy": "-",
+        "srankingStrategy": "Moves: At least 5 moves left.\n\n",
+        "basePower": 70,
+        "ability": "Block Smash+"
+    },
+    {
+        "stageNo": 576,
+        "icon": 556,
+        "name": "Glaceon",
+        "hitPts": 17340,
+        "type": "Ice",
+        "moves": 10,
+        "captureRate": "Base: 5%\nBonus: 4% /move",
+        "disruptions": "-",
+        "clearingStrategy": "-",
+        "srankingStrategy": "Moves: At least 5 moves left.\n\n",
+        "basePower": 50,
+        "ability": "Mega Boost"
+    },
+    {
+        "stageNo": 577,
+        "icon": 317,
+        "name": "Miltank (Repeat)",
+        "hitPts": 15200,
+        "type": "Normal",
+        "moves": 12,
+        "captureRate": "Base: 7%\nBonus: 3% /move",
+        "disruptions": "-",
+        "clearingStrategy": "-",
+        "srankingStrategy": "Moves: At least 5 moves left.\n\n",
+        "basePower": 60,
+        "ability": "Opportunist"
+    },
+    {
+        "stageNo": 578,
+        "icon": 343,
+        "name": "Beautifly",
+        "hitPts": 17008,
+        "type": "Bug",
+        "moves": 10,
+        "captureRate": "Base: 5%\nBonus: 5% /move",
+        "disruptions": "-",
+        "clearingStrategy": "-",
+        "srankingStrategy": "Moves: At least 5 moves left.\n\n",
+        "basePower": 50,
+        "ability": "Eject+"
+    },
+    {
+        "stageNo": 579,
+        "icon": 338,
+        "name": "Mightyena",
+        "hitPts": 15400,
+        "type": "Dark",
+        "moves": 10,
+        "captureRate": "Base: 6%\nBonus: 4% /move",
+        "disruptions": "-",
+        "clearingStrategy": "-",
+        "srankingStrategy": "Moves: At least 5 moves left.\n\n",
+        "basePower": 60,
+        "ability": "Sinister Power"
+    },
+    {
+        "stageNo": 580,
+        "icon": 47,
+        "name": "Mega Gallade",
+        "hitPts": 21840,
+        "type": "Fighting",
+        "moves": 16,
+        "captureRate": "Base: NA\nBonus: NA",
+        "disruptions": "-",
+        "clearingStrategy": "-",
+        "srankingStrategy": "Moves: At least 5 moves left.\n\n",
+        "basePower": 70,
+        "ability": "Erases a jagged line of Pokemon vertically"
+    },
+    {
+        "stageNo": 581
+    },
+    {
+        "stageNo": 582
+    },
+    {
+        "stageNo": 583
+    },
+    {
+        "stageNo": 584
+    },
+    {
+        "stageNo": 585
+    },
+    {
+        "stageNo": 586
+    },
+    {
+        "stageNo": 587
+    },
+    {
+        "stageNo": 588
+    },
+    {
+        "stageNo": 589
+    },
+    {
+        "stageNo": 590
+    },
+    {
+        "stageNo": 591
+    },
+    {
+        "stageNo": 592
+    },
+    {
+        "stageNo": 593
+    },
+    {
+        "stageNo": 594
+    },
+    {
+        "stageNo": 595
+    },
+    {
+        "stageNo": 596
+    },
+    {
+        "stageNo": 597
+    },
+    {
+        "stageNo": 598
+    },
+    {
+        "stageNo": 599
+    },
+    {
+        "stageNo": 600
+    }
+]
