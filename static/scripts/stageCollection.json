@@ -1,529 +1,229 @@
 {
     "main": [
         {
+            "pokemonName": "Bonsly",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/b/ba/Shuffle438.png/32px-Shuffle438.png",
+            "location": "61"
+        },
+        {
+            "pokemonName": "Gastly",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/0/08/Shuffle092.png/32px-Shuffle092.png",
+            "location": "62"
+        },
+        {
+            "pokemonName": "Marshtomp",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/8/80/Shuffle259.png/32px-Shuffle259.png",
+            "location": "63"
+        },
+        {
+            "pokemonName": "Dratini",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/b/bb/Shuffle147.png/32px-Shuffle147.png",
+            "location": "64"
+        },
+        {
+            "pokemonName": "Amaura",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/5/5e/Shuffle698.png/32px-Shuffle698.png",
+            "location": "65"
+        },
+        {
+            "pokemonName": "Combusken",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/5/54/Shuffle256.png/32px-Shuffle256.png",
+            "location": "66"
+        },
+        {
+            "pokemonName": "Meowstic",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/d/de/Shuffle678.png/32px-Shuffle678.png",
+            "location": "67"
+        },
+        {
+            "pokemonName": "Togetic",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/9/9e/Shuffle176.png/32px-Shuffle176.png",
+            "location": "68"
+        },
+        {
+            "pokemonName": "Slowbro",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/3/36/Shuffle080.png/32px-Shuffle080.png",
+            "location": "69"
+        },
+        {
+            "pokemonName": "Umbreon",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/f/f3/Shuffle197.png/32px-Shuffle197.png",
+            "location": "70"
+        },
+        {
+            "pokemonName": "Espeon",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/a/aa/Shuffle196.png/32px-Shuffle196.png",
+            "location": "71"
+        },
+        {
+            "pokemonName": "Grovyle",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/7/75/Shuffle253.png/32px-Shuffle253.png",
+            "location": "72"
+        },
+        {
+            "pokemonName": "Swellow",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/e/e8/Shuffle277.png/32px-Shuffle277.png",
+            "location": "73"
+        },
+        {
+            "pokemonName": "Cubone",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/0/05/Shuffle104.png/32px-Shuffle104.png",
+            "location": "74"
+        },
+        {
+            "pokemonName": "MegaAltaria",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/7/7b/Shuffle334M.png/32px-Shuffle334M.png",
+            "location": "75"
+        },
+        {
+            "pokemonName": "Gastly",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/0/08/Shuffle092.png/32px-Shuffle092.png",
+            "location": "551"
+        },
+        {
+            "pokemonName": "Tauros",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/3/39/Shuffle128.png/32px-Shuffle128.png",
+            "location": "552"
+        },
+        {
+            "pokemonName": "Ponyta",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/3/3b/Shuffle077.png/32px-Shuffle077.png",
+            "location": "553"
+        },
+        {
+            "pokemonName": "Shellos",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/6/67/Shuffle422E.png/32px-Shuffle422E.png",
+            "location": "554"
+        },
+        {
             "pokemonName": "Haunter",
             "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/d/d3/Shuffle093.png/32px-Shuffle093.png",
-            "location": "121"
+            "location": "555"
         },
         {
-            "pokemonName": "Lampent",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/e/eb/Shuffle608.png/32px-Shuffle608.png",
-            "location": "122"
-        },
-        {
-            "pokemonName": "Flareon",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/e/e0/Shuffle136.png/32px-Shuffle136.png",
-            "location": "123"
-        },
-        {
-            "pokemonName": "Swalot",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/a/ae/Shuffle317.png/32px-Shuffle317.png",
-            "location": "124"
+            "pokemonName": "Ekans",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/4/42/Shuffle023.png/32px-Shuffle023.png",
+            "location": "556"
         },
         {
             "pokemonName": "Gengar",
             "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/0/0c/Shuffle094.png/32px-Shuffle094.png",
-            "location": "125"
+            "location": "557"
         },
         {
-            "pokemonName": "Persian",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/c/c2/Shuffle053.png/32px-Shuffle053.png",
-            "location": "126"
+            "pokemonName": "Ralts",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/3/3f/Shuffle280.png/32px-Shuffle280.png",
+            "location": "558"
         },
         {
-            "pokemonName": "Lilligant",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/3/37/Shuffle549.png/32px-Shuffle549.png",
-            "location": "127"
+            "pokemonName": "Gastrodon",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/7/7a/Shuffle423E.png/32px-Shuffle423E.png",
+            "location": "559"
         },
         {
-            "pokemonName": "Froslass",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/5/5d/Shuffle478.png/32px-Shuffle478.png",
-            "location": "128"
+            "pokemonName": "Arbok",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/5/5b/Shuffle024.png/32px-Shuffle024.png",
+            "location": "560"
         },
         {
-            "pokemonName": "Zoroark",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/f/f9/Shuffle571.png/32px-Shuffle571.png",
-            "location": "129"
-        },
-        {
-            "pokemonName": "Ampharos",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/8/8f/Shuffle181.png/32px-Shuffle181.png",
-            "location": "130"
-        },
-        {
-            "pokemonName": "Mismagius",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/3/33/Shuffle429.png/32px-Shuffle429.png",
-            "location": "131"
-        },
-        {
-            "pokemonName": "Slowking",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/5/57/Shuffle199.png/32px-Shuffle199.png",
-            "location": "132"
-        },
-        {
-            "pokemonName": "Bronzong",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/2/20/Shuffle437.png/32px-Shuffle437.png",
-            "location": "133"
-        },
-        {
-            "pokemonName": "Chandelure",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/8/8d/Shuffle609.png/32px-Shuffle609.png",
-            "location": "134"
-        },
-        {
-            "pokemonName": "MegaGengar",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/8/81/Shuffle094M.png/32px-Shuffle094M.png",
-            "location": "135"
-        },
-        {
-            "pokemonName": "Buneary",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/0/0d/Shuffle427.png/32px-Shuffle427.png",
-            "location": "21"
-        },
-        {
-            "pokemonName": "Treecko",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/4/4e/Shuffle252.png/32px-Shuffle252.png",
-            "location": "22"
-        },
-        {
-            "pokemonName": "Pikachu",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/b/b3/Shuffle025.png/32px-Shuffle025.png",
-            "location": "23"
-        },
-        {
-            "pokemonName": "Sableye",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/7/7d/Shuffle302.png/32px-Shuffle302.png",
-            "location": "24"
-        },
-        {
-            "pokemonName": "Litwick",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/7/7f/Shuffle607.png/32px-Shuffle607.png",
-            "location": "25"
-        },
-        {
-            "pokemonName": "Chingling",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/5/57/Shuffle433.png/32px-Shuffle433.png",
-            "location": "26"
-        },
-        {
-            "pokemonName": "Swirlix",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/6/6e/Shuffle684.png/32px-Shuffle684.png",
-            "location": "27"
-        },
-        {
-            "pokemonName": "Volbeat",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/7/7b/Shuffle313.png/32px-Shuffle313.png",
-            "location": "28"
-        },
-        {
-            "pokemonName": "Illumise",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/1/1e/Shuffle314.png/32px-Shuffle314.png",
-            "location": "29"
-        },
-        {
-            "pokemonName": "MegaSableye",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/c/cf/Shuffle302M.png/32px-Shuffle302M.png",
-            "location": "30"
-        },
-        {
-            "pokemonName": "Happiny",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/d/d3/Shuffle440.png/32px-Shuffle440.png",
-            "location": "11"
-        },
-        {
-            "pokemonName": "Mareep",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/d/db/Shuffle179.png/32px-Shuffle179.png",
-            "location": "12"
-        },
-        {
-            "pokemonName": "Purrloin",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/6/6b/Shuffle509.png/32px-Shuffle509.png",
-            "location": "13"
-        },
-        {
-            "pokemonName": "Torchic",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/6/65/Shuffle255.png/32px-Shuffle255.png",
-            "location": "14"
-        },
-        {
-            "pokemonName": "Phanpy",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/8/8d/Shuffle231.png/32px-Shuffle231.png",
-            "location": "15"
-        },
-        {
-            "pokemonName": "Nidoran♀",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/9/97/Shuffle029.png/32px-Shuffle029.png",
-            "location": "16"
-        },
-        {
-            "pokemonName": "Nidoran♂",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/d/d8/Shuffle032.png/32px-Shuffle032.png",
-            "location": "17"
-        },
-        {
-            "pokemonName": "Klefki",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/a/ac/Shuffle707.png/32px-Shuffle707.png",
-            "location": "18"
-        },
-        {
-            "pokemonName": "Kangaskhan",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/d/d9/Shuffle115.png/32px-Shuffle115.png",
-            "location": "19"
-        },
-        {
-            "pokemonName": "MegaKangaskhan",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/2/29/Shuffle115M.png/32px-Shuffle115M.png",
-            "location": "20"
-        },
-        {
-            "pokemonName": "Minccino",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/2/21/Shuffle572.png/32px-Shuffle572.png",
-            "location": "46"
-        },
-        {
-            "pokemonName": "Vanillite",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/8/8c/Shuffle582.png/32px-Shuffle582.png",
-            "location": "47"
-        },
-        {
-            "pokemonName": "Chatot",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/e/ec/Shuffle441.png/32px-Shuffle441.png",
-            "location": "48"
-        },
-        {
-            "pokemonName": "Axew",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/a/a8/Shuffle610.png/32px-Shuffle610.png",
-            "location": "49"
-        },
-        {
-            "pokemonName": "Zorua",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/f/f1/Shuffle570.png/32px-Shuffle570.png",
-            "location": "50"
+            "pokemonName": "Pancham",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/1/1d/Shuffle674.png/32px-Shuffle674.png",
+            "location": "561"
         },
         {
             "pokemonName": "Mawile",
             "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/0/09/Shuffle303.png/32px-Shuffle303.png",
-            "location": "51"
+            "location": "562"
         },
         {
-            "pokemonName": "Lopunny",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/0/06/Shuffle428.png/32px-Shuffle428.png",
-            "location": "52"
+            "pokemonName": "Ducklett",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/1/1b/Shuffle580.png/32px-Shuffle580.png",
+            "location": "563"
         },
         {
-            "pokemonName": "Flaaffy",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/2/2c/Shuffle180.png/32px-Shuffle180.png",
-            "location": "53"
+            "pokemonName": "Kirlia",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/d/d8/Shuffle281.png/32px-Shuffle281.png",
+            "location": "564"
         },
         {
-            "pokemonName": "Vaporeon",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/5/5d/Shuffle134.png/32px-Shuffle134.png",
-            "location": "54"
+            "pokemonName": "Clauncher",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/c/c9/Shuffle692.png/32px-Shuffle692.png",
+            "location": "565"
         },
         {
-            "pokemonName": "Charmeleon",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/4/45/Shuffle005.png/32px-Shuffle005.png",
-            "location": "55"
+            "pokemonName": "Swanna",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/d/d0/Shuffle581.png/32px-Shuffle581.png",
+            "location": "566"
         },
         {
-            "pokemonName": "Buizel",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/f/f0/Shuffle418.png/32px-Shuffle418.png",
-            "location": "56"
+            "pokemonName": "Wurmple",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/a/a6/Shuffle265.png/32px-Shuffle265.png",
+            "location": "567"
         },
         {
-            "pokemonName": "Wartortle",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/9/9a/Shuffle008.png/32px-Shuffle008.png",
-            "location": "57"
+            "pokemonName": "Pangoro",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/5/55/Shuffle675.png/32px-Shuffle675.png",
+            "location": "568"
         },
         {
-            "pokemonName": "Hawlucha",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/4/4c/Shuffle701.png/32px-Shuffle701.png",
-            "location": "58"
+            "pokemonName": "Diglett",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/4/43/Shuffle050.png/32px-Shuffle050.png",
+            "location": "569"
         },
         {
-            "pokemonName": "Ivysaur",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/d/db/Shuffle002.png/32px-Shuffle002.png",
-            "location": "59"
+            "pokemonName": "Clawitzer",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/9/95/Shuffle693.png/32px-Shuffle693.png",
+            "location": "570"
         },
         {
-            "pokemonName": "MegaLopunny",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/d/da/Shuffle428M.png/32px-Shuffle428M.png",
-            "location": "60"
+            "pokemonName": "Silcoon",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/e/e6/Shuffle266.png/32px-Shuffle266.png",
+            "location": "571"
         },
         {
-            "pokemonName": "Stunfisk",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/f/f9/Shuffle618.png/32px-Shuffle618.png",
-            "location": "136"
+            "pokemonName": "Gardevoir",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/9/9d/Shuffle282.png/32px-Shuffle282.png",
+            "location": "572"
         },
         {
-            "pokemonName": "Pidgeot",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/d/de/Shuffle018.png/32px-Shuffle018.png",
-            "location": "137"
+            "pokemonName": "Poochyena",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/f/f3/Shuffle261.png/32px-Shuffle261.png",
+            "location": "573"
         },
         {
-            "pokemonName": "Whimsicott",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/4/44/Shuffle547.png/32px-Shuffle547.png",
-            "location": "138"
+            "pokemonName": "Ditto",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/0/0d/Shuffle132.png/32px-Shuffle132.png",
+            "location": "574"
         },
         {
-            "pokemonName": "Marowak",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/9/9b/Shuffle105.png/32px-Shuffle105.png",
-            "location": "139"
-        },
-        {
-            "pokemonName": "Nidoqueen",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/6/68/Shuffle031.png/32px-Shuffle031.png",
-            "location": "140"
-        },
-        {
-            "pokemonName": "Nidoking",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/c/c9/Shuffle034.png/32px-Shuffle034.png",
-            "location": "141"
-        },
-        {
-            "pokemonName": "Leafeon",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/a/a4/Shuffle470.png/32px-Shuffle470.png",
-            "location": "142"
-        },
-        {
-            "pokemonName": "Scizor",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/f/f2/Shuffle212.png/32px-Shuffle212.png",
-            "location": "143"
-        },
-        {
-            "pokemonName": "Skarmory",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/b/be/Shuffle227.png/32px-Shuffle227.png",
-            "location": "144"
-        },
-        {
-            "pokemonName": "Floatzel",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/d/d7/Shuffle419.png/32px-Shuffle419.png",
-            "location": "145"
-        },
-        {
-            "pokemonName": "Toxicroak",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/b/bb/Shuffle454.png/32px-Shuffle454.png",
-            "location": "146"
-        },
-        {
-            "pokemonName": "Togekiss",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/1/19/Shuffle468.png/32px-Shuffle468.png",
-            "location": "147"
-        },
-        {
-            "pokemonName": "Heracross",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/f/fb/Shuffle214.png/32px-Shuffle214.png",
-            "location": "148"
-        },
-        {
-            "pokemonName": "Haxorus",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/6/6d/Shuffle612.png/32px-Shuffle612.png",
-            "location": "149"
-        },
-        {
-            "pokemonName": "MegaMewtwo",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/2/2f/Shuffle150MY.png/32px-Shuffle150MY.png",
-            "location": "150"
-        },
-        {
-            "pokemonName": "Espurr",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/4/44/Shuffle677.png/32px-Shuffle677.png",
-            "location": "1"
-        },
-        {
-            "pokemonName": "Bulbasaur",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/9/9c/Shuffle001.png/32px-Shuffle001.png",
-            "location": "2"
-        },
-        {
-            "pokemonName": "Squirtle",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/b/b6/Shuffle007.png/32px-Shuffle007.png",
-            "location": "3"
-        },
-        {
-            "pokemonName": "Charmander",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/0/00/Shuffle004.png/32px-Shuffle004.png",
-            "location": "4"
-        },
-        {
-            "pokemonName": "Eevee",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/5/55/Shuffle133.png/32px-Shuffle133.png",
-            "location": "5"
-        },
-        {
-            "pokemonName": "Pidgey",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/6/60/Shuffle016.png/32px-Shuffle016.png",
-            "location": "6"
-        },
-        {
-            "pokemonName": "Togepi",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/8/8c/Shuffle175.png/32px-Shuffle175.png",
-            "location": "7"
-        },
-        {
-            "pokemonName": "Pichu",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/3/33/Shuffle172.png/32px-Shuffle172.png",
-            "location": "8"
-        },
-        {
-            "pokemonName": "Audino",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/2/28/Shuffle531.png/32px-Shuffle531.png",
-            "location": "9"
-        },
-        {
-            "pokemonName": "MegaAudino",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/8/8b/Shuffle531M.png/32px-Shuffle531M.png",
-            "location": "10"
-        },
-        {
-            "pokemonName": "Bronzor",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/c/c7/Shuffle436.png/32px-Shuffle436.png",
-            "location": "91"
-        },
-        {
-            "pokemonName": "Emolga",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/c/c9/Shuffle587.png/32px-Shuffle587.png",
-            "location": "92"
-        },
-        {
-            "pokemonName": "Sudowoodo",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/f/fc/Shuffle185.png/32px-Shuffle185.png",
-            "location": "93"
-        },
-        {
-            "pokemonName": "Scyther",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/2/2b/Shuffle123.png/32px-Shuffle123.png",
-            "location": "94"
-        },
-        {
-            "pokemonName": "Nidorina",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/5/5b/Shuffle030.png/32px-Shuffle030.png",
-            "location": "95"
-        },
-        {
-            "pokemonName": "Nidorino",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/7/70/Shuffle033.png/32px-Shuffle033.png",
-            "location": "96"
-        },
-        {
-            "pokemonName": "Carbink",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/0/07/Shuffle703.png/32px-Shuffle703.png",
-            "location": "97"
-        },
-        {
-            "pokemonName": "Throh",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/7/7e/Shuffle538.png/32px-Shuffle538.png",
-            "location": "98"
-        },
-        {
-            "pokemonName": "Sawk",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/9/98/Shuffle539.png/32px-Shuffle539.png",
-            "location": "99"
-        },
-        {
-            "pokemonName": "Chimecho",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/2/2d/Shuffle358.png/32px-Shuffle358.png",
-            "location": "100"
-        },
-        {
-            "pokemonName": "Donphan",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/6/6a/Shuffle232.png/32px-Shuffle232.png",
-            "location": "101"
-        },
-        {
-            "pokemonName": "Fraxure",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/7/74/Shuffle611.png/32px-Shuffle611.png",
-            "location": "102"
-        },
-        {
-            "pokemonName": "Raichu",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/a/af/Shuffle026.png/32px-Shuffle026.png",
-            "location": "103"
-        },
-        {
-            "pokemonName": "Aerodactyl",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/e/e2/Shuffle142.png/32px-Shuffle142.png",
-            "location": "104"
-        },
-        {
-            "pokemonName": "MegaAmpharos",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/b/be/Shuffle181M.png/32px-Shuffle181M.png",
-            "location": "105"
-        },
-        {
-            "pokemonName": "Delibird",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/4/44/Shuffle225.png/32px-Shuffle225.png",
-            "location": "106"
-        },
-        {
-            "pokemonName": "Misdreavus",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/7/79/Shuffle200.png/32px-Shuffle200.png",
-            "location": "107"
-        },
-        {
-            "pokemonName": "Glalie",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/3/3b/Shuffle362.png/32px-Shuffle362.png",
-            "location": "108"
-        },
-        {
-            "pokemonName": "Dragonair",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/5/58/Shuffle148.png/32px-Shuffle148.png",
-            "location": "109"
-        },
-        {
-            "pokemonName": "Mienshao",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/f/f9/Shuffle620.png/32px-Shuffle620.png",
-            "location": "110"
-        },
-        {
-            "pokemonName": "Vanillish",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/c/ca/Shuffle583.png/32px-Shuffle583.png",
-            "location": "111"
-        },
-        {
-            "pokemonName": "Jolteon",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/8/88/Shuffle135.png/32px-Shuffle135.png",
-            "location": "112"
-        },
-        {
-            "pokemonName": "Cinccino",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/6/6b/Shuffle573.png/32px-Shuffle573.png",
-            "location": "113"
+            "pokemonName": "Gallade",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/a/a6/Shuffle475.png/32px-Shuffle475.png",
+            "location": "575"
         },
         {
             "pokemonName": "Glaceon",
             "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/9/9d/Shuffle471.png/32px-Shuffle471.png",
-            "location": "114"
+            "location": "576"
         },
         {
-            "pokemonName": "Blissey",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/9/9b/Shuffle242.png/32px-Shuffle242.png",
-            "location": "115"
+            "pokemonName": "Miltank",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/c/c1/Shuffle241.png/32px-Shuffle241.png",
+            "location": "577"
         },
         {
-            "pokemonName": "Aurorus",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/c/cc/Shuffle699.png/32px-Shuffle699.png",
-            "location": "116"
+            "pokemonName": "Beautifly",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/9/97/Shuffle267.png/32px-Shuffle267.png",
+            "location": "578"
         },
         {
-            "pokemonName": "Ninetales",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/e/ed/Shuffle038.png/32px-Shuffle038.png",
-            "location": "117"
+            "pokemonName": "Mightyena",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/d/d1/Shuffle262.png/32px-Shuffle262.png",
+            "location": "579"
         },
         {
-            "pokemonName": "Altaria",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/2/28/Shuffle334.png/32px-Shuffle334.png",
-            "location": "118"
-        },
-        {
-            "pokemonName": "Vanilluxe",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/d/dd/Shuffle584.png/32px-Shuffle584.png",
-            "location": "119"
-        },
-        {
-            "pokemonName": "MegaGlalie",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/4/44/Shuffle362M.png/32px-Shuffle362M.png",
-            "location": "120"
+            "pokemonName": "MegaGallade",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/4/4c/Shuffle475M.png/32px-Shuffle475M.png",
+            "location": "580"
         },
         {
             "pokemonName": "Budew",
@@ -826,556 +526,6 @@
             "location": "300"
         },
         {
-            "pokemonName": "Slowpoke",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/7/79/Shuffle079.png/32px-Shuffle079.png",
-            "location": "31"
-        },
-        {
-            "pokemonName": "Azurill",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/3/3e/Shuffle298.png/32px-Shuffle298.png",
-            "location": "32"
-        },
-        {
-            "pokemonName": "Riolu",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/0/06/Shuffle447.png/32px-Shuffle447.png",
-            "location": "33"
-        },
-        {
-            "pokemonName": "Swablu",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/a/a7/Shuffle333.png/32px-Shuffle333.png",
-            "location": "34"
-        },
-        {
-            "pokemonName": "Surskit",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/8/8a/Shuffle283.png/32px-Shuffle283.png",
-            "location": "35"
-        },
-        {
-            "pokemonName": "Taillow",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/9/95/Shuffle276.png/32px-Shuffle276.png",
-            "location": "36"
-        },
-        {
-            "pokemonName": "Meowth",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/5/59/Shuffle052.png/32px-Shuffle052.png",
-            "location": "37"
-        },
-        {
-            "pokemonName": "Croagunk",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/c/c7/Shuffle453.png/32px-Shuffle453.png",
-            "location": "38"
-        },
-        {
-            "pokemonName": "Corsola",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/8/8b/Shuffle222.png/32px-Shuffle222.png",
-            "location": "39"
-        },
-        {
-            "pokemonName": "Marill",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/e/e3/Shuffle183.png/32px-Shuffle183.png",
-            "location": "40"
-        },
-        {
-            "pokemonName": "Mudkip",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/3/37/Shuffle258.png/32px-Shuffle258.png",
-            "location": "41"
-        },
-        {
-            "pokemonName": "Vulpix",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/9/95/Shuffle037.png/32px-Shuffle037.png",
-            "location": "42"
-        },
-        {
-            "pokemonName": "Lapras",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/e/eb/Shuffle131.png/32px-Shuffle131.png",
-            "location": "43"
-        },
-        {
-            "pokemonName": "Pidgeotto",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/b/bc/Shuffle017.png/32px-Shuffle017.png",
-            "location": "44"
-        },
-        {
-            "pokemonName": "MegaSlowbro",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/0/0d/Shuffle080M.png/32px-Shuffle080M.png",
-            "location": "45"
-        },
-        {
-            "pokemonName": "Bonsly",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/b/ba/Shuffle438.png/32px-Shuffle438.png",
-            "location": "61"
-        },
-        {
-            "pokemonName": "Gastly",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/0/08/Shuffle092.png/32px-Shuffle092.png",
-            "location": "62"
-        },
-        {
-            "pokemonName": "Marshtomp",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/8/80/Shuffle259.png/32px-Shuffle259.png",
-            "location": "63"
-        },
-        {
-            "pokemonName": "Dratini",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/b/bb/Shuffle147.png/32px-Shuffle147.png",
-            "location": "64"
-        },
-        {
-            "pokemonName": "Amaura",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/5/5e/Shuffle698.png/32px-Shuffle698.png",
-            "location": "65"
-        },
-        {
-            "pokemonName": "Combusken",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/5/54/Shuffle256.png/32px-Shuffle256.png",
-            "location": "66"
-        },
-        {
-            "pokemonName": "Meowstic",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/d/de/Shuffle678.png/32px-Shuffle678.png",
-            "location": "67"
-        },
-        {
-            "pokemonName": "Togetic",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/9/9e/Shuffle176.png/32px-Shuffle176.png",
-            "location": "68"
-        },
-        {
-            "pokemonName": "Slowbro",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/3/36/Shuffle080.png/32px-Shuffle080.png",
-            "location": "69"
-        },
-        {
-            "pokemonName": "Umbreon",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/f/f3/Shuffle197.png/32px-Shuffle197.png",
-            "location": "70"
-        },
-        {
-            "pokemonName": "Espeon",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/a/aa/Shuffle196.png/32px-Shuffle196.png",
-            "location": "71"
-        },
-        {
-            "pokemonName": "Grovyle",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/7/75/Shuffle253.png/32px-Shuffle253.png",
-            "location": "72"
-        },
-        {
-            "pokemonName": "Swellow",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/e/e8/Shuffle277.png/32px-Shuffle277.png",
-            "location": "73"
-        },
-        {
-            "pokemonName": "Cubone",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/0/05/Shuffle104.png/32px-Shuffle104.png",
-            "location": "74"
-        },
-        {
-            "pokemonName": "MegaAltaria",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/7/7b/Shuffle334M.png/32px-Shuffle334M.png",
-            "location": "75"
-        },
-        {
-            "pokemonName": "Pansear",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/e/e9/Shuffle513.png/32px-Shuffle513.png",
-            "location": "301"
-        },
-        {
-            "pokemonName": "Paras",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/5/5e/Shuffle046.png/32px-Shuffle046.png",
-            "location": "302"
-        },
-        {
-            "pokemonName": "Phantump",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/f/f6/Shuffle708.png/32px-Shuffle708.png",
-            "location": "303"
-        },
-        {
-            "pokemonName": "Spoink",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/0/0d/Shuffle325.png/32px-Shuffle325.png",
-            "location": "304"
-        },
-        {
-            "pokemonName": "Koffing",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/3/3c/Shuffle109.png/32px-Shuffle109.png",
-            "location": "305"
-        },
-        {
-            "pokemonName": "Parasect",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/c/c5/Shuffle047.png/32px-Shuffle047.png",
-            "location": "306"
-        },
-        {
-            "pokemonName": "Murkrow",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/6/6c/Shuffle198.png/32px-Shuffle198.png",
-            "location": "307"
-        },
-        {
-            "pokemonName": "Trevenant",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/6/62/Shuffle709.png/32px-Shuffle709.png",
-            "location": "308"
-        },
-        {
-            "pokemonName": "Grumpig",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/d/dd/Shuffle326.png/32px-Shuffle326.png",
-            "location": "309"
-        },
-        {
-            "pokemonName": "Weezing",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/f/f3/Shuffle110.png/32px-Shuffle110.png",
-            "location": "310"
-        },
-        {
-            "pokemonName": "Spearow",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/d/d8/Shuffle021.png/32px-Shuffle021.png",
-            "location": "311"
-        },
-        {
-            "pokemonName": "Panpour",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/d/da/Shuffle515.png/32px-Shuffle515.png",
-            "location": "312"
-        },
-        {
-            "pokemonName": "Growlithe",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/4/41/Shuffle058.png/32px-Shuffle058.png",
-            "location": "313"
-        },
-        {
-            "pokemonName": "Spheal",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/3/31/Shuffle363.png/32px-Shuffle363.png",
-            "location": "314"
-        },
-        {
-            "pokemonName": "Pansage",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/a/a5/Shuffle511.png/32px-Shuffle511.png",
-            "location": "315"
-        },
-        {
-            "pokemonName": "Tyrunt",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/e/ea/Shuffle696.png/32px-Shuffle696.png",
-            "location": "316"
-        },
-        {
-            "pokemonName": "Sealeo",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/6/64/Shuffle364.png/32px-Shuffle364.png",
-            "location": "317"
-        },
-        {
-            "pokemonName": "Fearow",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/6/6b/Shuffle022.png/32px-Shuffle022.png",
-            "location": "318"
-        },
-        {
-            "pokemonName": "Mankey",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/2/2e/Shuffle056.png/32px-Shuffle056.png",
-            "location": "319"
-        },
-        {
-            "pokemonName": "Tyrantrum",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/c/cd/Shuffle697.png/32px-Shuffle697.png",
-            "location": "320"
-        },
-        {
-            "pokemonName": "Magikarp",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/b/bf/Shuffle129.png/32px-Shuffle129.png",
-            "location": "321"
-        },
-        {
-            "pokemonName": "Simisear",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/a/ae/Shuffle514.png/32px-Shuffle514.png",
-            "location": "322"
-        },
-        {
-            "pokemonName": "Exeggcute",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/0/0b/Shuffle102.png/32px-Shuffle102.png",
-            "location": "323"
-        },
-        {
-            "pokemonName": "Golett",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/3/31/Shuffle622.png/32px-Shuffle622.png",
-            "location": "324"
-        },
-        {
-            "pokemonName": "Magnemite",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/c/c8/Shuffle081.png/32px-Shuffle081.png",
-            "location": "325"
-        },
-        {
-            "pokemonName": "Finneon",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/4/46/Shuffle456.png/32px-Shuffle456.png",
-            "location": "326"
-        },
-        {
-            "pokemonName": "Sandile",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/e/ec/Shuffle551.png/32px-Shuffle551.png",
-            "location": "327"
-        },
-        {
-            "pokemonName": "Magneton",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/4/47/Shuffle082.png/32px-Shuffle082.png",
-            "location": "328"
-        },
-        {
-            "pokemonName": "Teddiursa",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/6/62/Shuffle216.png/32px-Shuffle216.png",
-            "location": "329"
-        },
-        {
-            "pokemonName": "Magnezone",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/9/9f/Shuffle462.png/32px-Shuffle462.png",
-            "location": "330"
-        },
-        {
-            "pokemonName": "Simipour",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/8/8d/Shuffle516.png/32px-Shuffle516.png",
-            "location": "331"
-        },
-        {
-            "pokemonName": "Kabuto",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/8/8f/Shuffle140.png/32px-Shuffle140.png",
-            "location": "332"
-        },
-        {
-            "pokemonName": "Smoochum",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/d/d0/Shuffle238.png/32px-Shuffle238.png",
-            "location": "333"
-        },
-        {
-            "pokemonName": "Simisage",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/3/3b/Shuffle512.png/32px-Shuffle512.png",
-            "location": "334"
-        },
-        {
-            "pokemonName": "Lumineon",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/7/7f/Shuffle457.png/32px-Shuffle457.png",
-            "location": "335"
-        },
-        {
-            "pokemonName": "Omanyte",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/6/6c/Shuffle138.png/32px-Shuffle138.png",
-            "location": "336"
-        },
-        {
-            "pokemonName": "Weedle",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/0/04/Shuffle013.png/32px-Shuffle013.png",
-            "location": "337"
-        },
-        {
-            "pokemonName": "Sentret",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/a/a8/Shuffle161.png/32px-Shuffle161.png",
-            "location": "338"
-        },
-        {
-            "pokemonName": "Furret",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/6/66/Shuffle162.png/32px-Shuffle162.png",
-            "location": "339"
-        },
-        {
-            "pokemonName": "Golurk",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/7/75/Shuffle623.png/32px-Shuffle623.png",
-            "location": "340"
-        },
-        {
-            "pokemonName": "Kakuna",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/5/5c/Shuffle014.png/32px-Shuffle014.png",
-            "location": "341"
-        },
-        {
-            "pokemonName": "Ursaring",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/3/3f/Shuffle217.png/32px-Shuffle217.png",
-            "location": "342"
-        },
-        {
-            "pokemonName": "Skorupi",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/1/18/Shuffle451.png/32px-Shuffle451.png",
-            "location": "343"
-        },
-        {
-            "pokemonName": "Primeape",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/8/88/Shuffle057.png/32px-Shuffle057.png",
-            "location": "344"
-        },
-        {
-            "pokemonName": "Jynx",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/e/ed/Shuffle124.png/32px-Shuffle124.png",
-            "location": "345"
-        },
-        {
-            "pokemonName": "Krokorok",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/0/0e/Shuffle552.png/32px-Shuffle552.png",
-            "location": "346"
-        },
-        {
-            "pokemonName": "Drapion",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/6/6d/Shuffle452.png/32px-Shuffle452.png",
-            "location": "347"
-        },
-        {
-            "pokemonName": "Exeggutor",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/d/db/Shuffle103.png/32px-Shuffle103.png",
-            "location": "348"
-        },
-        {
-            "pokemonName": "Krookodile",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/b/bf/Shuffle553.png/32px-Shuffle553.png",
-            "location": "349"
-        },
-        {
-            "pokemonName": "MegaMewtwo",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/e/eb/Shuffle150MX.png/32px-Shuffle150MX.png",
-            "location": "350"
-        },
-        {
-            "pokemonName": "Munchlax",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/0/06/Shuffle446.png/32px-Shuffle446.png",
-            "location": "151"
-        },
-        {
-            "pokemonName": "Chespin",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/b/bc/Shuffle650.png/32px-Shuffle650.png",
-            "location": "152"
-        },
-        {
-            "pokemonName": "Onix",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/e/e9/Shuffle095.png/32px-Shuffle095.png",
-            "location": "153"
-        },
-        {
-            "pokemonName": "Froakie",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/c/ca/Shuffle656.png/32px-Shuffle656.png",
-            "location": "154"
-        },
-        {
-            "pokemonName": "Smeargle",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/d/d8/Shuffle235.png/32px-Shuffle235.png",
-            "location": "155"
-        },
-        {
-            "pokemonName": "Fennekin",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/6/68/Shuffle653.png/32px-Shuffle653.png",
-            "location": "156"
-        },
-        {
-            "pokemonName": "Larvesta",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/e/e8/Shuffle636.png/32px-Shuffle636.png",
-            "location": "157"
-        },
-        {
-            "pokemonName": "Feebas",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/1/1e/Shuffle349.png/32px-Shuffle349.png",
-            "location": "158"
-        },
-        {
-            "pokemonName": "Poochyena",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/f/f3/Shuffle261.png/32px-Shuffle261.png",
-            "location": "159"
-        },
-        {
-            "pokemonName": "Trubbish",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/0/00/Shuffle568.png/32px-Shuffle568.png",
-            "location": "160"
-        },
-        {
-            "pokemonName": "Hippopotas",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/a/ac/Shuffle449.png/32px-Shuffle449.png",
-            "location": "161"
-        },
-        {
-            "pokemonName": "Bagon",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/7/7a/Shuffle371.png/32px-Shuffle371.png",
-            "location": "162"
-        },
-        {
-            "pokemonName": "Pancham",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/1/1d/Shuffle674.png/32px-Shuffle674.png",
-            "location": "163"
-        },
-        {
-            "pokemonName": "Yamask",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/a/a8/Shuffle562.png/32px-Shuffle562.png",
-            "location": "164"
-        },
-        {
-            "pokemonName": "Milotic",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/9/93/Shuffle350.png/32px-Shuffle350.png",
-            "location": "165"
-        },
-        {
-            "pokemonName": "Solosis",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/3/31/Shuffle577.png/32px-Shuffle577.png",
-            "location": "166"
-        },
-        {
-            "pokemonName": "Honedge",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/3/3c/Shuffle679.png/32px-Shuffle679.png",
-            "location": "167"
-        },
-        {
-            "pokemonName": "Drilbur",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/f/f4/Shuffle529.png/32px-Shuffle529.png",
-            "location": "168"
-        },
-        {
-            "pokemonName": "Larvitar",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/1/1a/Shuffle246.png/32px-Shuffle246.png",
-            "location": "169"
-        },
-        {
-            "pokemonName": "Shuppet",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/f/fe/Shuffle353.png/32px-Shuffle353.png",
-            "location": "170"
-        },
-        {
-            "pokemonName": "Rufflet",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/f/fe/Shuffle627.png/32px-Shuffle627.png",
-            "location": "171"
-        },
-        {
-            "pokemonName": "Bergmite",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/0/02/Shuffle712.png/32px-Shuffle712.png",
-            "location": "172"
-        },
-        {
-            "pokemonName": "Mightyena",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/d/d1/Shuffle262.png/32px-Shuffle262.png",
-            "location": "173"
-        },
-        {
-            "pokemonName": "Snubbull",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/7/77/Shuffle209.png/32px-Shuffle209.png",
-            "location": "174"
-        },
-        {
-            "pokemonName": "Lickitung",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/d/d4/Shuffle108.png/32px-Shuffle108.png",
-            "location": "175"
-        },
-        {
-            "pokemonName": "Timburr",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/e/e7/Shuffle532.png/32px-Shuffle532.png",
-            "location": "176"
-        },
-        {
-            "pokemonName": "Banette",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/a/a7/Shuffle354.png/32px-Shuffle354.png",
-            "location": "177"
-        },
-        {
-            "pokemonName": "Tangela",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/0/04/Shuffle114.png/32px-Shuffle114.png",
-            "location": "178"
-        },
-        {
-            "pokemonName": "Pupitar",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/1/12/Shuffle247.png/32px-Shuffle247.png",
-            "location": "179"
-        },
-        {
-            "pokemonName": "MegaAerodactyl",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/3/31/Shuffle142M.png/32px-Shuffle142M.png",
-            "location": "180"
-        },
-        {
             "pokemonName": "Tynamo",
             "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/a/a4/Shuffle602.png/32px-Shuffle602.png",
             "location": "401"
@@ -1624,6 +774,381 @@
             "pokemonName": "Hoopa",
             "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/a/a3/Shuffle720U.png/32px-Shuffle720U.png",
             "location": "450"
+        },
+        {
+            "pokemonName": "Munchlax",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/0/06/Shuffle446.png/32px-Shuffle446.png",
+            "location": "151"
+        },
+        {
+            "pokemonName": "Chespin",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/b/bc/Shuffle650.png/32px-Shuffle650.png",
+            "location": "152"
+        },
+        {
+            "pokemonName": "Onix",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/e/e9/Shuffle095.png/32px-Shuffle095.png",
+            "location": "153"
+        },
+        {
+            "pokemonName": "Froakie",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/c/ca/Shuffle656.png/32px-Shuffle656.png",
+            "location": "154"
+        },
+        {
+            "pokemonName": "Smeargle",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/d/d8/Shuffle235.png/32px-Shuffle235.png",
+            "location": "155"
+        },
+        {
+            "pokemonName": "Fennekin",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/6/68/Shuffle653.png/32px-Shuffle653.png",
+            "location": "156"
+        },
+        {
+            "pokemonName": "Larvesta",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/e/e8/Shuffle636.png/32px-Shuffle636.png",
+            "location": "157"
+        },
+        {
+            "pokemonName": "Feebas",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/1/1e/Shuffle349.png/32px-Shuffle349.png",
+            "location": "158"
+        },
+        {
+            "pokemonName": "Poochyena",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/f/f3/Shuffle261.png/32px-Shuffle261.png",
+            "location": "159"
+        },
+        {
+            "pokemonName": "Trubbish",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/0/00/Shuffle568.png/32px-Shuffle568.png",
+            "location": "160"
+        },
+        {
+            "pokemonName": "Hippopotas",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/a/ac/Shuffle449.png/32px-Shuffle449.png",
+            "location": "161"
+        },
+        {
+            "pokemonName": "Bagon",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/7/7a/Shuffle371.png/32px-Shuffle371.png",
+            "location": "162"
+        },
+        {
+            "pokemonName": "Pancham",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/1/1d/Shuffle674.png/32px-Shuffle674.png",
+            "location": "163"
+        },
+        {
+            "pokemonName": "Yamask",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/a/a8/Shuffle562.png/32px-Shuffle562.png",
+            "location": "164"
+        },
+        {
+            "pokemonName": "Milotic",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/9/93/Shuffle350.png/32px-Shuffle350.png",
+            "location": "165"
+        },
+        {
+            "pokemonName": "Solosis",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/3/31/Shuffle577.png/32px-Shuffle577.png",
+            "location": "166"
+        },
+        {
+            "pokemonName": "Honedge",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/3/3c/Shuffle679.png/32px-Shuffle679.png",
+            "location": "167"
+        },
+        {
+            "pokemonName": "Drilbur",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/f/f4/Shuffle529.png/32px-Shuffle529.png",
+            "location": "168"
+        },
+        {
+            "pokemonName": "Larvitar",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/1/1a/Shuffle246.png/32px-Shuffle246.png",
+            "location": "169"
+        },
+        {
+            "pokemonName": "Shuppet",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/f/fe/Shuffle353.png/32px-Shuffle353.png",
+            "location": "170"
+        },
+        {
+            "pokemonName": "Rufflet",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/f/fe/Shuffle627.png/32px-Shuffle627.png",
+            "location": "171"
+        },
+        {
+            "pokemonName": "Bergmite",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/0/02/Shuffle712.png/32px-Shuffle712.png",
+            "location": "172"
+        },
+        {
+            "pokemonName": "Mightyena",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/d/d1/Shuffle262.png/32px-Shuffle262.png",
+            "location": "173"
+        },
+        {
+            "pokemonName": "Snubbull",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/7/77/Shuffle209.png/32px-Shuffle209.png",
+            "location": "174"
+        },
+        {
+            "pokemonName": "Lickitung",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/d/d4/Shuffle108.png/32px-Shuffle108.png",
+            "location": "175"
+        },
+        {
+            "pokemonName": "Timburr",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/e/e7/Shuffle532.png/32px-Shuffle532.png",
+            "location": "176"
+        },
+        {
+            "pokemonName": "Banette",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/a/a7/Shuffle354.png/32px-Shuffle354.png",
+            "location": "177"
+        },
+        {
+            "pokemonName": "Tangela",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/0/04/Shuffle114.png/32px-Shuffle114.png",
+            "location": "178"
+        },
+        {
+            "pokemonName": "Pupitar",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/1/12/Shuffle247.png/32px-Shuffle247.png",
+            "location": "179"
+        },
+        {
+            "pokemonName": "MegaAerodactyl",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/3/31/Shuffle142M.png/32px-Shuffle142M.png",
+            "location": "180"
+        },
+        {
+            "pokemonName": "Bronzor",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/c/c7/Shuffle436.png/32px-Shuffle436.png",
+            "location": "91"
+        },
+        {
+            "pokemonName": "Emolga",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/c/c9/Shuffle587.png/32px-Shuffle587.png",
+            "location": "92"
+        },
+        {
+            "pokemonName": "Sudowoodo",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/f/fc/Shuffle185.png/32px-Shuffle185.png",
+            "location": "93"
+        },
+        {
+            "pokemonName": "Scyther",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/2/2b/Shuffle123.png/32px-Shuffle123.png",
+            "location": "94"
+        },
+        {
+            "pokemonName": "Nidorina",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/5/5b/Shuffle030.png/32px-Shuffle030.png",
+            "location": "95"
+        },
+        {
+            "pokemonName": "Nidorino",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/7/70/Shuffle033.png/32px-Shuffle033.png",
+            "location": "96"
+        },
+        {
+            "pokemonName": "Carbink",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/0/07/Shuffle703.png/32px-Shuffle703.png",
+            "location": "97"
+        },
+        {
+            "pokemonName": "Throh",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/7/7e/Shuffle538.png/32px-Shuffle538.png",
+            "location": "98"
+        },
+        {
+            "pokemonName": "Sawk",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/9/98/Shuffle539.png/32px-Shuffle539.png",
+            "location": "99"
+        },
+        {
+            "pokemonName": "Chimecho",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/2/2d/Shuffle358.png/32px-Shuffle358.png",
+            "location": "100"
+        },
+        {
+            "pokemonName": "Donphan",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/6/6a/Shuffle232.png/32px-Shuffle232.png",
+            "location": "101"
+        },
+        {
+            "pokemonName": "Fraxure",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/7/74/Shuffle611.png/32px-Shuffle611.png",
+            "location": "102"
+        },
+        {
+            "pokemonName": "Raichu",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/a/af/Shuffle026.png/32px-Shuffle026.png",
+            "location": "103"
+        },
+        {
+            "pokemonName": "Aerodactyl",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/e/e2/Shuffle142.png/32px-Shuffle142.png",
+            "location": "104"
+        },
+        {
+            "pokemonName": "MegaAmpharos",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/b/be/Shuffle181M.png/32px-Shuffle181M.png",
+            "location": "105"
+        },
+        {
+            "pokemonName": "Sneasel",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/8/80/Shuffle215.png/32px-Shuffle215.png",
+            "location": "181"
+        },
+        {
+            "pokemonName": "Duosion",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/f/fb/Shuffle578.png/32px-Shuffle578.png",
+            "location": "182"
+        },
+        {
+            "pokemonName": "Snorlax",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/a/a8/Shuffle143.png/32px-Shuffle143.png",
+            "location": "183"
+        },
+        {
+            "pokemonName": "Granbull",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/3/3a/Shuffle210.png/32px-Shuffle210.png",
+            "location": "184"
+        },
+        {
+            "pokemonName": "Frogadier",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/3/36/Shuffle657.png/32px-Shuffle657.png",
+            "location": "185"
+        },
+        {
+            "pokemonName": "Gurdurr",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/4/42/Shuffle533.png/32px-Shuffle533.png",
+            "location": "186"
+        },
+        {
+            "pokemonName": "Quilladin",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/d/df/Shuffle651.png/32px-Shuffle651.png",
+            "location": "187"
+        },
+        {
+            "pokemonName": "Shelgon",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/6/65/Shuffle372.png/32px-Shuffle372.png",
+            "location": "188"
+        },
+        {
+            "pokemonName": "Braixen",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/7/76/Shuffle654.png/32px-Shuffle654.png",
+            "location": "189"
+        },
+        {
+            "pokemonName": "Steelix",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/8/81/Shuffle208.png/32px-Shuffle208.png",
+            "location": "190"
+        },
+        {
+            "pokemonName": "Blitzle",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/f/fd/Shuffle522.png/32px-Shuffle522.png",
+            "location": "191"
+        },
+        {
+            "pokemonName": "Lickilicky",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/f/fc/Shuffle463.png/32px-Shuffle463.png",
+            "location": "192"
+        },
+        {
+            "pokemonName": "Pangoro",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/5/55/Shuffle675.png/32px-Shuffle675.png",
+            "location": "193"
+        },
+        {
+            "pokemonName": "Garbodor",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/2/27/Shuffle569.png/32px-Shuffle569.png",
+            "location": "194"
+        },
+        {
+            "pokemonName": "Doublade",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/f/f4/Shuffle680.png/32px-Shuffle680.png",
+            "location": "195"
+        },
+        {
+            "pokemonName": "Cofagrigus",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/d/d6/Shuffle563.png/32px-Shuffle563.png",
+            "location": "196"
+        },
+        {
+            "pokemonName": "Reuniclus",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/d/d4/Shuffle579.png/32px-Shuffle579.png",
+            "location": "197"
+        },
+        {
+            "pokemonName": "Conkeldurr",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/4/46/Shuffle534.png/32px-Shuffle534.png",
+            "location": "198"
+        },
+        {
+            "pokemonName": "Tangrowth",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/8/8c/Shuffle465.png/32px-Shuffle465.png",
+            "location": "199"
+        },
+        {
+            "pokemonName": "Tyranitar",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/7/7b/Shuffle248.png/32px-Shuffle248.png",
+            "location": "200"
+        },
+        {
+            "pokemonName": "Hippowdon",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/b/b7/Shuffle450.png/32px-Shuffle450.png",
+            "location": "201"
+        },
+        {
+            "pokemonName": "Weavile",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/1/10/Shuffle461.png/32px-Shuffle461.png",
+            "location": "202"
+        },
+        {
+            "pokemonName": "Avalugg",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/6/64/Shuffle713.png/32px-Shuffle713.png",
+            "location": "203"
+        },
+        {
+            "pokemonName": "Braviary",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/7/7a/Shuffle628.png/32px-Shuffle628.png",
+            "location": "204"
+        },
+        {
+            "pokemonName": "Excadrill",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/c/cb/Shuffle530.png/32px-Shuffle530.png",
+            "location": "205"
+        },
+        {
+            "pokemonName": "Volcarona",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/f/f9/Shuffle637.png/32px-Shuffle637.png",
+            "location": "206"
+        },
+        {
+            "pokemonName": "Aegislash",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/e/e3/Shuffle681.png/32px-Shuffle681.png",
+            "location": "207"
+        },
+        {
+            "pokemonName": "Zebstrika",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/8/8f/Shuffle523.png/32px-Shuffle523.png",
+            "location": "208"
+        },
+        {
+            "pokemonName": "Salamence",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/f/f0/Shuffle373.png/32px-Shuffle373.png",
+            "location": "209"
+        },
+        {
+            "pokemonName": "MegaHeracross",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/f/f3/Shuffle214M.png/32px-Shuffle214M.png",
+            "location": "210"
         },
         {
             "pokemonName": "Lotad",
@@ -1876,156 +1401,6 @@
             "location": "400"
         },
         {
-            "pokemonName": "Sneasel",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/8/80/Shuffle215.png/32px-Shuffle215.png",
-            "location": "181"
-        },
-        {
-            "pokemonName": "Duosion",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/f/fb/Shuffle578.png/32px-Shuffle578.png",
-            "location": "182"
-        },
-        {
-            "pokemonName": "Snorlax",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/a/a8/Shuffle143.png/32px-Shuffle143.png",
-            "location": "183"
-        },
-        {
-            "pokemonName": "Granbull",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/3/3a/Shuffle210.png/32px-Shuffle210.png",
-            "location": "184"
-        },
-        {
-            "pokemonName": "Frogadier",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/3/36/Shuffle657.png/32px-Shuffle657.png",
-            "location": "185"
-        },
-        {
-            "pokemonName": "Gurdurr",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/4/42/Shuffle533.png/32px-Shuffle533.png",
-            "location": "186"
-        },
-        {
-            "pokemonName": "Quilladin",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/d/df/Shuffle651.png/32px-Shuffle651.png",
-            "location": "187"
-        },
-        {
-            "pokemonName": "Shelgon",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/6/65/Shuffle372.png/32px-Shuffle372.png",
-            "location": "188"
-        },
-        {
-            "pokemonName": "Braixen",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/7/76/Shuffle654.png/32px-Shuffle654.png",
-            "location": "189"
-        },
-        {
-            "pokemonName": "Steelix",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/8/81/Shuffle208.png/32px-Shuffle208.png",
-            "location": "190"
-        },
-        {
-            "pokemonName": "Blitzle",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/f/fd/Shuffle522.png/32px-Shuffle522.png",
-            "location": "191"
-        },
-        {
-            "pokemonName": "Lickilicky",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/f/fc/Shuffle463.png/32px-Shuffle463.png",
-            "location": "192"
-        },
-        {
-            "pokemonName": "Pangoro",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/5/55/Shuffle675.png/32px-Shuffle675.png",
-            "location": "193"
-        },
-        {
-            "pokemonName": "Garbodor",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/2/27/Shuffle569.png/32px-Shuffle569.png",
-            "location": "194"
-        },
-        {
-            "pokemonName": "Doublade",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/f/f4/Shuffle680.png/32px-Shuffle680.png",
-            "location": "195"
-        },
-        {
-            "pokemonName": "Cofagrigus",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/d/d6/Shuffle563.png/32px-Shuffle563.png",
-            "location": "196"
-        },
-        {
-            "pokemonName": "Reuniclus",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/d/d4/Shuffle579.png/32px-Shuffle579.png",
-            "location": "197"
-        },
-        {
-            "pokemonName": "Conkeldurr",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/4/46/Shuffle534.png/32px-Shuffle534.png",
-            "location": "198"
-        },
-        {
-            "pokemonName": "Tangrowth",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/8/8c/Shuffle465.png/32px-Shuffle465.png",
-            "location": "199"
-        },
-        {
-            "pokemonName": "Tyranitar",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/7/7b/Shuffle248.png/32px-Shuffle248.png",
-            "location": "200"
-        },
-        {
-            "pokemonName": "Hippowdon",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/b/b7/Shuffle450.png/32px-Shuffle450.png",
-            "location": "201"
-        },
-        {
-            "pokemonName": "Weavile",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/1/10/Shuffle461.png/32px-Shuffle461.png",
-            "location": "202"
-        },
-        {
-            "pokemonName": "Avalugg",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/6/64/Shuffle713.png/32px-Shuffle713.png",
-            "location": "203"
-        },
-        {
-            "pokemonName": "Braviary",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/7/7a/Shuffle628.png/32px-Shuffle628.png",
-            "location": "204"
-        },
-        {
-            "pokemonName": "Excadrill",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/c/cb/Shuffle530.png/32px-Shuffle530.png",
-            "location": "205"
-        },
-        {
-            "pokemonName": "Volcarona",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/f/f9/Shuffle637.png/32px-Shuffle637.png",
-            "location": "206"
-        },
-        {
-            "pokemonName": "Aegislash",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/e/e3/Shuffle681.png/32px-Shuffle681.png",
-            "location": "207"
-        },
-        {
-            "pokemonName": "Zebstrika",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/8/8f/Shuffle523.png/32px-Shuffle523.png",
-            "location": "208"
-        },
-        {
-            "pokemonName": "Salamence",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/f/f0/Shuffle373.png/32px-Shuffle373.png",
-            "location": "209"
-        },
-        {
-            "pokemonName": "MegaHeracross",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/f/f3/Shuffle214M.png/32px-Shuffle214M.png",
-            "location": "210"
-        },
-        {
             "pokemonName": "Bellsprout",
             "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/b/bf/Shuffle069.png/32px-Shuffle069.png",
             "location": "501"
@@ -2276,6 +1651,381 @@
             "location": "550"
         },
         {
+            "pokemonName": "Minccino",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/2/21/Shuffle572.png/32px-Shuffle572.png",
+            "location": "46"
+        },
+        {
+            "pokemonName": "Vanillite",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/8/8c/Shuffle582.png/32px-Shuffle582.png",
+            "location": "47"
+        },
+        {
+            "pokemonName": "Chatot",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/e/ec/Shuffle441.png/32px-Shuffle441.png",
+            "location": "48"
+        },
+        {
+            "pokemonName": "Axew",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/a/a8/Shuffle610.png/32px-Shuffle610.png",
+            "location": "49"
+        },
+        {
+            "pokemonName": "Zorua",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/f/f1/Shuffle570.png/32px-Shuffle570.png",
+            "location": "50"
+        },
+        {
+            "pokemonName": "Mawile",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/0/09/Shuffle303.png/32px-Shuffle303.png",
+            "location": "51"
+        },
+        {
+            "pokemonName": "Lopunny",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/0/06/Shuffle428.png/32px-Shuffle428.png",
+            "location": "52"
+        },
+        {
+            "pokemonName": "Flaaffy",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/2/2c/Shuffle180.png/32px-Shuffle180.png",
+            "location": "53"
+        },
+        {
+            "pokemonName": "Vaporeon",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/5/5d/Shuffle134.png/32px-Shuffle134.png",
+            "location": "54"
+        },
+        {
+            "pokemonName": "Charmeleon",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/4/45/Shuffle005.png/32px-Shuffle005.png",
+            "location": "55"
+        },
+        {
+            "pokemonName": "Buizel",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/f/f0/Shuffle418.png/32px-Shuffle418.png",
+            "location": "56"
+        },
+        {
+            "pokemonName": "Wartortle",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/9/9a/Shuffle008.png/32px-Shuffle008.png",
+            "location": "57"
+        },
+        {
+            "pokemonName": "Hawlucha",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/4/4c/Shuffle701.png/32px-Shuffle701.png",
+            "location": "58"
+        },
+        {
+            "pokemonName": "Ivysaur",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/d/db/Shuffle002.png/32px-Shuffle002.png",
+            "location": "59"
+        },
+        {
+            "pokemonName": "MegaLopunny",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/d/da/Shuffle428M.png/32px-Shuffle428M.png",
+            "location": "60"
+        },
+        {
+            "pokemonName": "Espurr",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/4/44/Shuffle677.png/32px-Shuffle677.png",
+            "location": "1"
+        },
+        {
+            "pokemonName": "Bulbasaur",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/9/9c/Shuffle001.png/32px-Shuffle001.png",
+            "location": "2"
+        },
+        {
+            "pokemonName": "Squirtle",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/b/b6/Shuffle007.png/32px-Shuffle007.png",
+            "location": "3"
+        },
+        {
+            "pokemonName": "Charmander",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/0/00/Shuffle004.png/32px-Shuffle004.png",
+            "location": "4"
+        },
+        {
+            "pokemonName": "Eevee",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/5/55/Shuffle133.png/32px-Shuffle133.png",
+            "location": "5"
+        },
+        {
+            "pokemonName": "Pidgey",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/6/60/Shuffle016.png/32px-Shuffle016.png",
+            "location": "6"
+        },
+        {
+            "pokemonName": "Togepi",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/8/8c/Shuffle175.png/32px-Shuffle175.png",
+            "location": "7"
+        },
+        {
+            "pokemonName": "Pichu",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/3/33/Shuffle172.png/32px-Shuffle172.png",
+            "location": "8"
+        },
+        {
+            "pokemonName": "Audino",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/2/28/Shuffle531.png/32px-Shuffle531.png",
+            "location": "9"
+        },
+        {
+            "pokemonName": "MegaAudino",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/8/8b/Shuffle531M.png/32px-Shuffle531M.png",
+            "location": "10"
+        },
+        {
+            "pokemonName": "Happiny",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/d/d3/Shuffle440.png/32px-Shuffle440.png",
+            "location": "11"
+        },
+        {
+            "pokemonName": "Mareep",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/d/db/Shuffle179.png/32px-Shuffle179.png",
+            "location": "12"
+        },
+        {
+            "pokemonName": "Purrloin",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/6/6b/Shuffle509.png/32px-Shuffle509.png",
+            "location": "13"
+        },
+        {
+            "pokemonName": "Torchic",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/6/65/Shuffle255.png/32px-Shuffle255.png",
+            "location": "14"
+        },
+        {
+            "pokemonName": "Phanpy",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/8/8d/Shuffle231.png/32px-Shuffle231.png",
+            "location": "15"
+        },
+        {
+            "pokemonName": "Nidoran♀",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/9/97/Shuffle029.png/32px-Shuffle029.png",
+            "location": "16"
+        },
+        {
+            "pokemonName": "Nidoran♂",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/d/d8/Shuffle032.png/32px-Shuffle032.png",
+            "location": "17"
+        },
+        {
+            "pokemonName": "Klefki",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/a/ac/Shuffle707.png/32px-Shuffle707.png",
+            "location": "18"
+        },
+        {
+            "pokemonName": "Kangaskhan",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/d/d9/Shuffle115.png/32px-Shuffle115.png",
+            "location": "19"
+        },
+        {
+            "pokemonName": "MegaKangaskhan",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/2/29/Shuffle115M.png/32px-Shuffle115M.png",
+            "location": "20"
+        },
+        {
+            "pokemonName": "Azumarill",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/e/e3/Shuffle184.png/32px-Shuffle184.png",
+            "location": "76"
+        },
+        {
+            "pokemonName": "Mienfoo",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/9/9c/Shuffle619.png/32px-Shuffle619.png",
+            "location": "77"
+        },
+        {
+            "pokemonName": "Snorunt",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/f/fd/Shuffle361.png/32px-Shuffle361.png",
+            "location": "78"
+        },
+        {
+            "pokemonName": "Sylveon",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/7/7e/Shuffle700.png/32px-Shuffle700.png",
+            "location": "79"
+        },
+        {
+            "pokemonName": "Miltank",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/c/c1/Shuffle241.png/32px-Shuffle241.png",
+            "location": "80"
+        },
+        {
+            "pokemonName": "Meowstic",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/a/ac/Shuffle678F.png/32px-Shuffle678F.png",
+            "location": "81"
+        },
+        {
+            "pokemonName": "Masquerain",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/d/d4/Shuffle284.png/32px-Shuffle284.png",
+            "location": "82"
+        },
+        {
+            "pokemonName": "Cottonee",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/3/3e/Shuffle546.png/32px-Shuffle546.png",
+            "location": "83"
+        },
+        {
+            "pokemonName": "Petilil",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/e/eb/Shuffle548.png/32px-Shuffle548.png",
+            "location": "84"
+        },
+        {
+            "pokemonName": "Dedenne",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/8/86/Shuffle702.png/32px-Shuffle702.png",
+            "location": "85"
+        },
+        {
+            "pokemonName": "Slurpuff",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/7/78/Shuffle685.png/32px-Shuffle685.png",
+            "location": "86"
+        },
+        {
+            "pokemonName": "Liepard",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/a/a5/Shuffle510.png/32px-Shuffle510.png",
+            "location": "87"
+        },
+        {
+            "pokemonName": "Chansey",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/8/8c/Shuffle113.png/32px-Shuffle113.png",
+            "location": "88"
+        },
+        {
+            "pokemonName": "Gulpin",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/8/87/Shuffle316.png/32px-Shuffle316.png",
+            "location": "89"
+        },
+        {
+            "pokemonName": "MegaMawile",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/5/57/Shuffle303M.png/32px-Shuffle303M.png",
+            "location": "90"
+        },
+        {
+            "pokemonName": "Haunter",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/d/d3/Shuffle093.png/32px-Shuffle093.png",
+            "location": "121"
+        },
+        {
+            "pokemonName": "Lampent",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/e/eb/Shuffle608.png/32px-Shuffle608.png",
+            "location": "122"
+        },
+        {
+            "pokemonName": "Flareon",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/e/e0/Shuffle136.png/32px-Shuffle136.png",
+            "location": "123"
+        },
+        {
+            "pokemonName": "Swalot",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/a/ae/Shuffle317.png/32px-Shuffle317.png",
+            "location": "124"
+        },
+        {
+            "pokemonName": "Gengar",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/0/0c/Shuffle094.png/32px-Shuffle094.png",
+            "location": "125"
+        },
+        {
+            "pokemonName": "Persian",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/c/c2/Shuffle053.png/32px-Shuffle053.png",
+            "location": "126"
+        },
+        {
+            "pokemonName": "Lilligant",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/3/37/Shuffle549.png/32px-Shuffle549.png",
+            "location": "127"
+        },
+        {
+            "pokemonName": "Froslass",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/5/5d/Shuffle478.png/32px-Shuffle478.png",
+            "location": "128"
+        },
+        {
+            "pokemonName": "Zoroark",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/f/f9/Shuffle571.png/32px-Shuffle571.png",
+            "location": "129"
+        },
+        {
+            "pokemonName": "Ampharos",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/8/8f/Shuffle181.png/32px-Shuffle181.png",
+            "location": "130"
+        },
+        {
+            "pokemonName": "Mismagius",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/3/33/Shuffle429.png/32px-Shuffle429.png",
+            "location": "131"
+        },
+        {
+            "pokemonName": "Slowking",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/5/57/Shuffle199.png/32px-Shuffle199.png",
+            "location": "132"
+        },
+        {
+            "pokemonName": "Bronzong",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/2/20/Shuffle437.png/32px-Shuffle437.png",
+            "location": "133"
+        },
+        {
+            "pokemonName": "Chandelure",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/8/8d/Shuffle609.png/32px-Shuffle609.png",
+            "location": "134"
+        },
+        {
+            "pokemonName": "MegaGengar",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/8/81/Shuffle094M.png/32px-Shuffle094M.png",
+            "location": "135"
+        },
+        {
+            "pokemonName": "Buneary",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/0/0d/Shuffle427.png/32px-Shuffle427.png",
+            "location": "21"
+        },
+        {
+            "pokemonName": "Treecko",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/4/4e/Shuffle252.png/32px-Shuffle252.png",
+            "location": "22"
+        },
+        {
+            "pokemonName": "Pikachu",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/b/b3/Shuffle025.png/32px-Shuffle025.png",
+            "location": "23"
+        },
+        {
+            "pokemonName": "Sableye",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/7/7d/Shuffle302.png/32px-Shuffle302.png",
+            "location": "24"
+        },
+        {
+            "pokemonName": "Litwick",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/7/7f/Shuffle607.png/32px-Shuffle607.png",
+            "location": "25"
+        },
+        {
+            "pokemonName": "Chingling",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/5/57/Shuffle433.png/32px-Shuffle433.png",
+            "location": "26"
+        },
+        {
+            "pokemonName": "Swirlix",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/6/6e/Shuffle684.png/32px-Shuffle684.png",
+            "location": "27"
+        },
+        {
+            "pokemonName": "Volbeat",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/7/7b/Shuffle313.png/32px-Shuffle313.png",
+            "location": "28"
+        },
+        {
+            "pokemonName": "Illumise",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/1/1e/Shuffle314.png/32px-Shuffle314.png",
+            "location": "29"
+        },
+        {
+            "pokemonName": "MegaSableye",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/c/cf/Shuffle302M.png/32px-Shuffle302M.png",
+            "location": "30"
+        },
+        {
             "pokemonName": "Starly",
             "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/b/bf/Shuffle396.png/32px-Shuffle396.png",
             "location": "211"
@@ -2426,79 +2176,479 @@
             "location": "240"
         },
         {
-            "pokemonName": "Azumarill",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/e/e3/Shuffle184.png/32px-Shuffle184.png",
-            "location": "76"
+            "pokemonName": "Delibird",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/4/44/Shuffle225.png/32px-Shuffle225.png",
+            "location": "106"
         },
         {
-            "pokemonName": "Mienfoo",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/9/9c/Shuffle619.png/32px-Shuffle619.png",
-            "location": "77"
+            "pokemonName": "Misdreavus",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/7/79/Shuffle200.png/32px-Shuffle200.png",
+            "location": "107"
         },
         {
-            "pokemonName": "Snorunt",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/f/fd/Shuffle361.png/32px-Shuffle361.png",
-            "location": "78"
+            "pokemonName": "Glalie",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/3/3b/Shuffle362.png/32px-Shuffle362.png",
+            "location": "108"
         },
         {
-            "pokemonName": "Sylveon",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/7/7e/Shuffle700.png/32px-Shuffle700.png",
-            "location": "79"
+            "pokemonName": "Dragonair",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/5/58/Shuffle148.png/32px-Shuffle148.png",
+            "location": "109"
         },
         {
-            "pokemonName": "Miltank",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/c/c1/Shuffle241.png/32px-Shuffle241.png",
-            "location": "80"
+            "pokemonName": "Mienshao",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/f/f9/Shuffle620.png/32px-Shuffle620.png",
+            "location": "110"
         },
         {
-            "pokemonName": "Meowstic",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/a/ac/Shuffle678F.png/32px-Shuffle678F.png",
-            "location": "81"
+            "pokemonName": "Vanillish",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/c/ca/Shuffle583.png/32px-Shuffle583.png",
+            "location": "111"
         },
         {
-            "pokemonName": "Masquerain",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/d/d4/Shuffle284.png/32px-Shuffle284.png",
-            "location": "82"
+            "pokemonName": "Jolteon",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/8/88/Shuffle135.png/32px-Shuffle135.png",
+            "location": "112"
         },
         {
-            "pokemonName": "Cottonee",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/3/3e/Shuffle546.png/32px-Shuffle546.png",
-            "location": "83"
+            "pokemonName": "Cinccino",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/6/6b/Shuffle573.png/32px-Shuffle573.png",
+            "location": "113"
         },
         {
-            "pokemonName": "Petilil",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/e/eb/Shuffle548.png/32px-Shuffle548.png",
-            "location": "84"
+            "pokemonName": "Glaceon",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/9/9d/Shuffle471.png/32px-Shuffle471.png",
+            "location": "114"
         },
         {
-            "pokemonName": "Dedenne",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/8/86/Shuffle702.png/32px-Shuffle702.png",
-            "location": "85"
+            "pokemonName": "Blissey",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/9/9b/Shuffle242.png/32px-Shuffle242.png",
+            "location": "115"
         },
         {
-            "pokemonName": "Slurpuff",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/7/78/Shuffle685.png/32px-Shuffle685.png",
-            "location": "86"
+            "pokemonName": "Aurorus",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/c/cc/Shuffle699.png/32px-Shuffle699.png",
+            "location": "116"
         },
         {
-            "pokemonName": "Liepard",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/a/a5/Shuffle510.png/32px-Shuffle510.png",
-            "location": "87"
+            "pokemonName": "Ninetales",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/e/ed/Shuffle038.png/32px-Shuffle038.png",
+            "location": "117"
         },
         {
-            "pokemonName": "Chansey",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/8/8c/Shuffle113.png/32px-Shuffle113.png",
-            "location": "88"
+            "pokemonName": "Altaria",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/2/28/Shuffle334.png/32px-Shuffle334.png",
+            "location": "118"
         },
         {
-            "pokemonName": "Gulpin",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/8/87/Shuffle316.png/32px-Shuffle316.png",
-            "location": "89"
+            "pokemonName": "Vanilluxe",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/d/dd/Shuffle584.png/32px-Shuffle584.png",
+            "location": "119"
         },
         {
-            "pokemonName": "MegaMawile",
-            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/5/57/Shuffle303M.png/32px-Shuffle303M.png",
-            "location": "90"
+            "pokemonName": "MegaGlalie",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/4/44/Shuffle362M.png/32px-Shuffle362M.png",
+            "location": "120"
+        },
+        {
+            "pokemonName": "Slowpoke",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/7/79/Shuffle079.png/32px-Shuffle079.png",
+            "location": "31"
+        },
+        {
+            "pokemonName": "Azurill",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/3/3e/Shuffle298.png/32px-Shuffle298.png",
+            "location": "32"
+        },
+        {
+            "pokemonName": "Riolu",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/0/06/Shuffle447.png/32px-Shuffle447.png",
+            "location": "33"
+        },
+        {
+            "pokemonName": "Swablu",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/a/a7/Shuffle333.png/32px-Shuffle333.png",
+            "location": "34"
+        },
+        {
+            "pokemonName": "Surskit",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/8/8a/Shuffle283.png/32px-Shuffle283.png",
+            "location": "35"
+        },
+        {
+            "pokemonName": "Taillow",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/9/95/Shuffle276.png/32px-Shuffle276.png",
+            "location": "36"
+        },
+        {
+            "pokemonName": "Meowth",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/5/59/Shuffle052.png/32px-Shuffle052.png",
+            "location": "37"
+        },
+        {
+            "pokemonName": "Croagunk",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/c/c7/Shuffle453.png/32px-Shuffle453.png",
+            "location": "38"
+        },
+        {
+            "pokemonName": "Corsola",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/8/8b/Shuffle222.png/32px-Shuffle222.png",
+            "location": "39"
+        },
+        {
+            "pokemonName": "Marill",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/e/e3/Shuffle183.png/32px-Shuffle183.png",
+            "location": "40"
+        },
+        {
+            "pokemonName": "Mudkip",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/3/37/Shuffle258.png/32px-Shuffle258.png",
+            "location": "41"
+        },
+        {
+            "pokemonName": "Vulpix",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/9/95/Shuffle037.png/32px-Shuffle037.png",
+            "location": "42"
+        },
+        {
+            "pokemonName": "Lapras",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/e/eb/Shuffle131.png/32px-Shuffle131.png",
+            "location": "43"
+        },
+        {
+            "pokemonName": "Pidgeotto",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/b/bc/Shuffle017.png/32px-Shuffle017.png",
+            "location": "44"
+        },
+        {
+            "pokemonName": "MegaSlowbro",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/0/0d/Shuffle080M.png/32px-Shuffle080M.png",
+            "location": "45"
+        },
+        {
+            "pokemonName": "Pansear",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/e/e9/Shuffle513.png/32px-Shuffle513.png",
+            "location": "301"
+        },
+        {
+            "pokemonName": "Paras",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/5/5e/Shuffle046.png/32px-Shuffle046.png",
+            "location": "302"
+        },
+        {
+            "pokemonName": "Phantump",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/f/f6/Shuffle708.png/32px-Shuffle708.png",
+            "location": "303"
+        },
+        {
+            "pokemonName": "Spoink",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/0/0d/Shuffle325.png/32px-Shuffle325.png",
+            "location": "304"
+        },
+        {
+            "pokemonName": "Koffing",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/3/3c/Shuffle109.png/32px-Shuffle109.png",
+            "location": "305"
+        },
+        {
+            "pokemonName": "Parasect",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/c/c5/Shuffle047.png/32px-Shuffle047.png",
+            "location": "306"
+        },
+        {
+            "pokemonName": "Murkrow",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/6/6c/Shuffle198.png/32px-Shuffle198.png",
+            "location": "307"
+        },
+        {
+            "pokemonName": "Trevenant",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/6/62/Shuffle709.png/32px-Shuffle709.png",
+            "location": "308"
+        },
+        {
+            "pokemonName": "Grumpig",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/d/dd/Shuffle326.png/32px-Shuffle326.png",
+            "location": "309"
+        },
+        {
+            "pokemonName": "Weezing",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/f/f3/Shuffle110.png/32px-Shuffle110.png",
+            "location": "310"
+        },
+        {
+            "pokemonName": "Spearow",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/d/d8/Shuffle021.png/32px-Shuffle021.png",
+            "location": "311"
+        },
+        {
+            "pokemonName": "Panpour",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/d/da/Shuffle515.png/32px-Shuffle515.png",
+            "location": "312"
+        },
+        {
+            "pokemonName": "Growlithe",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/4/41/Shuffle058.png/32px-Shuffle058.png",
+            "location": "313"
+        },
+        {
+            "pokemonName": "Spheal",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/3/31/Shuffle363.png/32px-Shuffle363.png",
+            "location": "314"
+        },
+        {
+            "pokemonName": "Pansage",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/a/a5/Shuffle511.png/32px-Shuffle511.png",
+            "location": "315"
+        },
+        {
+            "pokemonName": "Tyrunt",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/e/ea/Shuffle696.png/32px-Shuffle696.png",
+            "location": "316"
+        },
+        {
+            "pokemonName": "Sealeo",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/6/64/Shuffle364.png/32px-Shuffle364.png",
+            "location": "317"
+        },
+        {
+            "pokemonName": "Fearow",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/6/6b/Shuffle022.png/32px-Shuffle022.png",
+            "location": "318"
+        },
+        {
+            "pokemonName": "Mankey",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/2/2e/Shuffle056.png/32px-Shuffle056.png",
+            "location": "319"
+        },
+        {
+            "pokemonName": "Tyrantrum",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/c/cd/Shuffle697.png/32px-Shuffle697.png",
+            "location": "320"
+        },
+        {
+            "pokemonName": "Magikarp",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/b/bf/Shuffle129.png/32px-Shuffle129.png",
+            "location": "321"
+        },
+        {
+            "pokemonName": "Simisear",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/a/ae/Shuffle514.png/32px-Shuffle514.png",
+            "location": "322"
+        },
+        {
+            "pokemonName": "Exeggcute",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/0/0b/Shuffle102.png/32px-Shuffle102.png",
+            "location": "323"
+        },
+        {
+            "pokemonName": "Golett",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/3/31/Shuffle622.png/32px-Shuffle622.png",
+            "location": "324"
+        },
+        {
+            "pokemonName": "Magnemite",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/c/c8/Shuffle081.png/32px-Shuffle081.png",
+            "location": "325"
+        },
+        {
+            "pokemonName": "Finneon",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/4/46/Shuffle456.png/32px-Shuffle456.png",
+            "location": "326"
+        },
+        {
+            "pokemonName": "Sandile",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/e/ec/Shuffle551.png/32px-Shuffle551.png",
+            "location": "327"
+        },
+        {
+            "pokemonName": "Magneton",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/4/47/Shuffle082.png/32px-Shuffle082.png",
+            "location": "328"
+        },
+        {
+            "pokemonName": "Teddiursa",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/6/62/Shuffle216.png/32px-Shuffle216.png",
+            "location": "329"
+        },
+        {
+            "pokemonName": "Magnezone",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/9/9f/Shuffle462.png/32px-Shuffle462.png",
+            "location": "330"
+        },
+        {
+            "pokemonName": "Simipour",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/8/8d/Shuffle516.png/32px-Shuffle516.png",
+            "location": "331"
+        },
+        {
+            "pokemonName": "Kabuto",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/8/8f/Shuffle140.png/32px-Shuffle140.png",
+            "location": "332"
+        },
+        {
+            "pokemonName": "Smoochum",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/d/d0/Shuffle238.png/32px-Shuffle238.png",
+            "location": "333"
+        },
+        {
+            "pokemonName": "Simisage",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/3/3b/Shuffle512.png/32px-Shuffle512.png",
+            "location": "334"
+        },
+        {
+            "pokemonName": "Lumineon",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/7/7f/Shuffle457.png/32px-Shuffle457.png",
+            "location": "335"
+        },
+        {
+            "pokemonName": "Omanyte",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/6/6c/Shuffle138.png/32px-Shuffle138.png",
+            "location": "336"
+        },
+        {
+            "pokemonName": "Weedle",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/0/04/Shuffle013.png/32px-Shuffle013.png",
+            "location": "337"
+        },
+        {
+            "pokemonName": "Sentret",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/a/a8/Shuffle161.png/32px-Shuffle161.png",
+            "location": "338"
+        },
+        {
+            "pokemonName": "Furret",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/6/66/Shuffle162.png/32px-Shuffle162.png",
+            "location": "339"
+        },
+        {
+            "pokemonName": "Golurk",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/7/75/Shuffle623.png/32px-Shuffle623.png",
+            "location": "340"
+        },
+        {
+            "pokemonName": "Kakuna",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/5/5c/Shuffle014.png/32px-Shuffle014.png",
+            "location": "341"
+        },
+        {
+            "pokemonName": "Ursaring",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/3/3f/Shuffle217.png/32px-Shuffle217.png",
+            "location": "342"
+        },
+        {
+            "pokemonName": "Skorupi",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/1/18/Shuffle451.png/32px-Shuffle451.png",
+            "location": "343"
+        },
+        {
+            "pokemonName": "Primeape",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/8/88/Shuffle057.png/32px-Shuffle057.png",
+            "location": "344"
+        },
+        {
+            "pokemonName": "Jynx",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/e/ed/Shuffle124.png/32px-Shuffle124.png",
+            "location": "345"
+        },
+        {
+            "pokemonName": "Krokorok",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/0/0e/Shuffle552.png/32px-Shuffle552.png",
+            "location": "346"
+        },
+        {
+            "pokemonName": "Drapion",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/6/6d/Shuffle452.png/32px-Shuffle452.png",
+            "location": "347"
+        },
+        {
+            "pokemonName": "Exeggutor",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/d/db/Shuffle103.png/32px-Shuffle103.png",
+            "location": "348"
+        },
+        {
+            "pokemonName": "Krookodile",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/b/bf/Shuffle553.png/32px-Shuffle553.png",
+            "location": "349"
+        },
+        {
+            "pokemonName": "MegaMewtwo",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/e/eb/Shuffle150MX.png/32px-Shuffle150MX.png",
+            "location": "350"
+        },
+        {
+            "pokemonName": "Stunfisk",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/f/f9/Shuffle618.png/32px-Shuffle618.png",
+            "location": "136"
+        },
+        {
+            "pokemonName": "Pidgeot",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/d/de/Shuffle018.png/32px-Shuffle018.png",
+            "location": "137"
+        },
+        {
+            "pokemonName": "Whimsicott",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/4/44/Shuffle547.png/32px-Shuffle547.png",
+            "location": "138"
+        },
+        {
+            "pokemonName": "Marowak",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/9/9b/Shuffle105.png/32px-Shuffle105.png",
+            "location": "139"
+        },
+        {
+            "pokemonName": "Nidoqueen",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/6/68/Shuffle031.png/32px-Shuffle031.png",
+            "location": "140"
+        },
+        {
+            "pokemonName": "Nidoking",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/c/c9/Shuffle034.png/32px-Shuffle034.png",
+            "location": "141"
+        },
+        {
+            "pokemonName": "Leafeon",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/a/a4/Shuffle470.png/32px-Shuffle470.png",
+            "location": "142"
+        },
+        {
+            "pokemonName": "Scizor",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/f/f2/Shuffle212.png/32px-Shuffle212.png",
+            "location": "143"
+        },
+        {
+            "pokemonName": "Skarmory",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/b/be/Shuffle227.png/32px-Shuffle227.png",
+            "location": "144"
+        },
+        {
+            "pokemonName": "Floatzel",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/d/d7/Shuffle419.png/32px-Shuffle419.png",
+            "location": "145"
+        },
+        {
+            "pokemonName": "Toxicroak",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/b/bb/Shuffle454.png/32px-Shuffle454.png",
+            "location": "146"
+        },
+        {
+            "pokemonName": "Togekiss",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/1/19/Shuffle468.png/32px-Shuffle468.png",
+            "location": "147"
+        },
+        {
+            "pokemonName": "Heracross",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/f/fb/Shuffle214.png/32px-Shuffle214.png",
+            "location": "148"
+        },
+        {
+            "pokemonName": "Haxorus",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/6/6d/Shuffle612.png/32px-Shuffle612.png",
+            "location": "149"
+        },
+        {
+            "pokemonName": "MegaMewtwo",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/2/2f/Shuffle150MY.png/32px-Shuffle150MY.png",
+            "location": "150"
         }
     ],
     "expert": [
@@ -2736,6 +2886,11 @@
             "pokemonName": "Samurott",
             "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/5/58/Shuffle503.png/32px-Shuffle503.png",
             "location": "47"
+        },
+        {
+            "pokemonName": "Rapidash",
+            "pokemonIcon": "http://cdn.bulbagarden.net/upload/thumb/4/43/Shuffle078.png/32px-Shuffle078.png",
+            "location": "48"
         }
     ],
     "special": [],
