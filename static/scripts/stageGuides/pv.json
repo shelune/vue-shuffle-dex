@@ -111,6 +111,7 @@
         "clearingStrategy": "Seems pretty easy at first. But once\nthe field is full of Metal Blocks that is.\nI recommend using Slowbro as your\nmega here instead of Mewtwo for\nclearing purposes unless you are\nusing DD which will pretty much kill\nthis stage with Mega Mewtwo",
         "srankingStrategy": "Moves: At least 11 moves left\n\nMove+5 with decent team\n\nDD for easy S-Rank",
         "suggestedTeam": "[Rayquaza-S], Salamence, Braviary",
+        "suggestedSrank": "[Rayquaza-S], Salamence (SS/SL3), Braviary (SL3) _ Itemless",
         "mobileNotes": "HP: 22334\nCatch Rate: 17% +1%\n\nThe second disruption now occurs when HP\nis 27% or lower. Still Mewtwo Y and Gengar\nis good at this stage.",
         "basePower": 60,
         "ability": "Cloud Clear"
@@ -187,7 +188,7 @@
         "recommendedParty": "[Any]/[Aerodactyl]/\n[Garchomp]/[Lucario]\n\nNinetales, Stunfisk,\nMarowak\n\nLucario, Blaziken, \nHeatran, Entei, Moltres\n\nGroudon",
         "clearingStrategy": "Another really hard stage. Better to buy\na DD for a lot easier.",
         "srankingStrategy": "Moves: At least 13 moves left\n\nMega Start + DD + Move+5 for this one.\n(No DD if using Mega Aero)\n\nWith the release of M-Garchomp, it seems\nit was doable with just Mega Start",
-        "suggestedSrank": "[Camerupt], Golurk lvl15, Machamp lvl15 (SS / SL5), Emboar lvl15 (SL5) _ Itemless",
+        "suggestedSrank": "[Camerupt], Golurk lvl15, Machamp lvl15 (SS / SL5), Emboar lvl15 (SL5) _ Itemless\n\n[Garchomp], Machamp lvl20 (SS / SL5), Emboar lvl15 (SS / SL4), Golurk _ Moves+5, MS",
         "mobileNotes": "HP: 11666\nCatch Rate: 14% +2%\n\nThe stage become a little harder (2000 more HP)\nUse Mega Lucario/Aerodactyl since you\ndont have Mega Garchomp. For support, just\nuse Optimize to get the best Pokemon (You\nmight want to add Ninetales to help you a bit in\ndecreasing Metal Blocks). Same strategy with\n3ds.DD or Mega Start if you are using M-Lucario\nor M-Aerodactyl (Aero is preferred but both works)",
         "basePower": 70,
         "ability": "Steely Resolve"
@@ -245,6 +246,7 @@
         "recommendedParty": "[Mewtwo]/[Slowbro]\n\nAzumarill, Slurpuff,\nSalamence, Braviary\n \nXerneas\n\nVictini, Cresselia,\nLugia",
         "clearingStrategy": "You may want to try bringing Pancham\nhere for extra combos if this is getting\nhard for you\n\nIf you have Lugia, this will be a piece\nof cake with its Eject+. Dont bring\nPancham here if you would bring Lugia",
         "srankingStrategy": "Moves: At least 8 moves left\n\nBeatable at Itemless.\n\nAdd a Move+5 if you are\ngetting trouble",
+        "suggestedSrank": "[Mewtwo-Y], Lugia, Cresselia, Victini _ Moves+5",
         "mobileNotes": "HP: 13182\n\nHas 2800+ more HP than 3ds version. Expect\nthis a little bit harder. Still S-Rankable with\nMove+5.",
         "basePower": 60,
         "ability": "Pummel"
@@ -263,6 +265,7 @@
         "recommendedParty": "[Slowbro]/[Mewtwo]\n\nStunfisk, Marowak,\nChimecho\n\nMewtwo\n\nVictini, Groudon",
         "clearingStrategy": "Beatable without items. The Garbodor\ncan be annoying though",
         "srankingStrategy": "Moves: At least 6 moves left\n\nBeatable without items with decent team.\n\nIn any case you are getting short, a \nMove+5 is good",
+        "suggestedSrank": "[Mewtwo-Y], Garbordor, Cresselia, Victini _ Itemless",
         "mobileNotes": "Catch Rate: 18% +5%\n\nJust catch rate difference. Same strategy with\n3ds version",
         "basePower": 60,
         "ability": "Risk-Taker"
@@ -281,6 +284,7 @@
         "recommendedParty": "[Any]/[Lucario]/[Gengar]\n\nNinetales, Marowak,\nStunfisk\n\nBlaziken, Heatran,\nLucario, Moltres\n\nGroudon",
         "clearingStrategy": "This is beatable without items but\nyou'll need high levels here (5+)\n",
         "srankingStrategy": "Moves: At least 11 moves left\n\nUse a DD.\n\nBuy Move+5 to be safe.\nA high level team can go with just\nMove+5",
+        "suggestedSrank": "[Garchomp], Emboar lvl15 (SS / SL4), Golurk lvl15, Machamp lvl20 (SS / SL5) _ Moves+5\n\n[Camerupt], Golurk lvl 15,  SL2, Machamp lvl 20 SL5, Glisor lvl 10 _ Itemless",
         "mobileNotes": "100% same with 3ds version. GS may think\nthat this stage is hard enough. This is\neasier in Mobile since a lot of new Pokemon are\nnow available. If you have Ho-Oh and Landorus,\nthey are better alternative to Pokemon that has\nlower BP. Use Ninetales instead of Machamp\n(Eject does not work on Klefki)",
         "basePower": 60,
         "ability": "Hitting Streak"
@@ -337,7 +341,7 @@
         "clearingStrategy": "Slowbro or\nAerodactyl for good combos. Also\ndont use Mega Mewtwo Y here",
         "srankingStrategy": "Moves: At least 12 moves left\n\nMove+5, Mega Start and a \ndecent Mega Aero/Mega Slowbro team.\n\nIf you really cant do it, then try adding a\nComplexity",
         "suggestedTeam": "[Alakazam], Xerneas, Mewtwo, Lugia",
-        "suggestedSrank": "[Rayquaza-S], Staraptor lvl20 (SL3), Braviary lvl10 (SL4), Salamence lvl10 _ Itemless",
+        "suggestedSrank": "[Rayquaza-S], Staraptor lvl20 (SL3), Braviary lvl10 (SL4), Salamence lvl10 _ Itemless\n\n[Alakazam], Mewtwo lvl20, Xerneas (SL4), Victini _ Itemless\n\n[Salamence], Tornadus-Therian Lvl.7, Braviary Lvl.5, Ray-Shiny Lvl.2 _ Moves + 5",
         "mobileNotes": "100% same with 3ds version.\nSame strategy with 3ds version",
         "basePower": 70,
         "ability": "Last-Ditch Effort"
@@ -375,7 +379,8 @@
         "recommendedParty": "[Lucario]/[Mawile]/\n[Blastoise]/[Venusaur]/\n[Garchomp]\n\nMilotic, Marowak,\nStunfisk\n\nLucario, Sceptile,\nSwampert, Suicune\n\nKyogre, Groudon,\nDialga",
         "clearingStrategy": "You may also try Mega Aero if it is\neffective for you. ",
         "srankingStrategy": "Moves: At least 15 moves left\n\nSeems to be doable with just Move+5.\nYou will need a good team to do this\n(Hint: M-Garchomp+Dialga for destroying\ndisruptions)\n\nMove+5 and Mega Start can also be\ngood if you dont have Dialga or Garchomp.",
-        "suggestedSrank": "[Aggron], Machamp (SS / SL5), Suicune, Landorus (SL5) _ Itemless",
+        "suggestedTeam": "[Garchomp], Machamp lvl20 (SS / SL5), Suicune lvl15 (SS), Golurk _ Itemless",
+        "suggestedSrank": "[Aggron], Machamp (SS / SL5), Suicune, Landorus (SL5) _ Itemless\n\n[Aggron], Machamp lvl20 (SS / SL5), Virizion (SL5), Greninja (SL5) _ Itemless\n\n[Aggron], Machamp lvl 20 (SS / SL5), Suicune lvl 15 (SS), Landorus lvl 10 (SL5) _ Itemless",
         "mobileNotes": "HP: 18345\n\nAside from the HP increase (about 1500+)\nno really change from 3ds version. Mobile\nversion don't have M-Garchomp yet so you should\nstick with other Megas. Blastoise, Lucario or\nMawile can be great. You may need a Mega\nStart only if your Mega is slow",
         "basePower": 80,
         "ability": "Eject"
@@ -394,6 +399,7 @@
         "recommendedParty": "[Glalie]/[Blastoise]/\n[Venusaur]/[Any]\n\nMilotic, Tangrowth,\nAvalugg\n\n Chesnaught, Articuno\nGreninja, Swampert\n\nShaymin, Kyogre\n",
         "clearingStrategy": "Move F1 to D6 to clear all the Rocks\non first turn",
         "srankingStrategy": "Moves: At least 8 moves left\nReally easy to S-Rank. Might want to\nget a Move+5 if having trouble",
+        "suggestedTeam": "[Rayquaza], Suicune lvl15 (SS), Bellossom llv13 (SL3), Kyurem _ Itemless",
         "basePower": 60,
         "ability": "Last-Ditch Effort"
     },
@@ -429,7 +435,7 @@
         "clearingStrategy": "You may want to get at least a 2\ncombo every turn or else you'll get\nclog in barriers. Not really much that\nhard. M-Gengar is good at combos if\nyou are getting some trouble\n\nAlso note you may need some items\nif you are using M-Blaziken team\nunless you are lucky with combos",
         "srankingStrategy": "Moves: At least 13 moves left\n\nIf you are having trouble itemless,\nMove+5 will do this\n\nOr go with Move+5, DD, Mega Start\n(I used only DD, depends on your team\nlevel)",
         "suggestedTeam": "[Blaziken], Reshiram, Delphox, Charizard _ Itemless",
-        "suggestedSrank": "[Houndoom], Emboar lvl15 (SS / SL5), Throh lvl15 (SS), Machamp lvl16 (SS / SL5) _ Itemless",
+        "suggestedSrank": "[Houndoom], Emboar lvl15 (SS / SL5), Throh lvl15 (SS), Machamp lvl16 (SS / SL5) _ Itemless\n\n[Aggron], Emboar lvl15 (SS / SL5), Jirachi (SL2), Machamp lvl20 (SS / SL5) _ Itemless",
         "basePower": 70,
         "ability": "Barrier Bash"
     },
@@ -482,6 +488,7 @@
         "recommendedParty": "[Gengar]/[Aerodactyl],\n[Charizard Y]/[Any]\n\nVolcarona, Aurorus,\nTyranitar, Braviary\n\n, Blaziken, Heatran,\nMoltres, Entei\n\nNone",
         "clearingStrategy": "For first time, the best move will be\nA2 to E5 or B5 to F2\n\nBring Volcarona here for easy clearing",
         "srankingStrategy": "Moves: At least 7 moves left\n\nClearing Strategy will do this\n\nIf the level of your Pokemon is not enough\nto do this itemless, add up a Move+5",
+        "suggestedSrank": "\n\n[Ray], Emboar LV15 SS/SL4, Charizard LV15 SL1 , Ho-Oh LV10 SL1  _ Moves + 5",
         "basePower": 70,
         "ability": "Mega Boost"
     },
@@ -500,6 +507,7 @@
         "clearingStrategy": "A full Fire Team with M-Luke is good.\nYou can go itemless beating this.",
         "srankingStrategy": "Moves: At least 8 moves left\n\nGengar with full Fire team (Ninetales,\nDelphox, Heatran) is good. You may try\nit itemless or Move+5 for safety\n\nIf the above strategy dont work, try\nadding Mega Start with M-Lucario or\nDD",
         "suggestedTeam": "[Charizard-Y], Groudon, Reshiram, Landorus-T",
+        "suggestedSrank": "[Camerupt] 7/7, Machamp lvl20 (SS/SL5), Golurk lvl15, Emboar lvl15 (SS / SL5) _ Itemless\n\n[Lucario], Emboar Lv15 SS/SL4, Machamp LV20 SL5, Golurk LV15 SL1  _ Moves + 5,Disruption Delay",
         "notes": "Complexity removes Doublade",
         "basePower": 70,
         "ability": "Counterattack"
@@ -536,6 +544,7 @@
         "recommendedParty": "[Manectric]/[Ampharos]/\n[Glalie]/[Any]\n\n Tyranitar, Aurorus,\nAvalugg\n\n Articuno, Zapdos, \nRaikou\n\nKabutops\n",
         "clearingStrategy": "You can beat this itemless. Not really\nhard once you have your Mega. You \ncan also try your newly caught Avalugg\nhere for Barrier Bash\n\nKabutops was released in an event,\nso if you are going back to this stage\nfor an S rank or if you just caught\nKabutops before this stage, it is Super\nEffective and has Barrier Bash+.",
         "srankingStrategy": "Moves: At least 9 moves left\n\nMove+5 and this one is easy to S-Rank\nI must say this isnt hard unlike Tyranitar\n\nIf you still cant do this with the above\nstrategy, adding a DD can help you\n(Try matching more for combos than\nusing Avalugg's Barrier Bash)",
+        "suggestedSrank": "[Tyranitar], Articuno lvl20 (SL4), Raikou lvl15 (SS / SL2), Glalie lvl15 (SL4) _ Itemless\n\n[Tyranitar], Raikou LV15 SS/SL3, Thundurus LV10 SL3, Mamoswine LV10 SL1 _ Moves + 5",
         "basePower": 80,
         "ability": "Hitting Streak"
     },
@@ -553,6 +562,7 @@
         "recommendedParty": "[Aerodactyl]/[Blaziken]\n\nAurorus, Tyranitar,\nBraviary, Salamence\n\nBlaziken, Heatran,\nMoltres\n\nNone",
         "clearingStrategy": "Mega Aero will clear all blocks here\neasily.\n\nFor those using M-Blaziken, you may\nwant to only want to clear out Illumise\nif it is clogging the board.\n\nA4 to E3 will remove the Rocks at the\ncenter leaving 3 Rocks at each side",
         "srankingStrategy": "Moves: At least 12 moves left\n\nMove+5 and Mega Start Aerodactyl or\nMove+5 and DD M-Blaziken will\ndo this with a decent team\n\nComplexity+Mega Start seems to be a\nmore efficient strategy for this. Also never\nuse DD if you are using M-Aero or you'll\nwaste M-Aero's power\n\nM-Rayquaza with Mega Start and Moves +\nmakes S ranking this stage quite easy.",
+        "suggestedSrank": "\n\n[Rayquaza], Emboar Lv15 SS/SL4, Charizard LV15 SL1 , Ho-Oh LV10 SL1  _ Moves + 5,Mega Start",
         "notes": "13th Mega Stone!",
         "basePower": 70,
         "ability": "Mega Effects: Adds one more of this Pokémon to the left of the match."

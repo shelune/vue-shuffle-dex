@@ -111,6 +111,7 @@
         "clearingStrategy": "C3 > B3, B5 > D4, C5 > E5, B5 > C3. After that just combo it to death. Occasional Barriers are not big deal",
         "srankingStrategy": "Moves: At least 6 moves left.\n\nGrab MS and M+5 with you for secured S-Rank. Wasting the first 4 moves makes it very hard to S-Rank itemless, unless you have SL5 Risk-Taker Mawile (RMLed)",
         "suggestedTeam": "[Beedrill], Mawile, Dialga, Cobalion\n\n[Tyranitar], Mawile, Muk, Cobalion",
+        "suggestedSrank": "\n\n[Beedrill], Dialga lvl 8 SL2, Metagros lvl4, Steelix lvl 7 SS / SL3 _ Moves + 5",
         "basePower": 30,
         "ability": "Opportunist"
     },
@@ -328,7 +329,7 @@
         "clearingStrategy": "3-support stage, remember to bring Togekiss and a suitable mega, optimize the last slot.",
         "srankingStrategy": "Moves: At least 4 moves left.\n\nLike all 3-support stage: try itemless and add Moves+5 if you really don't get good combos.",
         "suggestedTeam": "[Gengar], Togekiss, Metagross\n\n[Gengar], Cobalion, Manaphy\n\n[Aggron], Cobalion, Togekiss",
-        "suggestedSrank": "[Aggron], Cobalion, Togekiss _ Itemless\n\n[Gengar], Togekiss, Muk _ Moves+5",
+        "suggestedSrank": "[Aggron], Cobalion, Togekiss _ Itemless\n\n[Gengar], Togekiss, Muk _ Moves+5\n\n[Gengar], Togekiss lvl 9 SL3, Dialga lvl 10, N/A _ Itemless",
         "basePower": 60,
         "ability": "Pixie Power"
     },
@@ -491,7 +492,7 @@
         "recommendedParty": "[Tyranitar] / [Rayquaza] / [Ampharos]\n\nZekrom, Raikou, Bellossom, Shaymin-L, Virizion, Magnezone",
         "clearingStrategy": "Zekrom and Raikou are much appreciated here. Probably you will need Bellossom / Shaymin-L for disabling too. The starting board is quite bad so you may have trouble Mega evolve early but it's not that hard. M+5 should be enough if you fail it too hard.",
         "srankingStrategy": "Moves: At least 10 moves left.\n\nM+5 and MS should do the job, provided that you have Shaymin-L at high SL. Otherwise add in DD (in that case replace Shaymin-L with some high power support like Virizion / Magnezone)",
-        "suggestedTeam": "[Tyranitar], Raikou, Zekrom, Shaymin-L\n\n[Rayquaza], Raikou, Zekrom, Bellossom",
+        "suggestedTeam": "[Tyranitar], Raikou, Zekrom, Shaymin-L\n\n[Rayquaza], Raikou, Zekrom, Bellossom\n\n[Gengar], Shaymin-L lv10 (SL4), Bellossom lv8 (SL3), Zekrom lv5 (SL1)  _ Itemless",
         "suggestedSrank": "[Rayquaza], Shaymin-L, Zekrom, Raikou _ M+5, DD, MS",
         "basePower": 60,
         "ability": "Block Smash+"
@@ -579,6 +580,8 @@
         "pokemon": 4,
         "recommendedParty": "[Rayquaza], [Beedrill], [Gengar], [Glalie]\n\nArticuno, Glalie, Dragonite, Reshiram, Kyurem-B, Azumarill, Mamoswine, Glaceon",
         "srankingStrategy": "Moves: At least 7 moves left.",
+        "suggestedTeam": "[Rayquaza], Articuno lvl15 (SL2), Azumaril lvl10 (SL4), Glalie (SL3) _ Itemless",
+        "suggestedSrank": "\n\n[Glalie-Winking], Articuno lvl13 (SL3), Xerneas lvl13 (SL3), Kyurem-White lvl8 (SL3) _ Moves + 5,Mega Start",
         "basePower": 50,
         "ability": "Opprtunist"
     },
@@ -593,6 +596,7 @@
         "pokemon": 3,
         "recommendedParty": "[Gengar], [Tyranitar], [Absol]\n\nAbsol, Hoopa-U, Hoopa, Litwick, Zoroark, Yveltal, Gengar",
         "srankingStrategy": "Moves: At least 5 moves left.",
+        "suggestedSrank": "[Gengar], Hoopa-U lvl10 (SL5), Litwick _ Itemless",
         "basePower": 40,
         "ability": "Astonish"
     },
@@ -607,7 +611,8 @@
         "pokemon": 4,
         "recommendedParty": "[Beedrill], [Pidgeot], [Rayquaza-S], [Salamence], [Charizard]\n\nEmboar, Salamence, Braviary, Lugia, Delphox, Ho-Oh, Staraptor",
         "srankingStrategy": "Moves: At least 5 moves left.",
-        "suggestedTeam": "[Salamence], Lugia, Braviary, Glalie _ Itemless",
+        "suggestedTeam": "[Salamence], Lugia, Braviary, Glalie _ Itemless\n\n[Beedrill], Lugia lvl9 (SL2), Reshiram lvl10 (SL2), Articuno lvl13 (SL3) _ Itemless",
+        "suggestedSrank": "\n\n[Rayquaza-Shiny], Salamence lvl15 (SS / SL5), Genesect lvl15 (SS / SL3), Skiploom lvl1 _ Itemless",
         "basePower": 50,
         "ability": "Sleep Combo"
     },
@@ -622,6 +627,7 @@
         "pokemon": 4,
         "recommendedParty": "[Rayquaza], [Glalie], [Tyranitar]\n\nArticuno, Kyurem-W, Kyurem, Snorunt, Glalie, Azumarill, Togekiss, Clefable, Dragonite, Zygarde-C",
         "srankingStrategy": "Moves: At least 7 moves left.",
+        "suggestedTeam": "\n\n[Rayquaza], Azumarill (Lv10, SL4 RT), Glalie (Lv10, SL3), Mamoswine (Lv5, SL1) _ Moves + 5",
         "basePower": 60,
         "ability": "Dancing Dragons"
     },
@@ -636,6 +642,8 @@
         "pokemon": 4,
         "recommendedParty": "[Beedrill], [Mawile]\n\nMuk, Cobalion, Metagross, Mawile, Dialga",
         "srankingStrategy": "Moves: At least 6 moves left.",
+        "suggestedTeam": "\n\n[Metagross], Cobalion (Lv7, SL3), Skarmory (Lv10, SL3 Nosedive), Sylveon (Lv1) _ ",
+        "suggestedSrank": "[Gengar], Sylveon, Steelix (SS / SL3), Mawile lvl16 (SL3) _ Itemless",
         "basePower": 50,
         "ability": "Mega Boost"
     },
@@ -650,6 +658,7 @@
         "pokemon": 4,
         "recommendedParty": "[Rayquaza], [Tyranitar], [Rayquaza-S]\n\nEmolga, Raikou, Virizion, Shaymin, Bellossom, Thundurus-T, Zekrom",
         "srankingStrategy": "Moves: At least 6 moves left.",
+        "suggestedTeam": "\n\n[Camerupt], Emolga (Lv13, SL4), Virizion (Lv10, SL3), Shaymin-L (Lv6, SL3) _ ",
         "basePower": 50,
         "ability": "Whirlpool"
     },
@@ -664,7 +673,7 @@
         "pokemon": 4,
         "recommendedParty": "[Garchomp], [Tyranitar], [Camerupt]\n\nClaydol, Garchomp, Landorus-T, Golurk, Gliscor",
         "srankingStrategy": "Moves: At least 7 moves left.",
-        "suggestedTeam": "[Tyranitar], Groudon, Gliscor, Claydol_ Itemless",
+        "suggestedTeam": "[Tyranitar], Groudon, Gliscor, Claydol_ Itemless\n\n[Camerupt], Garchomp (Lv5, SL1), Claydol (Lv6, SL1), Barboach (Lv1, SL1) _ ",
         "basePower": 40,
         "ability": "Opportunist"
     },
@@ -679,6 +688,7 @@
         "pokemon": 3,
         "recommendedParty": "[Gengar], [Absol], [Tyranitar], [Rayquaza]\n\nZoroark, Hoopa-U, Yveltal, Darkrai, Gengar",
         "srankingStrategy": "Moves: At least 3 moves left.",
+        "suggestedSrank": "\n\n[Gengar], Giratina-A (Lv9, SL1), Lampent (Lv8, SL1), N/A _ ",
         "basePower": 50,
         "ability": "Mega Boost"
     },
@@ -693,6 +703,7 @@
         "pokemon": 4,
         "recommendedParty": "[Tyranitar], [Rayquaza]\n\nDragonite, Kyurem-W, Kyurem-B, Kyurem, Articuno, Azumarill, Mamoswine, Glalie",
         "srankingStrategy": "Moves: At least 11 moves left.",
+        "suggestedTeam": "\n\n[Tyranitar], Dragonite (Lv6, SL1), Kyurem Black (Lv7, SL1), Articuno (Lv15, SL2) _ ",
         "suggestedSrank": "[Rayquaza-S], Dragonite, Zygarce-C, Kyurem-B _ Moves+5",
         "basePower": 80,
         "ability": "Dancing Dragons"
@@ -708,6 +719,7 @@
         "pokemon": 4,
         "recommendedParty": "[Garchomp], [Tyranitar], [Aggron], [Mewtwo-Y]\n\nGarchomp, Golurk, Landorus-T, Cresselia, Uxie, Victini",
         "srankingStrategy": "Moves: At least 10 moves left.",
+        "suggestedTeam": "\n\n[Camerupt], Mewtwo (Lv9, SL4 Swap), Deoxys (Lv6, SL1), Golurk (Lv8, SL2) _ Moves + 5\n\n[Camerupt], Landorus-T lvl10 (SL3), Golurk lvl8 (SL2), Mewtwo lvl10 (Swap (not skill swapped) SL2) _ Disruption Delay,Mega Start",
         "basePower": 50,
         "ability": "Toxic Stress"
     },
@@ -722,7 +734,8 @@
         "pokemon": 3,
         "recommendedParty": "[Camerupt], [Garchomp], [Rayquaza]\n\nLandorus-T, Flygon, Gliscor, Claydol, Golurk",
         "srankingStrategy": "Moves: At least 5 moves left.",
-        "suggestedTeam": "[Tyranitar], Groudon, Golurk lvl10, Landorus-T _ Itemless",
+        "suggestedTeam": "[Tyranitar], Groudon, Golurk lvl10, Landorus-T _ Itemless\n\n[Camerupt], Golurk (Lv8, SL2), Claydol (Lv6, SL1), N/A _ ",
+        "suggestedSrank": "\n\n[Camerupt], Garchomp lvl10, Landorus-T lvl10, n/a _ Itemless",
         "basePower": 50,
         "ability": "Opportunist"
     },
@@ -737,6 +750,7 @@
         "pokemon": 4,
         "recommendedParty": "[Rayquaza], [Tyranitar]\n\nRaikou, Shaymin, Zekrom, Bellossom, Sceptile, Emolga",
         "srankingStrategy": "Moves: At least 10 moves left.",
+        "suggestedTeam": "\n\n[Tyranitar], Zekrom (Lv7, SL1), Emolga (Lv13, SL4), Shaymin-L (Lv6, SL3) _ ",
         "basePower": 60,
         "ability": "Shock Attack"
     },
@@ -751,7 +765,7 @@
         "pokemon": 4,
         "recommendedParty": "[Aggron], [Tyranitar], [Rayquaza]\n\nLucario, Machamp, Mawile, Metagross, Jirachi, Emboar, Throh, Gigalith, Reshiram, Delphox",
         "srankingStrategy": "Moves: At least 6 moves left.",
-        "suggestedTeam": "[Tyranitar], Emboar lv15 (SS / SL5), Machamp lv15 (SS / SL5), Reshiram _ Itemless",
+        "suggestedTeam": "[Tyranitar], Emboar lv15 (SS / SL5), Machamp lv15 (SS / SL5), Reshiram _ Itemless\n\n[Tyranitar], Machamp Lv13 (SL4 RT), Skarmory Lv10 (SL3 Nosedive), Cobalion Lv7 (SL3) _ \n\n[Tyranitar], Charizard lvl15, optimize (used Ho-Oh lvl10), optimize (used Dialga) _ Itemless",
         "basePower": 50,
         "ability": "Mega Boost+"
     },
@@ -766,7 +780,8 @@
         "pokemon": 4,
         "recommendedParty": "[Camerupt], [Garchomp], [Tyranitar]\n\nLandorus-T, Golurk, Claydol, Gliscor, Garchomp",
         "srankingStrategy": "Moves: At least 6 moves left.",
-        "suggestedTeam": "[Tyranitar], Garchomp, Claydol, Golurk _ Itemless",
+        "suggestedTeam": "[Tyranitar], Garchomp, Claydol, Golurk _ Itemless\n\n[Camerupt], Garchomp (Lv5, SL1), Claydol (Lv6, SL1), Excadrill (Lv7, SL1) _ ",
+        "suggestedSrank": "\n\n[Camerupt], Groudon lvl15 (SL1), Landorus-T lvl10 (SL4), Garchomp lvl10 (SL1) _ Moves + 5,Mega Start",
         "basePower": 70,
         "ability": "Dancing Dragon"
     },
@@ -782,7 +797,7 @@
         "recommendedParty": "[Tyranitar], [Camerupt], [Rayquaza]\n\nGolurk, Garchomp, Groudon, Claydol, Landorus-T, Flygon, Donphan",
         "srankingStrategy": "Moves: At least 7 moves left.",
         "suggestedTeam": "[Mewtwo-Y], Cresselia, Landorus-T, Uxie _ Moves+5",
-        "suggestedSrank": "[Tyranitar], Mewtwo(SS / SL3), Groudon(SL3), Landorus-T(SL5) _ M+5, DD, MS\n\n[Tyranitar], Cresselia), Groudon, Landorus-T(SL5) _ M+5, DD, MS",
+        "suggestedSrank": "[Tyranitar], Mewtwo(SS / SL3), Groudon(SL3), Landorus-T(SL5) _ M+5, DD, MS\n\n[Tyranitar], Cresselia), Groudon, Landorus-T(SL5) _ M+5, DD, MS\n\n[Camerupt], Mewtwo (Lv9, Swap SL4), Golurk (Lv9, SL2), Claydol (Lv6, SL1) _ Moves + 5,Disruption Delay,Mega Start\n\n[Camerupt], Landorus lvl10 (SL3), Donphan lvl11 (SS / SL1), Groudon lvl15 (SL3) _ Moves + 5,Disruption Delay,Mega Start",
         "basePower": 70,
         "ability": "Poison Pact"
     },
@@ -797,7 +812,7 @@
         "pokemon": 4,
         "recommendedParty": "[Gengar], [Tyranitar], [Rayquaza]\n\nGengar, Zoroark, Hoopa-U, Darkrai, Yveltal, Banette",
         "srankingStrategy": "Moves: At least 8 moves left.",
-        "suggestedTeam": "[Gengar], Hoopa-C, Bisharp, Hoopa-U(SL5)",
+        "suggestedTeam": "[Gengar], Hoopa-C, Bisharp, Hoopa-U(SL5)\n\n[Tyranitar], Hoopa Unbound (MAX, SL5), Hydreigon (Lv1, SL1), Hoopa Confined (Lv9, SL2) _ Itemless",
         "basePower": 60,
         "ability": "Mega Boost"
     },
@@ -813,7 +828,8 @@
         "pokemon": 4,
         "recommendedParty": "[Tyranitar], [Aggron], [Mewtwo-X], [Rayquaza]\n\nReshiram, Emboar, Machamp, Mawile, Throh, Archeops, Lucario",
         "srankingStrategy": "Moves: At least 10 moves left.",
-        "suggestedSrank": "[Steelix], Machamp(SS / SL5), Emboar(SS / SL5), Reshiram _ M+5, DD, MS",
+        "suggestedTeam": "\n\n[Glalie-Winking], Machamp (Lv13, Risk Taker SL4), Reshiram (Lv8, SL2), Skarmory (Lv10, Nosedive SL3) _ Moves + 5,Disruption Delay,Mega Start",
+        "suggestedSrank": "[Steelix], Machamp(SS / SL5), Emboar(SS / SL5), Reshiram _ M+5, DD, MS\n\n[Steelix], Machamp lvl19 (SS / SL4), Emboar lvl12 (SS / SL3), Reshiram lvl10 (SL2) _ Moves + 5,Disruption Delay,Mega Start",
         "basePower": 60,
         "ability": "Ice Dance"
     },
@@ -828,6 +844,7 @@
         "pokemon": 4,
         "recommendedParty": "[Tyranitar], [Ampharos], [Rayquaza]\n\nRaikou, Zekrom, Shaymin, Bellossom, Ferrothorn, Thundurus-T, Emolga",
         "srankingStrategy": "Moves: At least 7 moves left.",
+        "suggestedTeam": "\n\n[Tyranitar], Raikou (Lv8, BB+ SL2), Emolga (Lv13, SL4), Shaymin-Land (Lv6, SL3) _ Itemless",
         "basePower": 50,
         "ability": "Power of 4"
     },
@@ -844,7 +861,7 @@
         "clearingStrategy": "Very hard stage. ",
         "srankingStrategy": "Moves: At least 10 moves left.\n\nI recommend full items, though if your team is strong enough, maybe you can drop M+5 and still make it.",
         "suggestedTeam": "[Garchomp], Landorus-T(SL5), Machamp(SS / SL5), Emboar(SS / SL5)\n\n[Camerupt], Landorus-T(SL4), Reshiram, Emboar(SS / SL5)\n[Camerupt], Lucario(SL2), Machamp(SS / SL5), Throh(SS)",
-        "suggestedSrank": "[Tyranitar], Machamp lvl20 (SS / SL5), Gallade, Lucario lvl15 (SL3) _ Full Items",
+        "suggestedSrank": "[Tyranitar], Machamp lvl20 (SS / SL5), Gallade, Lucario lvl15 (SL3) _ Full Items\n\n[Camerupt], Machamp lvl 16 (SS/SL4), Emboar lvl 15 (SS/SL4), Golurk lvl 15 _ Itemless,Moves + 5,Disruption Delay,Mega Start,C-1",
         "basePower": 70,
         "ability": "Mega Effect:  Tap up to 3 spots to clear up to 15 icons (5 each) in a + shape."
     }

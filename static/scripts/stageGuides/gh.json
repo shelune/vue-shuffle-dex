@@ -413,7 +413,7 @@
         "recommendedParty": "[Gengar] / [Gyarados-S] / [Rayquaza] / [Garchomp] / [Charizard Y]\n\nLandorus-T, Entei, Klefki, Golurk, Groudon",
         "clearingStrategy": "Not very hard to defeat, the disruption can be dealt with either with your mega of choice or bringing Klefki itself.",
         "srankingStrategy": "Moves: at least 7 moves left\n\nDoable itemless but very hard, bring either M-Rayquaza or Klefki.\n\nVery easy with Moves+5, as long as you bring strong supports.",
-        "suggestedTeam": "[Garchomp], Landorus-T, Entei, Klefki\n\n[Gengar], Landorus-T, Groudon, Golurk",
+        "suggestedTeam": "[Garchomp], Landorus-T, Entei, Klefki\n\n[Gengar], Landorus-T, Groudon, Golurk\n\n[Charizad], Heatran lvl9 (SL1), Ho-Oh lvl6 (SS/SL2), Klefki lvl6 (SL1) _ Itemless",
         "basePower": 60,
         "ability": "Block Smash"
     },
@@ -558,6 +558,7 @@
         "clearingStrategy": "The disruption is horrible, it is possible to lose if you do not play carefully enough. It is crucial to mega evolve as soon as possible. Rock Break+ (Flygon, Gliscor) could be useful but it is not mandatory.",
         "srankingStrategy": "Moves: at least 7 moves left\n\nMoves+5 is enough, but it can still fail if you get a slow evolution and/or a bad board after the first disruption.\n\nAdding Disruption Delay trivializes the stage.",
         "suggestedTeam": "[Rayquaza], Landorus-T, Groudon, Donphan\n\n[Garchomp], Landorus-T, Groudon, Golurk",
+        "suggestedSrank": "\n\n[Camerupt], Golurk lvl15, Landorus-T lvl10 (SL5) , Garchomp lvl10 _ Moves + 5",
         "basePower": 60,
         "ability": "Paralyze"
     },
@@ -612,6 +613,7 @@
         "clearingStrategy": "The disruption is definitely not a problem, very easy stage. If you caught it during its old safari, you can bring Gourgeist itself to keep 4 different species on the board and try to get some free combo after the first disruption.",
         "srankingStrategy": "Moves: at least 7 moves left\n\nVery easy, you can add Moves+5 if you really want to, but it is not necessary at all. It is doable without bringing Gourgeist, though obviously it requires a slightly better board.",
         "suggestedTeam": "[Gengar], Hoopa-U, Yveltal, Zoroark\n\n[Gengar], Hoopa-U, Darkrai, Gourgeist",
+        "suggestedSrank": "\n\n[Gengar], Yveltal lvl15 (SS / SL1), Hoopa-U lvl10 (SL5), Gourgeist lvl4 (SL1) _ Itemless",
         "basePower": 60,
         "ability": "Eject"
     },
@@ -792,6 +794,7 @@
         "clearingStrategy": "The disruption is really problematic, you really want to bring something to deal with it, for example M-Tyranitar or M-Pidgeot. Other mega can work, but the barriered rocks are annoying, so consider bringing Fearow, or Entei if you have swapped it.",
         "srankingStrategy": "Moves: at least 10 moves left.\n\nIt may be possible with just Moves+5 if you bring a candied M-Tyranitar, since it clears the disruption perfectly, otherwise you need at least Disruption Delay with a Pyre/Sky Blast team.",
         "suggestedTeam": "[Pidgeot], Lugia, Salamence, Braviary\n\n[Tyranitar], Ho-Oh, Entei, Charizard",
+        "suggestedSrank": "\n\n[Rayquaza-Shiny], Lugia lvl6 (SL2), Braviary lvl7 (SL3), Salamence lvl10 (SL2) _ Moves + 5,Mega Start",
         "basePower": 60,
         "ability": "Stabilize"
     },

@@ -33,6 +33,7 @@
         "recommendedParty": "[Mewtwo]\n\nGardevoir, Braviary,\nSalamence\n\nMewtwo\n\nCresselia, Lugia,\nDiancie",
         "clearingStrategy": "I only recommend Mewtwo here.\nM-Slowbro doesn't really shine\nbecause of the added support\nand M-Gardevoir isn't really\nhelpful either.\n\nLugia will Eject the Machop\naway on first turn. Make sure\nto match somewhere near the\n2nd row to open up skyfall tiles",
         "srankingStrategy": "Moves: At least 5 moves left\n\nMove+5 is only needed for this.",
+        "suggestedSrank": "\n\n[Beedrill], Mewtwo lvl14 (SS/ SL3), Tornadus-Therian lvl9 (SL4), Azumarill lvl15 (SS/ SL4) _ Itemless\n\n[Shiny], Azumarill lvl18 (RT / SL4), Lugia lvl10 SL1, Salamence lvl10 (MB / SL1) _ Itemless",
         "notes": "The catch rate was low so I suggest\nto wait for a Super Catch Rate\nif you want to catch this one.\nThis may be needed on an\nupcoming stage",
         "basePower": 50,
         "ability": "Pummel"
@@ -69,7 +70,7 @@
         "recommendedParty": "[Lucario]/[Medicham]\n\nConkeldurr, Pangoro,\nMedicham\n\nGallade, Lucario\n\nNone",
         "clearingStrategy": "B4-E4 will clear the Whismur's\nBarrier on 1st turn. Another Whismur\nwill fall. Use that to completely\nremove them. The barrier disruption\ncan be easily cleared by both Mega's\nMega effect",
         "srankingStrategy": "Moves: At least 7 moves left\n\nSeems to be doable with Move+5.",
-        "suggestedSrank": "[Rayquaza], Lucario, Throh, Machamp lvl20 (SS / SL5)",
+        "suggestedSrank": "[Rayquaza], Lucario, Throh, Machamp lvl20 (SS / SL5) _ Itemless\n\n[Rayquaza-S], Machamp lvl20 (SS/SL5), Lucario lvl12, Keldeo-R _ Itemless",
         "notes": "     ",
         "basePower": 30,
         "ability": "Paralyze"
@@ -88,6 +89,7 @@
         "recommendedParty": "[Garchomp]/[Any]\n\nExcadrill, Hippowdon,\nMarowak,Stunfisk\n\nNone\n\nGarchomp, Gible,\nGabite, Groudon",
         "clearingStrategy": "This stage will give you a headache\non the Metal Blocks. If you are\nlucky it will spawn Metal Blocks on\nthe column which has Metal Blocks\nalready. If not, it can make the\nwhole 4 column full of Metal Blocks.\n\nUse M-Garchomp to clear some away\npaired with Gabite's Block Smash\nto clear more Blocks. Gallade may\nbe useful for clearing the Blocks away\nif you have it",
         "srankingStrategy": "Moves: At least 11 moves left\n\nMove+5 and DD seems to be the best\nto use for this stage. Use Garchomp if\nit's candied, otherwise you should use \nM-Gengar instead.",
+        "suggestedSrank": "\n\n[Tyranitar], Landorus-T lvl10 (SL5), Phanpy lvl15 (SL2), Golurk lvl10 (SL1) _ Disruption Delay",
         "notes": "     ",
         "basePower": 50,
         "ability": "Block Smash"
@@ -106,6 +108,7 @@
         "recommendedParty": "[Mawile]/[Gengar]\n\nMuk, Nidoqueen,\nNidoking, Aegislash\n\nCobalion\n\nDialga, Jirachi,\nCrobat",
         "clearingStrategy": "Mawile+Jirachi can work here as well\nas Mega Gengar. If the barriers are\nbothering you too much, bring Palkia,\nCresselia or Diancie if you have them.\n\nCobalion and Muk are used for pure\ndamage (Power of 4+) and Crobat\ncan also be useful if you can trigger\nPoisonous Mist (rare)",
         "srankingStrategy": "Moves: At least 7 moves left\n\nDoable with Move+5",
+        "suggestedSrank": "\n\n[Aggron], Jirachi lvl 9 (SL2), Steelix lvl 9 (SS/SL3), Mawile lvl 8 (SS/SL3) _ Itemless\n\n[Bee], Muk lvl10 sl1, Metagross lvl10 sl1, Cobalion lvl10 sl1 _ Itemless",
         "notes": "     ",
         "basePower": 50,
         "ability": "Mega Boost+"
@@ -124,6 +127,7 @@
         "recommendedParty": "[Mewtwo]/[Gardevoir]/\n[Diancie]\n\nGardevoir, Braviary,\nSalamence\n\nMewtwo\n\nCresselia, Lugia,\nDiancie",
         "clearingStrategy": "Cresselia and Lugia are a must for\nfirst time in this stage. Try stalling\nfor 4 turns and it will disrupt clearing\nthe barriers and matching all Machop\nand Machoke. Use Lugia for Eject+\nand Cresselia for the barriers.\n\nDo not use M-Slowbro. It really didn't\nhelp at all. M-Mewtwo Y is the best\nbut you can also use M-Gardevoir.\n\nFor people without Cresselia and Lugia,\nthe release of M-Diancie is a blessing\nhere. Get Mega Start and you will\nbeat this level super easily with\nM-Diancie.",
         "srankingStrategy": "Moves: At least 9 moves left\n\nMove+5 can do this alone when you have\nCresselia and Lugia.\n\nMega Start and Moves +5 with M-Diancie\nwill give you the S rank quite eaesily.",
+        "suggestedSrank": "\n\n[Diancie], Azumarill lvl18 (RT SL4), Lugia lvl10 SL1, W-Togetic Lvl2 SL1 _ Itemless\n\n[Gengar], Salamence Lv15, Braviary, Staravia _ Itemless",
         "notes": "     ",
         "basePower": 60,
         "ability": "Stabilize"
@@ -216,6 +220,8 @@
         "recommendedParty": "[Garchomp]/[Blastoise]/\n[Aerodactyl]\n\nMilotic, Excadrill,\nTyranitar\n\nSwampert, Terrakion\n\nPalkia, Groudon,\nLandorus, Kyogre",
         "clearingStrategy": "Only one move to do at first so do\nthat. You can use M-Blastoise or\nM-Aerodactyl for crowd clearing but\nM-Garchomp is the best especially\nif you feed it some candies.",
         "srankingStrategy": "Moves: At least 7 moves left\n\nYou can do this itemless.\n\nIf you are having trouble, try adding a \nMove+5",
+        "suggestedTeam": "\n\n[Garchomp], Tyranitar, Manaphy-Winking, Volcanion _ Itemless",
+        "suggestedSrank": "\n\n[Camerupt], Ash Greninja lvl 9 (SS/SL2), Landorus-T lvl 10  SL4, W-Manaphy lvl 8 (SL2) _ Itemless",
         "notes": "     ",
         "basePower": 50,
         "ability": "Prank"
@@ -234,6 +240,7 @@
         "recommendedParty": "[Glalie]/[Charizard Y]/\n[Blaziken]\n\nSalamence, Heracross,\nAvalugg, Braviary,\n\n\nDelphox, Emboar,\nHeatran, Genesect\n\nHo-Oh, Lugia",
         "clearingStrategy": "Your first goal is to clear the barriers\non top. The barrier disruption will\nappear on the top left and will block\nall skyfall if you don't do so. Skiddo\nhas Barrier Bash to do some barrier\nbreaking if that can help.",
         "srankingStrategy": "Moves: At least 7 moves left\r\n\nDoable with just Move+5\n",
+        "suggestedTeam": "\n\n[Heracross], Reshiram lvl5 SL2, Genesect lvl6 SL1, Rayquaza-Shiny lvl8 SL1 _ Itemless",
         "notes": "     ",
         "basePower": 50,
         "ability": "Barrier Bash"
@@ -252,6 +259,7 @@
         "recommendedParty": "[Garchomp]/[Blastoise]\n\nMilotic, Excadrill,\nTyranitar\n\nSwampert, Terrakion\n\nPalkia, Groudon,\nLandorus, Kyogre",
         "clearingStrategy": "Looks threatening at first. Monferno\nwill start the stage by disrupting\n5 Monferno on the field. Match it\nand will activate Swap, clearing the\nother Monferno on the other side of\nthe field and breaking the barriers.",
         "srankingStrategy": "Moves: At least 9 moves left\n\nCan be done itemless.\n\nIf you are having trouble, a Move+5\ncan do this\n",
+        "suggestedSrank": "\n\n[Camerupt], Ash-Greninja lvl 9 (SS/SL2), T-Landorus lvl 10 (SL4), Suicune lvl15 (SS/SL2) _ Itemless",
         "notes": "     ",
         "basePower": 60,
         "ability": "Swap"
@@ -270,6 +278,7 @@
         "recommendedParty": "[Charizard Y]/[Blaziken]\n\nSalamence, Braviary,\nNinetales\n\nDelphox, Emboar,\nHeatran\n\nHo-Oh, Lugia",
         "clearingStrategy": "This stage seems to have some kind\nof pattern on breaking Rocks.I\npersonally use C6-A4 to break them\nleaving 2 Rocks in barrier which can\nbe easily dealt with next turn.\nBe careful not to use Eject or\nEject+ with the first move, or\nyou can screw up the board pretty\nbadly.",
         "srankingStrategy": "Moves: At least 7 moves left\n\nCan be done itemless.",
+        "suggestedSrank": "\n\n[Salamence], T-Tornadus lvl 10 SL3, S-Rayquaza lvl 7, Lugia lvl 10 SL2 _ Itemless",
         "notes": "     ",
         "basePower": 50,
         "ability": "Mega Boost"
@@ -326,6 +335,7 @@
         "clearingStrategy": "This stage is a hard one. You get\na constant spawning of Galvantula\nin your board if you didn't bring a DD\nwith you. You can use the spawned\nGalvantula to Paralyze itself if needed.",
         "srankingStrategy": "Moves: At least 20 moves left\n\nMega Start and +5\ncoupled with M Aero, Emboar,\nJoltik, Galvantula.\n\nWith Joltik, you have rocks as added\nsupport, which M Aero will take care of.",
         "suggestedTeam": "[Aerodactyl], Ho-Oh, Reshiram, Joltik",
+        "suggestedSrank": "\n\n[Tyranitar], Emboar lvl15( SL5), Tornadus-T lvl10 (SL4), Lugia lvl10 _ Moves + 5,Disruption Delay",
         "notes": "     ",
         "mobileNotes": " ",
         "basePower": 60,
@@ -419,6 +429,7 @@
         "recommendedParty": "[Mewtwo]/[Gardevoir]/\n[Slowbro]\n\nGardevoir, Braviary,\nSalamence, Florges\n\nMewtwo\n\nCresselia, Lugia,\nDiancie",
         "clearingStrategy": "  Lugia can eject Makuhitas, with luck\nfrom the top first. Cresselia can\nunfreeze them to allow for combos.\n\nAfter that, M Mewtwo can pile on\nthe damage to end the stage itemless.",
         "srankingStrategy": "Moves: At least 9 moves left\n\nI haven't tried adding Makuhita to my\nteam yet, he has potential coupled\nwith M Gengar and Braviary +\nSalamence/Lugia.\n\nMoves +5 is a nice safety measure with\nboth teams to get this S rank",
+        "suggestedSrank": "\n\n[Salamence], T-Tornadus lvl 10 SL 3, S-Rayquaza lvl 7, Makuhita lvl1 _ Itemless",
         "notes": "     ",
         "basePower": 30,
         "ability": "Barrier Bash"
@@ -437,6 +448,7 @@
         "recommendedParty": "[Mewtwo]/[Gardevoir]/\n[Slowbro]\n\nGardevoir, Braviary,\nSalamence, Florges\n\nMewtwo\n\nCresselia, Lugia,\nDiancie",
         "clearingStrategy": " It is nice to take 2 Barrier bash+\nPokémon, with Cresselia and\nDiancie or Palkia.\n\nFocus on removing the Barriers on top,\nthen deal damage with M Mewtwo.",
         "srankingStrategy": "Moves: At least 8 moves left\n\nWithout Barrier Bash+ Pokémon (they all\nare event), you will need maybe\nDisruption Delay and Moves+5 to S\nrank this.\n\nElse, Moves +5 should be enough.",
+        "suggestedSrank": "[Beedrill], Mewtwo lvl15 (SS / SL4), Cresselia, Diancie",
         "notes": "     ",
         "basePower": 60,
         "ability": "Stabilize+"
@@ -456,6 +468,7 @@
         "clearingStrategy": "Sharpedo has Eject, which can get \nrid of the Munna. Bisharp can get rid\nof the rocks fast.\n\nYou do not need more to beat this \nstage, even with the 2 Munna\nBarriers in the middle.",
         "srankingStrategy": "Moves: At least 6 moves left\n\nIt is possible to do it itemless with\nSharpedo or Lugia to eject the Munna,\nbut Moves +5 is nice if you don't\nwant to try many times and waste\nhearts.",
         "suggestedTeam": "[Gengar], Umbreon, Darkrai, Giratina",
+        "suggestedSrank": "\n\n[Rayquaza-Shiny], Yveltal lvl15, Hoopa-U, Heracross/Genesect lvl15 _ Itemless",
         "notes": "     ",
         "basePower": 40,
         "ability": "Block Smash"
@@ -512,6 +525,7 @@
         "clearingStrategy": "  Talonflame is useful, but it nedds\nto be leveled up, else the damage\nwill not follow. Lucario or Garchomp\nwork best as Mega.\n\nIf you have none of these Mega,\nMedicham can do the work, just\nnot as nicely as them.",
         "srankingStrategy": "Moves: At least 9 moves left\n\nMoves +5 can be enough, however\na Mega Start on top of it will save\nyou hearts.",
         "suggestedTeam": "[Garchomp], Landorus-T, Gallade, Talonflame\n\n[Medicham], Landorus-T, Groudon, Gallade ",
+        "suggestedSrank": "[Camerupt], Talonflame, Gallade, Machamp lvl20 (SS / SL5) _ Moves+5",
         "notes": "     ",
         "basePower": 60,
         "ability": "Mega Boost"
@@ -548,6 +562,7 @@
         "recommendedParty": "[Garchomp]/\n[Lucario]/[Medicham]/\n[Blaziken]/[Charizard Y]\n\nStunfisk, Marowak,\nPangoro, Conkeldurr,\nExcadrill\n\nGallade, Delphox,\nHeatran\n\nMachamp, Landorus,\nTalonflame, Ho-Oh",
         "clearingStrategy": "  This stage is quite hard without a\nDisruption Delay. Optimise team\nis fine here, just take your most\ndamage pokémon to do it.",
         "srankingStrategy": "Moves: At least 11 moves left\n\nDisruption delay can be enough to S rank\nthis. If you're short on coins and are\nafraid to fail, investing in a Moves+5\nis really safe (and it costs basically\nonly 2 Meowth runs, which is not that\nbad).",
+        "suggestedSrank": "\n\n[Camerupt], Machamp lvl20 (RT/SL5), Golurk lvl15 SL2, Reshiram lvl10 SL2 _ Itemless",
         "notes": "     ",
         "basePower": 70,
         "ability": "Eject"
@@ -585,6 +600,7 @@
         "recommendedParty": "[Mawile]/[Steelix]/\n[Lucario]/[Medicham]/\n[Garchomp]/[Gengar]\n\nConkeldurr, Aggron,\nKlinklang\n\nGallade, Sceptile,\nSwampert\n\nDialga, Shaymin, Palkia",
         "clearingStrategy": "Beatable itemless. If you don't\nhave Dialga, try Gallade for\nBlock Smash+, really helps. If you\nmatch 4 Gallade or Dialga, it will\nremove 3 metal blocks guaranteed.\nThen, M-Gengar will work its magic.  \n\nCan add Nosepass to the team to\ncombo with the Nosepass in the\nSkyfall after the metal blocks.",
         "srankingStrategy": "Moves: At least 6 moves left\n\nMoves +5 is enough to assure the\nS rank this stage, but not necessary.\n\nIf you have Nosepass already, adding\nhim to the team is nice considering\nsome Nosepass will skyfall. Easier S\nrank if you have it.",
+        "suggestedSrank": "\n\n[Camerupt], Nosepass lvl1, Machamp lvl20 (SS-sl5), No 3rd support _ ",
         "notes": "     ",
         "basePower": 50,
         "ability": "Block Smash"
@@ -621,6 +637,7 @@
         "recommendedParty": "[Heracross]/[Lucario]/\n[Medicham]/[Gardevoir]\n\nConkeldurr, Scyther,\nPangoro,\n\nGallade, Genesect,\nXerneas\n\nDiancie, Machamp",
         "clearingStrategy": "  The stage is beatable itemless\nusing any Super effective Mega.\nJust try to break some barriers\nto allow combos a bit, and get rid\nof the spawned Mandibuzz with your\nMega preferably.",
         "srankingStrategy": "Moves: At least 12 moves left\n\nA lot of people say that this S rank is\npossible itemless, but I barely made it\nwith a Disruption Delay. I might be just\nbad too, that can explain.",
+        "suggestedSrank": "\n\n[Tyranitar], Machamp lvl20 (SS/SL5), Throh lvl 8 (SS/SL2), Genesect lvl 10 _ Itemless\n\n[Rayquaza-Shiny], Machamp lvl20 (SS / SL5), Diancie lvl10 (SL1), Lucario lvl15 (SL2) _ Itemless",
         "notes": "     ",
         "basePower": 70,
         "ability": "Hitting Streak"
@@ -840,6 +857,7 @@
         "recommendedParty": "[Gengar]/[Charizard Y]\n[Blaziken]/[Lucario]/\n[Medicham]\n\nConkeldurr, Ninetales,\nSteelix, Klinklang\n\nDelphox, Heatran,\nMoltres, Entei\n\nEmboar, Machamp,\nDialga",
         "clearingStrategy": "  Use M-Gengar (again) and you should\ncombo enough to finish the stage\nitemless.\n\nSometimes, you should match\nSnovers to remove some barriers\nand free more space for your pokémon\nto combo.",
         "srankingStrategy": "Moves: At least 7 moves left\n\nWith Snover this stage will basically\nplay itself. Still doable itemless without\nSnover, but again, if you fail too many\ntimes, a Moves+5 will save you from\nyour troubles.",
+        "suggestedTeam": "\n\n[Houndoom], Heatran, Emboar, None _ Itemless",
         "notes": "     ",
         "basePower": 50,
         "ability": "Block Smash"
@@ -858,6 +876,7 @@
         "recommendedParty": "[Garchomp]/[Any]\n\nExcadrill, Hippowdon,\nMarowak,Stunfisk\n\nNone\n\nGarchomp, Gible,\nGroudon, Camerupt",
         "clearingStrategy": "  M-Garchomp will take care of this\nstage pretty easily. If you don't\nhave him, I guess Gengar can be\nan OK substitute to have combos\nrolling.",
         "srankingStrategy": "Moves: At least 7 moves left\n\nPossible itemless with M-Garchomp,\nif you don't have it, you will probably need\na Moves +5 to S rank this.",
+        "suggestedSrank": "\n\n[Camerupt], Barboach lvl2 SL1, Landorus-T lvl10 SL4, Golurk lvl15 SL2 _ Itemless",
         "notes": "     ",
         "basePower": 60,
         "ability": "Cloud Clear+"
@@ -931,6 +950,7 @@
         "recommendedParty": "[Gengar]/[Blaziken]/\n[Aerodactyl]/[Charizard Y]\n\nTyranitar, Auroras,\nConkeldurr, Pangoro\n\nGallade, Delphox,\nHeatran, Entei\n\nHo-Oh, Gigalith, \nRegisteel, Regirock,\nDialga",
         "clearingStrategy": "  Just match close to the rocks first,\nand witness the power of Gengar\nonce again.",
         "srankingStrategy": "Moves: At least 4 moves left\n\nDoable itemless, try over and over.\nIf you don't want to, then feel free\nto get Moves+5 for the easy S rank.",
+        "suggestedSrank": "\n\n[Tyranitar], Machamp lvl20 (SS / SL5), Reshiram lvl10 (SL2), Emboar lvl15 (SS / SL5) _ Itemless",
         "notes": "     ",
         "basePower": 30,
         "ability": "Rock Break"
@@ -949,6 +969,7 @@
         "recommendedParty": "[Ampharos]/[Manectric]/\n[Venusaur]\n\nRoserade, Gogoat\n\nSceptile, Zapdos,\nLuxray, Virizion\n\nShaymin, Thundurus,\nZekrom",
         "clearingStrategy": "  Hard stage to clear, the disruption\nis quite heavy. I recommend using\nDisruption Delay for a nice clear\nof this stage.\n\nYou can try to rely on Shaymin's\nSleep Charm ability, but you will\nnot be able to prevent the initial\ndisruption.\n\nThe release of M-Diancie seems not\nto make this level a lot easier with it.",
         "srankingStrategy": "Moves: At least 11 moves left\n\nDisruption Delay is a must for this S rank.\nAdd in a Moves +5 to secure it.\nAdd a Mega Start if you're really\nstruggling, but with high level Pokémon\nyou should not need it.",
+        "suggestedSrank": "\n\n[Ray], Raikou lvl15 (SS / SL2), Shaymin-L lvl10 SL5, Bellosom lvl10 SL3 _ Disruption Delay",
         "notes": "     ",
         "basePower": 70,
         "ability": "Last-Ditch Effort"
@@ -1078,6 +1099,7 @@
         "recommendedParty": "[Mawile]/[Steelix]\n\nMuk, Nidoqueen,\nNidoking, Aegislash\n\nCobalion\n\nDialga, Jirachi,\nCrobat",
         "clearingStrategy": "  Steelix seems useful when seeing the\nboard, but no more Metal Blocks will\nappear so I suggest keeping with\nM-Mawile.\nNo items are needed if you have\nDIalga and remove metal blocks\nearly on. But this stays a hard \nstage, and you might require a\nDisruption Delay to smoothly beat it.",
         "srankingStrategy": "Moves: At least 11 moves left\n\nDIsruption Delay and Mega Start\nwork well together. Throw in a Moves+5\nif your pokémon are not super leveled.\nMawile is better than Steelix for this.",
+        "suggestedSrank": "\n\n[Aggron], Jirachi 10 (SL2), Dialga 7 (SL1), Cobalion 10 (SL2) _ Moves + 5",
         "notes": "     ",
         "basePower": 60,
         "ability": "Stabilize+"
@@ -1096,7 +1118,7 @@
         "recommendedParty": "[Gardevoir]/[Latios]/\n[Latias]/[Altaria]/\n[Glalie]\n\nRayquaza, Avalugg\n\nGoodra, Articuno,\nDragonite, Xerneas\n\nDiancie",
         "clearingStrategy": "Well, this was a nice run in Roseus\nCenter. Big bad Mega Rayquaza is\nvery hard to beat.\nI would say that Mega Start, Disruption\nDelay, and Moves +5 can beat this\nstage. With these items, M-Latios\nis the best to use.\n\nWill try if M-Diancie can help in this\nstage, maybe it can avoid using\na Disruption Delay, message me if\nyou have already tried.",
         "srankingStrategy": "Moves: At least 11 moves left\n\nFull item run is what you need here for\nthis stage. Mega Start, Disruption Delay,\nMoves +5 and Complexity-1 is what\nit takes to beat this monster.\nFull item run with MLatios/Dragonite/\nXerneas/Goodra gave me S rank with\n4 moves spare.\n\nYou can use Shufflemove to help you\nmake the moves yielding the more combos\nor the most score depending on the\nsituation of the boar.",
-        "suggestedTeam": "[Gengar], Kyurem-W, Zygarde-C, Dragonite\n\n[Latios], Kyurem, Diancie, Articuno",
+        "suggestedTeam": "[Gengar], Kyurem-W, Zygarde-C, Dragonite\n\n[Latios], Kyurem, Diancie, Articuno\n\n[Camerupt], Black Kyurem, Dragonite, Zygarde-50 _ Itemless\n\n[Diancie], Xerneas lvl9 SL3, Kyurem lvl8, Latias lvl6 _ Moves + 5,Mega Start",
         "suggestedSrank": "[Rayquaza], Xerneas, Glalie (SL4), Dragonite _ DD, C-1",
         "notes": "You get the Mega Stone for\nRayquaza!",
         "basePower": 70,

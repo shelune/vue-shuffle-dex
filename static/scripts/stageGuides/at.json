@@ -236,6 +236,7 @@
         "clearingStrategy": "You can do a Jirachi+Mawile combo\nhere. If you didnt get a good match,\nyou may want to use Cobalion's Power\nof 4+ instead. An alternative Mega\nwould be Gengar which is also good",
         "srankingStrategy": "Moves: At least 6 moves left\nMove+5 can do this",
         "suggestedTeam": "[Mawile], Jirachi, Dialga, Cobalion\n\n[Gengar], Dialga, Cobalion, Nidoqueen",
+        "suggestedSrank": "[Aggron], Dialga, Cobalion lvl15 (SL2), Metagross lvl10 _ Itemless",
         "basePower": 40,
         "ability": "Eject"
     },
@@ -254,6 +255,7 @@
         "clearingStrategy": "For initial, A6 to F4 is a good way\nto start. This will wipe all Starly,\nStaravia and Staraptor on the board.\n\nThen, eject the disruptions with \nTyranitar, matching them together\nwill waste your moves.",
         "srankingStrategy": "Moves: At least 10 moves left\nMove+5, DD and Mega Start will be\nenough for this. You can use M-Gengar\nwith a team of super effectives, it works\nquite well. Using Gengar, you can drop\nthe Mega Start as Gengar evolves fast.\n\nExpensive option (but ultra reliable)\nComplexity + DD (Move+5 for safety net)\nSeems to work on most. But the former\nstrategy should work well now that we have\nstronger pokémon  (Kyurem for example)",
         "suggestedTeam": "[Tyranitar], Zapdos, Raikou, Terrakion\n\n[Gengar], Jolteon, Tyranitar, Raikou",
+        "suggestedSrank": "[Rayquaza-S], Raikou lvl12, Zapdos lvl10, Terrakion lvl12 (SL4) _ Moves+5\n\n[Tyranitar], Articuno lvl20 (SL3), Raikou lvl15 (SS), Glalie lvl15 _ Itemless\n\n[Tyranitar], Raikou lvl15 (SS / SL2), Glalie lvl15 (SL3), Zekrom lvl10 (SL2) _ Itemless",
         "basePower": 60,
         "ability": "Stabilize+"
     },
@@ -290,6 +292,7 @@
         "clearingStrategy": "You'll need to rely on Darkrai's Sleep\nCharm to get rid of disruptions for a\nwhile. The disruption is crazy and\nwill fill your board unless you are\nusing a DD. Just focus on all damage\nyou can get. Giratina's Power of 4+,\nGenesect's Crowd Control and\nDarkrai are the best to use.\n\nSeems Absol as Mind Zapper seems\nto also work to prevent disruptions\n(aside from Darkrai's Sleep Charm)\n\nFor those who are using Banette,\nShuppet is a better choice for a \nMind Zap if you gave it some levels\n(For more Power for Banette's Mega\nEffect)",
         "srankingStrategy": "Moves: At least 12 moves left\nMove+5 can do this\n\nOtherwise, add up a DD",
         "suggestedTeam": "[Gengar], Darkrai, Giratina-A, Genesect\n\n[Gengar], Darkrai, Yveltal, Zoroark\n\n[Gengar], Darkrai, Yveltal, Absol",
+        "suggestedSrank": "\n\n[Gengar], Hoopa-U LV10 SL4, Darkrai LV10 SL2, Giratina LV10 SL1  _ Moves + 5,Disruption Delay",
         "basePower": 60,
         "ability": "Prank"
     },
@@ -418,6 +421,7 @@
         "clearingStrategy": "Another easy one. Nothing worth\nnoting",
         "srankingStrategy": "Moves: At least 7 moves left\nCan be done itemless\n\nOtherwise, Add a Move+5",
         "suggestedTeam": "[Gengar], Lucario, Machamp, Gallade\n\n[Lucario], Machamp, Gallade, Conkeldurr",
+        "suggestedSrank": "\n\n[Lucario], Machamp Lv20 SS/SL5, Gallade Lv10, Conkeldurr Lv10 _ ",
         "basePower": 60,
         "ability": "Rock Break"
     },
@@ -473,6 +477,7 @@
         "clearingStrategy": "The first thing to do is match the\nSkitty at the center. This opens the\n3rd Column for skyfall. Then use the\nremaining Skitty to match the other\nSkitty blocking the skyfall at other\ncolumns.",
         "srankingStrategy": "Moves: At least 7 moves left\nSeems to be beatable itemless. Some\nsay that adding Skitty to the stage helps\n\nMove+5 will do if you are having trouble",
         "suggestedTeam": "[Lucario], Machamp, Conkeldurr, Gallade\n\n[Rayquaza], Conkeldurr, Lucario, Gallade",
+        "suggestedSrank": "\n\n[Lucario], Machamp Lv20 SS/SL5, Gallade Lv10 SL2, Skitty Lv1 _ ",
         "basePower": 50,
         "ability": "Prank"
     },
@@ -509,6 +514,7 @@
         "clearingStrategy": "Stage has been made easier with less\nHP. Not sure how it affects the \nclearing and S ranking strategies.\n\nThe barriers are hard to control\nwithout someone to destroy it.\nCresselia or Palkia may be used to\nget rid of some of them. ",
         "srankingStrategy": "Moves: At least 9 moves left\nSeems to be doable with Move+5\nif you have Jirachi + M-Mawile.\n\nIf Move+5 didn't work for you, you might\nwant to swap Jirachi for Muk (if leveled)\nor Nidoqueen and add Mega Start. Note\nthat M-Mawile's Mega ability will only\nclear half the initial barriers when triggered\nso you have to clear the leftovers yourself.\nIf the Disruption is hard for you, you may\nneed a DD but I don't recommend it.\n\nNow, with the mighty M-Rayquaza, it's\nreliable to use Mega Start and Moves +5.\nEven though Rayquaza is Not Very\nEffective, it can remove the Ralts and Kirlia\nand overall make you able to combo very\nnicely (thanks for the suggestion!)",
         "suggestedTeam": "[Diancie], Dialga, Muk, Cobalion MS DD M+5\n\n[Mawile], Dialga, Muk, Cobalion\n\n[Gengar] Dialga, Muk, Nidoquen",
+        "suggestedSrank": "[Beedrill], Cobalion lvl15 (SL2), Dialga lvl8, Aggron lvl10 _ Moves+5",
         "basePower": 70,
         "ability": "Swap"
     },

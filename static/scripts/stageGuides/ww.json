@@ -52,6 +52,7 @@
         "recommendedParty": "[Mawile]/[Lucario]/\n[Steelix]\n\nMarowak, Stunfisk,\nDonphan\n\nLucario, Swampert,\nSuicune, Sceptile\n\nKyogre, Groudon,\nJirachi",
         "clearingStrategy": "Okay this one is hard. A good way to\nclear it is buy Disruption Delay to get\ngood combos at the start",
         "srankingStrategy": "Moves: At least 9 moves left\n\nDD and M-Luke\nIf you dont have Lucarionite, M-Mawile is\nthe same. This one is doable with DD but\nif you are unsure, go Buy a Move+5\n\nWith the release of Mega Steelix, this can\nbe done itemless. Use Jirachi for Mega\nBoost+ to get Steelix Mega Evolve earlier",
+        "suggestedSrank": "\n\n[Absol-M], Lucario Lv15 SL2, Bronzong, Donphan Lv20 Quake _ Itemless",
         "mobileNotes": "Lower HP than 3ds version. Not just lower,\nits 3300 HP less. You can expect this to be\neasier than 3ds except that the catch rate\nbecomes 4% from 25%.",
         "basePower": 50,
         "ability": "Eject"
@@ -271,6 +272,7 @@
         "clearingStrategy": "Feebas+Jolteon+Dedenne+M-Amphy\n(Dont use M-Manectric) can clear this\nwithout items. Use the Dedenne and\nJolteon for Mega Boosters and use\nAmpharos when you get a match.\n\nI defeated it with LV2 Amphy,\nLV1 Jolteon, LV1 Dedenne and\nLV1 Feebas (6 turns left)",
         "srankingStrategy": "Moves: At least 15 moves left\nSame team with clearing strategy and\nMove+5 and decent level (5+) can do it or\nyou can go with stronger team (Zapdos\nand Raikou) and Mega Start\n\nMove+5 + DD and Mega Start can get this\ndone if the above strategy seems to\nnot work.\n\nAlso you may try Tapper Megas with high bursting damage support.",
         "suggestedTeam": "[Tyranitar], Feebas, Raikou, Emolga(SS)",
+        "suggestedSrank": "\n\n[Ampharos], Shaymin SL5, Rotom (Mega Boost+), Feebas (Barrier Bash++) _ Itemless",
         "mobileNotes": "This one is another same from 3ds. I still\nrecommend Mega Boosters than typical\nOptimize team. Make sure to bring Feebas",
         "basePower": 70,
         "ability": "Stabilize+"
@@ -471,6 +473,7 @@
         "clearingStrategy": "No disruptions here but since we cant\ndestroy the Metal Blocks at the center,\nwe have to wait for 5 turns each to\nget some decent combos",
         "srankingStrategy": "Moves: At least 17 moves left\n\nMega Start+ Move+5 will do this.\nYou may want to swap Xerneas for\na good Psychic type (Victini, Wobbuffet,\nChimecho) if you are using Mega Mewtwo.\nSnubbull with Crowd Control will do\nwonders in this stage\n\nYou may use Complexity if you are having\nreally really trouble S-Ranking this",
         "suggestedTeam": "[M-Mewtwo], Xerneas, Cresselia, Victini",
+        "suggestedSrank": "[Rayquaza-S], Azumarill lvl20 (SS / SL5), Alakazam lvl10 (SL3), Xerneas lvl9 (SL5) _ Itemless",
         "notes": "One of the hardest to S-Rank in\nthis area..",
         "mobileNotes": "Nothing change except for catch rate",
         "basePower": 50,
@@ -545,7 +548,7 @@
         "clearingStrategy": "You may need Mega Lucario or\nMega Blastoise in here for Super\nEffective Megas. Too much Wooden\nBlocks. A Mega Start would also\nbe awesome\n\nWith the release of M-Garchomp, this\ngets easier (specially if you have\nDialga and other strong Super\nEffectives)",
         "srankingStrategy": "Moves: At least 12 moves left\n\nMove+5 and Mega Start will do this.\n\nMega Aero can be optional.",
         "suggestedTeam": "[Rayquaza], Groudon, Landorus, Garchomp",
-        "suggestedSrank": "[Aggron], Machamp lvl16 (SS / SL5), Manaphy-W, Virizion lv14 (SL3) _ Itemless",
+        "suggestedSrank": "[Aggron], Machamp lvl16 (SS / SL5), Manaphy-W, Virizion lv14 (SL3) _ Itemless\n\n[Garchomp], Ash-Greninja lv10 (SL5), W-Manaphy lv8 (SL1), Volcanion lv8 (SL3) _ Itemless",
         "notes": "12th Mega Stone!",
         "mobileNotes": "The health disruption will trigger from 25% to\n23% now. Also has higher HP than 3ds\n(About 1600 higher). Also note that mobile\nplayers only have Lucario as Mega here but since\nMobile players have Dialga and Palkia, this\nwill be a little bit easier",
         "basePower": 60,
