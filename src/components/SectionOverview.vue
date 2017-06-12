@@ -3,7 +3,7 @@
     <div class="container">
       <h1 class="section_title" :style="{marginTop: '0'}">Overview</h1>
       <div class="columns">
-        <overview-stage :stageData="stageData" :class="showStage ? '' : 'is-hidden-mobile'" @switch-overview="switchView"></overview-stage>
+        <overview-stage :stageData="stageData" :mode="mode" :class="showStage ? '' : 'is-hidden-mobile'" @switch-overview="switchView"></overview-stage>
         <overview-pokemon :stageData="stageData" :class="showPokemon ? '' : 'is-hidden-mobile'" @switch-overview="switchView"></overview-pokemon>
       </div>
     </div>
@@ -25,7 +25,7 @@ export default {
     OverviewStage,
     OverviewPokemon
   },
-  props: ['stageData'],
+  props: ['stageData', 'mode'],
   methods: {
     switchView() {
       this.viewIsPokemon = !this.viewIsPokemon

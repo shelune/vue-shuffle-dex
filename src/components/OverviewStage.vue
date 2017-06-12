@@ -7,7 +7,7 @@
       </div>
       <button class="modal-close" @click="closeModal"></button>
     </div>
-    <h2>Stage {{ number }} </h2>
+    <h2>Stage {{ number }} / {{ mode == 'main' ? stageLimit.main : stageLimit.expert }}</h2>
     <div :class="['stage_supportLimit', parseInt(supportLim) >= 4 ? 'stage_supportLimit-4' : 'stage_supportLimit-3']"></div>
     <div class="card_tag">
       Stage Info
@@ -58,10 +58,11 @@ export default {
       hitPts: '?',
       supportLim: '',
       requirements: '?',
-      modalOpened: false
+      modalOpened: false,
+      stageLimit: {main: 580, expert: 48}
     }
   },
-  props: ['stageData'],
+  props: ['stageData', 'mode'],
   watch: {
     stageData() {
       this.updateStageNo()

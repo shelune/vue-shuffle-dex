@@ -1,6 +1,6 @@
 <template>
   <div class="stage">
-    <section-overview :stageData="stageData"></section-overview>
+    <section-overview :stageData="stageData" :mode="mode"></section-overview>
     <section-disruptions :stageData="stageData"></section-disruptions>
     <section-strategy :stageData="stageData"></section-strategy>
     <section-supports :stageData="stageData"></section-supports>
