@@ -30,7 +30,7 @@
           </div>
           <div class="glance glance-sranks">
             <strong>S-Ranks</strong>
-            <span>{{ this.time.length > 1 ? `${sRank}s` : `${sRank} / ${moves}` }}</span>
+            <span>{{ this.time.length > 1 && sRank ? `${sRank}s` : '?' }}</span>
           </div>
           <div class="glance glance-layout">
             <strong @click="openModal">Click for starting board</strong>
@@ -46,6 +46,7 @@
 
 <script>
 import _ from 'lodash'
+import * as Resources from './../resources'
 
 export default {
   data () {
@@ -59,7 +60,7 @@ export default {
       supportLim: '',
       requirements: '?',
       modalOpened: false,
-      stageLimit: {main: 580, expert: 48}
+      stageLimit: {main: Resources.mainStageCap, expert: Resources.expertStageCap}
     }
   },
   props: ['stageData', 'mode'],
