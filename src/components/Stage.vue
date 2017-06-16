@@ -57,6 +57,7 @@ export default {
           let sranking = data.srankingStrategy
           let srankMoves = sranking.match(/\d+/g, '')[0]
           this.stageData.srankMoves = srankMoves
+          console.log('sranking: ', this.stageData.srankMoves)
           console.log('FINAL STAGE DATA: ', this.stageData)
           $('#stage-selector').blur()
         } else {
