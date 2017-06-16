@@ -30,7 +30,7 @@
           </div>
           <div class="glance glance-sranks">
             <strong>S-Ranks</strong>
-            <span>{{ this.time.length > 1 && sRank ? `${sRank}s` : '?' }}</span>
+            <span>{{ this.time.length > 1 ? `${sRank}s` : `${sRank} / ${moves}` }}</span>
           </div>
           <div class="glance glance-layout">
             <strong @click="openModal">Click for starting board</strong>
