@@ -1,0 +1,444 @@
+[
+    {
+        "stageNo": "Zaffiro Coast"
+    },
+    {
+        "stageNo": 601,
+        "icon": 479,
+        "name": "Kricketot",
+        "hitPts": 20410,
+        "type": "Bug",
+        "moves": 10,
+        "captureRate": "Base: 7%\nBonus: 5% /move",
+        "pokemon": 3,
+        "clearingStrategy": "Basic 3-support Stage. Bring your Tapper with decent bursts and you should be fine. Heatran / Regirock works best here.",
+        "srankingStrategy": "M+5 is a safety net. Itemless is also doable within a few tries. You can swap LDEs for combo boosters like Ho-Oh / Delphox.",
+        "suggestedTeam": "[Beedrill], Regirock lvl15 SL5 (LDE), Heatran lvl10 LS4 _ Itemless",
+        "suggestedSrank": "[Alakazam], Ho-Oh SL4 (Nose Dive), Regirock lvl15 (SL5) _ Itemless",
+        "basePower": 30,
+        "ability": "Daunt"
+    },
+    {
+        "stageNo": 602,
+        "icon": 447,
+        "name": "Bagon",
+        "hitPts": 6352,
+        "type": "Dragon",
+        "moves": 8,
+        "captureRate": "Base: 8%\nBonus: 6% /move",
+        "pokemon": 4,
+        "clearingStrategy": "Board is quite annoying. You're limited to the inner 4 columns. Bringing Bagon here definitely helps. Bursters are of course the choice here (Zygarde-C / Goodra / Xerneas / ...). Kyurem-W & Zygarde-C (BS+) may work too but I think you'd lack firepower.",
+        "srankingStrategy": "M+5 should be enough already. MSRay seems to fare better here with its clearing pattern. The rest is just hoping you get a good burst.",
+        "suggestedTeam": "[S-Rayquaza], Goodra lvl10 SL5 (UP), Articuno lvl20 SL4, Bagon _ Itemless",
+        "suggestedSrank": "[S-Rayquaza], Goodra lvl10 SL5 (UP), Xerneas SL4 (Po4), Bagon _ Itemless",
+        "basePower": 50,
+        "ability": "Power of 4"
+    },
+    {
+        "stageNo": 603,
+        "icon": 717,
+        "name": "Cryogonal",
+        "hitPts": 24930,
+        "type": "Ice",
+        "moves": 15,
+        "captureRate": "Base: 9%\nBonus: 5% /move",
+        "pokemon": 4,
+        "clearingStrategy": "Lots of barriers from the start. Skyfall Cryogonals don't help either. Go for LDEs here seems to be the best choice. I tried M-Aggron & Jirachi but failed hard. If you have M-Houndoom candied, that would help tremendously.",
+        "srankingStrategy": "M+5 and MS for safety reason. Even if you have a fully candied Houndoom, the board can just screw you up. Grab your best bursters (Machamp / Emboar / Mawile / etc...) and demolish this.",
+        "suggestedTeam": "[Beedrill], Heatran SL4, Regirock lvl15 (SL5), Machamp lvl20 SL5 (RT) _ Itemless",
+        "suggestedSrank": "[Houndoom], Emboar lvl15 SL5 (RT), Machamp lvl20 SL5 (RT), Mawile lvl20 SL5 (RT) _ M+5, MS",
+        "basePower": 70,
+        "ability": "Barrier Shot"
+    },
+    {
+        "stageNo": 604,
+        "icon": 480,
+        "name": "Kricketune",
+        "hitPts": 13230,
+        "type": "Bug",
+        "moves": 10,
+        "captureRate": "Base: 8%\nBonus: 4% /move",
+        "pokemon": 4,
+        "clearingStrategy": "Disrupts barriers with rocks in the skyfall. M-Beedrill works fine but M-Diancie may help better here (or M-Houndoom). Still LDE is the way to go with just 10 moves to start with.",
+        "srankingStrategy": "Same items as Cryogonal. MS your Houndoom up and start comboing this down. Pyre / Sky Blast teams may fare well here, but bursters are always appreciated",
+        "suggestedTeam": "[S-Rayquaza], Regirock lvl15 SL5, Heatran lvl10 SL4, Emboar lvl15 SL5 (RT) _ Itemless",
+        "suggestedSrank": "[Houndoom], Emboar lvl15 SL5 (RT), Ho-Oh SL4 (Nose Dive), Delphox _ M+5, MS",
+        "basePower": 50,
+        "ability": "Calm Down"
+    },
+    {
+        "stageNo": 605,
+        "icon": 538,
+        "name": "Croakgunk",
+        "hitPts": 8820,
+        "type": "Poison",
+        "moves": 9,
+        "captureRate": "Base: 7%\nBonus: 7% /move",
+        "pokemon": 4,
+        "clearingStrategy": "Capture Croakgunk and bring it here. The disruptions are too much to handle. Hippowdon is the way to go if you have it cookied. Otherwise you can go with some decent bursters. Not too bulky, I even brought Toxicroak here with M-Rayquaza.",
+        "srankingStrategy": "M+5 and MS if you don't have Camerupt candied. Even if you have it candied, MS with M-Tar and go with some nice bursters will almost guarantee this S-Rank.",
+        "suggestedTeam": "[Rayquaza], Croakgunk, Toxicroak, Landorus-T lvl13 SL5 _ Itemless",
+        "suggestedSrank": "[Camerupt], Mewtwo lvl20 SL4 (Po4), Donphan lvl20 SL4 (Ground Force), Croakgunk _ M+5",
+        "basePower": 50,
+        "ability": "Prank"
+    },
+    {
+        "stageNo": 606,
+        "icon": 448,
+        "name": "Shelgon",
+        "hitPts": 12800,
+        "type": "Dragon",
+        "moves": 12,
+        "captureRate": "Base: 6%\nBonus: 4% /move",
+        "pokemon": 4,
+        "clearingStrategy": "Lots of rocks but Shelgon is not required. You'll need your best bursters here (as usual). Get MSRay up ASAP and start whacking it.",
+        "srankingStrategy": "At least M+5 is needed for a safe S-Rank. Itemless is possible but depends quite much on your skyfall. MSRay still is the go-to Mega here with M+5. Otherwise you can add MS with M-Tar to get the job done quicklier.",
+        "suggestedTeam": "[S-Ray], Goodra lvl10 SL5 (UP), Xerneas lvl13 SL3 (Po4), Azumarill lvl20 SL4 (RT) _ Itemless",
+        "suggestedSrank": "[S-Ray], Goodra lvl10 SL5 (UP), Xerneas lvl13 SL3 (Po4), Azumarill lvl20 SL4 (RT) _ M+5",
+        "basePower": 60,
+        "ability": "Damage Streak"
+    },
+    {
+        "stageNo": 607,
+        "icon": 643,
+        "name": "Basculin",
+        "hitPts": 15435,
+        "type": "Water",
+        "moves": 10,
+        "captureRate": "Base: 12%\nBonus: 7% /move",
+        "pokemon": 4,
+        "clearingStrategy": "Not too nasty but the starting layout may be too troublesome. M-Bee / MSRay seems to be the choice here. If you have Hyper Bolt supports, they would help a lot here. The disruptions are bad but you can Sleep Charm it.",
+        "srankingStrategy": "At least M+5 here. MS with M-Tar and Shaymin-L can do this safer. Bursters like Emolga, Virizion, Zapdos, etc. may fare better than Grass Combo team.",
+        "suggestedTeam": "[Beedrill], Virizion lvl15 SL4, Unova Capped Pikachu lvl15 SL4 (Hyper Bolt), Zekrom lvl10 _ Itemless",
+        "suggestedSrank": "[Tyranitar], Emolga lvl15 SL5, Luxray lvl10 SL5 (CA+), Virizion lvl15 SL5 _ M+5, DD, MS",
+        "basePower": 60,
+        "ability": "Hitting Streak+"
+    },
+    {
+        "stageNo": 608,
+        "icon": 544,
+        "name": "Snover",
+        "hitPts": 35035,
+        "type": "Ice",
+        "moves": 8,
+        "captureRate": "Base: 13%\nBonus: 6% /move",
+        "pokemon": 3,
+        "clearingStrategy": "Really bulky stage. You can bring Snover but that's optional if Tapper Mega is in play. Bring your 3-Tapper in and wreck this stage with Pyre team.",
+        "srankingStrategy": "M+5 if you struggle (really possible). Should be doable itemless but you need to get your Tapper online really soon.",
+        "suggestedTeam": "[S-Ray], Heatran lvl10 SL4, Ho-Oh lvl10 (Pyre) _ Itemless",
+        "suggestedSrank": "[S-Ray], Heatran lvl10 SL4, Ho-Oh lvl10 (Pyre) _ M+5",
+        "basePower": 50,
+        "ability": "Block Smash"
+    },
+    {
+        "stageNo": 609,
+        "icon": 539,
+        "name": "Toxicroak",
+        "hitPts": 8940,
+        "type": "Poison",
+        "moves": 12,
+        "captureRate": "Base: 6%\nBonus: 7% /move",
+        "pokemon": 4,
+        "clearingStrategy": "D5-E3, E6-E5, then Kadabras on the right the mo3, D6-C4, then the last double match. LDE like Hippowdon / Victini is the key here. M-Camerupt fits well here if you have it candied. Otherwise MSRay is decent too.",
+        "srankingStrategy": "M+5 with DD / MS seem to be enough here. Using all of them may be a bit overkill. Just combo this down with your strongest SEs.",
+        "suggestedTeam": "[S-Ray], Hippowdon lvl15 SL3, Groudon lvl15, Mewtwo lvl14 SL3 (Po4) _ Itemless",
+        "suggestedSrank": "[Camerupt], Donphan lvl20 SL4 (GF), Hippowdon lvl15 SL5, Landorus-T lvl13 SL5 _ M+5, DD",
+        "basePower": 60,
+        "ability": "Prank"
+    },
+    {
+        "stageNo": 610,
+        "icon": 449,
+        "name": "Salamence",
+        "hitPts": 15960,
+        "type": "Flying",
+        "moves": 8,
+        "captureRate": "Base: 7%\nBonus: 8% /move",
+        "pokemon": 4,
+        "clearingStrategy": "The starting board is just horrible. S-Ray or Beedrill again will be the star here. Regirock with SL5 LDE helps tremendously too (actually I wouldn't have made it without). M+5 is possible to ensure a safe pass. Bring your bursters!",
+        "srankingStrategy": "I'd go with the 5k5 package. M-Tar with best bursters. Shouldn't be too hard with tapper in play.",
+        "suggestedTeam": "[S-Ray], Regirock lvl15 SL5 (LDE), Articuno lvl20 SL4, Unova CappedChu lvl15 SL4 (HB) _ Itemless",
+        "suggestedSrank": "[Tyranitar], Emolga lvl15 SL5, Luxray lvl10 SL5 (CA+), Mamoswine lvl15 SL5 (RT) _ M+5, DD, MS",
+        "basePower": 80,
+        "ability": "Hitting Streak"
+    },
+    {
+        "stageNo": 611,
+        "icon": 534,
+        "name": "Hippopotas",
+        "hitPts": 14280,
+        "type": "Ground",
+        "moves": 12,
+        "captureRate": "Base: 5%\nBonus: 8% /move",
+        "pokemon": 4,
+        "clearingStrategy": "Lots of blocks on this stage, so its time for Winking Glalie to shine. (or Alakazam/Steelix). Need good ashninja procs to help win this (SE LDE in Seismitoad and Walrein). Another way is to go with candied Gyarados to help with those disruptions.",
+        "srankingStrategy": "MS & M+5 with Winking Glalie should do this comfortably. Still you need a good team of bursters (Virizion / Articuno / Greninja-A / Volcanion / etc..) to pull this off.",
+        "suggestedTeam": "[Gyarados], Ash-Greninja lvl15 SL5 (UP), Virizion lvl15 SL4, Articuno lvl15 SL4 _ Itemless",
+        "suggestedSrank": "[Glalie-W], Virizion lvl15 SL5, Mamoswine lvl15 SL5 (RT), Ash-Greninja lvl15 SL5 (UP) _ M+5, MS",
+        "basePower": 50,
+        "ability": "Quake"
+    },
+    {
+        "stageNo": 612,
+        "icon": 465,
+        "name": "Turtwig",
+        "hitPts": 14490,
+        "type": "Grass",
+        "moves": 15,
+        "captureRate": "Base: 5%\nBonus: 7% /move",
+        "pokemon": 4,
+        "clearingStrategy": "A2-B2, C3-A4, C5-B3, C5-D3,  E6-F4. Then proceed to burst this down or disrupt with Ninetales-A. The disruptions are annoying but with SL5 Heatran, you shouldn't have too much of a problem here.",
+        "srankingStrategy": "You'll need at least M+5 here. MS should already be enough but adding DD won't be overkill at all (especially if you're not using Freeze+).",
+        "suggestedTeam": "[Beedrill], Heatran SL4, Articuno lvl20 SL4, Ninetales-A SL5 _ Itemless",
+        "basePower": 50,
+        "ability": "Leaf Combo"
+    },
+    {
+        "stageNo": 613,
+        "icon": 545,
+        "name": "Abomasnow",
+        "hitPts": 15876,
+        "type": "Ice",
+        "moves": 10,
+        "captureRate": "Base: 8%\nBonus: 7% /move",
+        "pokemon": 4,
+        "clearingStrategy": "Harder than I thought. The pyramid-shape barriers will get out of control quickly so M-Diancie is good here. M-Houndoom fits too if you have it candied up. Have a LDE (Heatran / Regirock) as a back-up and bring your best burster (Machamp / Emboar / etc..)",
+        "srankingStrategy": "M+5 and MS with M-Houndoom and full burster team. M-Tar can be the other choice for you, but either way you'll need strong RTs / ND to pull this off.",
+        "suggestedTeam": "[Diancie], Heatran SL4, Regirock lvl15 SL5 (LDE), Machamp lvl20 SL5 (RT) _ Itemless",
+        "suggestedSrank": "[Houndoom], Machamp lvl20 SL5 (RT), Emboar lvl15 SL5 (RT), Mawile lvl20 SL5 (RT) _ M+5, MS",
+        "basePower": 60,
+        "ability": "Heavy Hitter"
+    },
+    {
+        "stageNo": 614,
+        "icon": 502,
+        "name": "Cherubi",
+        "hitPts": 13650,
+        "type": "Grass",
+        "moves": 8,
+        "captureRate": "Base: 12%\nBonus: 4% /move",
+        "pokemon": 3,
+        "clearingStrategy": "Quite a basic 3-support stage for you. MSRay with Sky Blast team is the best candidate here. M-Bee with Poison team is okay too. Quite low HP too so should be a breeze.",
+        "srankingStrategy": "Totally doable itemless. M+5 is already a bit of overkill here.",
+        "suggestedTeam": "[S-Ray], Braviary SL3, Salamence lvl14 (MB) _ Itemless",
+        "suggestedSrank": "[S-Ray], Braviary SL3, Salamence lvl14 (MB) _ Itemless",
+        "basePower": 40,
+        "ability": "Quirky"
+    },
+    {
+        "stageNo": 615,
+        "icon": 512,
+        "name": "Buneary",
+        "hitPts": 13860,
+        "type": "Normal",
+        "moves": 18,
+        "captureRate": "Base: 9%\nBonus: 4% /move",
+        "pokemon": 4,
+        "clearingStrategy": "Horrible board & disruptions. The left half of the stage is skyfall blocks & Buneary so Hitmonlee with Shot Out helps a lot here. Beedrill doesn't do much though, so bring other tappers instead. Conkeldurr is your hope, otherwise you can candy up Gallade and evolve it quickly to clear the shit.",
+        "srankingStrategy": "Possible with M+5 only but adding DD would help greatly. Just your best Fighting supports here.",
+        "suggestedTeam": "[Gallade], Hitmonlee (Shot Out), Machamp lvl20 SL5 (RT), Lucario _ Itemless",
+        "suggestedSrank": "[Beedrill], Hitmonlee SL5 (Shot Out), Machamp lvl20 SL5 (RT), Lucario lvl15 _ M+5, DD",
+        "basePower": 40,
+        "ability": "Opportunist"
+    },
+    {
+        "stageNo": 616,
+        "icon": 535,
+        "name": "Hippowdon",
+        "hitPts": 20900,
+        "type": "Ground",
+        "moves": 9,
+        "captureRate": "Base: 7%\nBonus: 7% /move",
+        "pokemon": 4,
+        "clearingStrategy": "Crazy HP and not a good starting board too. 9 moves so any boosted LDEs is appreciated here. Otherwise just grab your bursters and hopefully Shaymin-L can save the day with its Sleep Charm. Any quick ME like S-Ray, Gyarados, ... would do fine.",
+        "srankingStrategy": "M+5 & MS with M-Glalie is safe. You can bring 2 bursters + Hippowdon / Shaymin-L. Full burst team is good too but you need them buffed.",
+        "suggestedTeam": "[Gyarados], Ash-Greninja lvl15 SL5 (UP), Virizion lvl15 SL4, Shaymin-L SL5 _ Itemless",
+        "suggestedSrank": "[Aggron], Suicune lvl15, Greninja-A lvl15 SL5 (UP), Virizion lvl15 SL4 _ M+5, DD, MS",
+        "basePower": 60,
+        "ability": "Last-Ditch Effort"
+    },
+    {
+        "stageNo": 617,
+        "icon": 503,
+        "name": "Cherrim",
+        "hitPts": 21735,
+        "type": "Grass",
+        "moves": 15,
+        "captureRate": "Base: 10%\nBonus: 3% /move",
+        "pokemon": 4,
+        "clearingStrategy": "One of the easier stages if you have Ninetales (Burn+ / Freeze+). Lots of Mo5 at start so proc them up and combo it down. S-Ray seems to fit quite well here with Sky Blast team and to destroy the barriers too.",
+        "srankingStrategy": "Still need MS & M+5 even with candied S-Ray. Sky Blast / Ice team fare both decently here. Still, grab Ninetales-A if you have it farmed, otherwise add in DD.",
+        "suggestedTeam": "[Shiny Ray], Ninetales-A SL5, Salamence lvl15 (MB), Braviary lvl10 SL3 _ Itemless",
+        "suggestedSrank": "[Shiny Ray], Ninetales-A SL5, Salamence lvl15 (MB), Braviary lvl10 SL3 _ M+5",
+        "basePower": 60,
+        "ability": "Quirky+"
+    },
+    {
+        "stageNo": 618,
+        "icon": 466,
+        "name": "Grotle",
+        "hitPts": 35280,
+        "type": "Grass",
+        "moves": 18,
+        "captureRate": "Base: 9%\nBonus: 3% /move",
+        "pokemon": 4,
+        "clearingStrategy": "This stage is insane. You'd have problems clearing it with items even. Extremely high HP with nasty disruptions and bad initial board. Grab your LDEs and bursters along with Ninetales-A. Match the initial Grotle to hopefully clear them out on the first move. Then proceed to combo it with Ice Dance / Sky Blast team.",
+        "srankingStrategy": "I believe C-1 is needed to safely S-Rank this stage. If you have Ninetales, bring it so you don't have to use DD. C-1 with Gengar, Lugia & Ninetales-A seems to be fit here.",
+        "suggestedTeam": "[Houndoom], Emboar lvl15 SL4 (RT), Ho-Oh (Pyre), Heatran SL5 _ Itemless",
+        "suggestedSrank": "[Gengar], Lugia, Braviary SL3 _ M+5, DD, C-1",
+        "basePower": 60,
+        "ability": "Shot Out"
+    },
+    {
+        "stageNo": 619,
+        "icon": 513,
+        "name": "Lopunny",
+        "hitPts": 8400,
+        "type": "Normal",
+        "moves": 7,
+        "captureRate": "Base: 10%\nBonus: 5% /move",
+        "pokemon": 4,
+        "clearingStrategy": "Extremely low moves. LDE is (again) the key here. Bring Conkeldurr and hopefully Hitmonlee with Shot Out. Otherwise M-Gallade would help a bit too.",
+        "srankingStrategy": "Add M+5 with your clearing team and it's easy S-Rank.",
+        "suggestedTeam": "[Gallade], Machamp lvl20 SL5 (RT), Conkeldurr SL1, Lucario _ Itemless",
+        "suggestedSrank": "[Gallade], Machamp lvl20 SL5 (RT), Conkeldurr SL1, Lucario _ M+5",
+        "basePower": 50,
+        "ability": "Opportunist"
+    },
+    {
+        "stageNo": 620,
+        "icon": 46,
+        "name": "Mega Abomasnow",
+        "hitPts": 26880,
+        "type": "Ice",
+        "moves": 13,
+        "captureRate": "Base: NA\nBonus: NA",
+        "disruptions": "Added Support: Abomasnow.",
+        "pokemon": 4,
+        "clearingStrategy": "Not sure if you could clear it itemless at the moment I'm writing this (13/08/17)? Almost 27k HP within 13 moves and added support... At least you need M+5 and your best LDEs.",
+        "srankingStrategy": "Full Item with M-Tar / Aggron. Bring your best bursters too. Should not be too hard",
+        "suggestedSrank": "[Tyranitar], Machamp SL5 RT (20), Mawile SL5 RT (20), Ho-Oh SL4 ND (14) _ Full Items",
+        "basePower": 60,
+        "ability": "Erases all icons in the rows above & below the match"
+    },
+    {
+        "stageNo": 621,
+        "captureRate": "Base: 7%\nBonus: 5% /move"
+    },
+    {
+        "stageNo": 622,
+        "captureRate": "Base: 7%\nBonus: 5% /move"
+    },
+    {
+        "stageNo": 623,
+        "captureRate": "Base: 7%\nBonus: 5% /move"
+    },
+    {
+        "stageNo": 624,
+        "captureRate": "Base: 7%\nBonus: 5% /move"
+    },
+    {
+        "stageNo": 625,
+        "captureRate": "Base: 7%\nBonus: 5% /move"
+    },
+    {
+        "stageNo": 626,
+        "captureRate": "Base: 7%\nBonus: 5% /move"
+    },
+    {
+        "stageNo": 627,
+        "captureRate": "Base: 7%\nBonus: 5% /move"
+    },
+    {
+        "stageNo": 628,
+        "captureRate": "Base: 7%\nBonus: 5% /move"
+    },
+    {
+        "stageNo": 629,
+        "captureRate": "Base: 7%\nBonus: 5% /move"
+    },
+    {
+        "stageNo": 630,
+        "captureRate": "Base: 7%\nBonus: 5% /move"
+    },
+    {
+        "stageNo": 631,
+        "captureRate": "Base: 7%\nBonus: 5% /move"
+    },
+    {
+        "stageNo": 632,
+        "captureRate": "Base: 7%\nBonus: 5% /move"
+    },
+    {
+        "stageNo": 633,
+        "captureRate": "Base: 7%\nBonus: 5% /move"
+    },
+    {
+        "stageNo": 634,
+        "captureRate": "Base: 7%\nBonus: 5% /move"
+    },
+    {
+        "stageNo": 635,
+        "captureRate": "Base: 7%\nBonus: 5% /move"
+    },
+    {
+        "stageNo": 636,
+        "captureRate": "Base: 7%\nBonus: 5% /move"
+    },
+    {
+        "stageNo": 637,
+        "captureRate": "Base: 7%\nBonus: 5% /move"
+    },
+    {
+        "stageNo": 638,
+        "captureRate": "Base: 7%\nBonus: 5% /move"
+    },
+    {
+        "stageNo": 639,
+        "captureRate": "Base: 7%\nBonus: 5% /move"
+    },
+    {
+        "stageNo": 640,
+        "captureRate": "Base: 7%\nBonus: 5% /move"
+    },
+    {
+        "stageNo": 641,
+        "captureRate": "Base: 7%\nBonus: 5% /move"
+    },
+    {
+        "stageNo": 642,
+        "captureRate": "Base: 7%\nBonus: 5% /move"
+    },
+    {
+        "stageNo": 643,
+        "captureRate": "Base: 7%\nBonus: 5% /move"
+    },
+    {
+        "stageNo": 644,
+        "captureRate": "Base: 7%\nBonus: 5% /move"
+    },
+    {
+        "stageNo": 645,
+        "captureRate": "Base: 7%\nBonus: 5% /move"
+    },
+    {
+        "stageNo": 646,
+        "captureRate": "Base: 7%\nBonus: 5% /move"
+    },
+    {
+        "stageNo": 647,
+        "captureRate": "Base: 7%\nBonus: 5% /move"
+    },
+    {
+        "stageNo": 648,
+        "captureRate": "Base: 7%\nBonus: 5% /move"
+    },
+    {
+        "stageNo": 649,
+        "captureRate": "Base: 7%\nBonus: 5% /move"
+    },
+    {
+        "stageNo": 650,
+        "captureRate": "Base: 7%\nBonus: 5% /move"
+    }
+]
