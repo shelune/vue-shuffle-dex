@@ -55,7 +55,7 @@ export default {
         if (data) {
           this.stageData = data
           let sranking = data.srankingStrategy
-          let srankMoves = sranking.match(/\d+/g, '')[0]
+          let srankMoves = _.includes(sranking, 'at least') ? sranking.match(/\d+/g, '')[0] : null
           this.stageData.srankMoves = srankMoves
           console.log('sranking: ', this.stageData.srankMoves)
           console.log('FINAL STAGE DATA: ', this.stageData)

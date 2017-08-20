@@ -30,7 +30,7 @@
           </div>
           <div class="glance glance-sranks">
             <strong>S-Ranks</strong>
-            <span>{{ this.time.length > 1 ? `${sRank}s` : `${sRank} / ${moves}` }}</span>
+            <span>{{ srankCount }}</span>
           </div>
           <div class="glance glance-layout">
             <strong @click="openModal">Click for starting board</strong>
@@ -64,6 +64,22 @@ export default {
     }
   },
   props: ['stageData', 'mode'],
+  computed: {
+    srankCount() {
+      console.log(`${this.moves / 2} / ${this.moves}`);
+      if (this.time.length > 1) {
+        console.log('srank in time')
+        return this.sRank
+      } else {
+        if (this.sRank) {
+          console.log('srank provided', this.sRank)
+          return `${this.sRank} / ${this.moves}`
+        }
+        console.log('srank not provided')
+        return `${_.floor(this.moves / 2)} / ${this.moves}`
+      }
+    }
+  },
   watch: {
     stageData() {
       this.updateStageNo()
