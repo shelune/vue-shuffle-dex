@@ -18,9 +18,9 @@
 </template>
 
 <script>
-import SupportsCard from 'components/SupportsCard.vue'
-import SupportsParty from 'components/SupportsParty.vue'
-import SupportsPartyAlt from 'components/SupportsPartyAlt.vue'
+import SupportsCard from 'components/Supports/SupportsCard.vue'
+import SupportsParty from 'components/Supports/SupportsParty.vue'
+import SupportsPartyAlt from 'components/Supports/SupportsPartyAlt.vue'
 
 import _ from 'lodash'
 import * as Processor from './../processor'
@@ -136,8 +136,6 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 @import "../styles/base/_all.scss";
-@import "~bulma/bulma.sass";
-@import "../styles/components/_all.scss";
 
 .section {
   background: $pal-white;

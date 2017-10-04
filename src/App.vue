@@ -158,7 +158,6 @@ export default {
 <style lang="scss">
   @import "./styles/base/_all.scss";
   @import "~bulma/bulma.sass";
-  @import "./styles/components/_all.scss";
   @import "~easy-autocomplete/src/sass/easy-autocomplete.scss";
 
   html {
@@ -166,24 +165,185 @@ export default {
   }
 
   body {
-      font-family: 'AvenirRoman', Helvetica, Arial, sans-serif;
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
-      background-color: $pal-white;
+    font-family: 'AvenirRoman', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: $pal-white;
   }
 
   .nav {
-      .nav-item {
-          padding: 0;
-          &:hover {
-              color: $pal-red;
-          }
-      }
+    .nav-item {
+      padding: 0;
+        &:hover {
+          color: $pal-red;
+        }
+    }
   }
 
   .nav-right {
       margin-right: 40px;
   }
+
+  .nav {
+    &-main {
+      background-color: $pal-navy;
+      height: 80px;
+
+      a {
+        color: $pal-white;
+        font-size: $size-large;
+      }
+    }
+
+    &-stages {
+      @include text-label;
+      min-height: 60px;
+      border-bottom: 3px solid $pal-gray;
+      background: $pal-white;
+
+      .level-left {
+        margin-left: 40px;
+
+        form {
+          > strong {
+            font-size: 18px;
+            vertical-align: middle;
+            display: inline-block;
+          }
+        }
+      }
+
+      .level-right {
+        margin-right: 40px;
+      }
+
+      @include mobile() {
+        display: flex;
+        align-items: center;
+
+        .level-left {
+          margin: 0;
+          margin-left: 20px;
+        }
+
+        .level-right {
+          margin: 0;
+          margin-right: 20px;
+        }
+      }
+    }
+  }
+
+  // Stage Mode Selector
+
+  .mode {
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    input[type="checkbox"] {
+      position: absolute;
+      opacity: 0;
+      visibility: hidden;
+
+      &:checked + label::after {
+        margin-left: 66px;
+      }
+    }
+
+    > label {
+      order: 2;
+      display: block;
+      width: 100px;
+      height: 32px;
+      background-color: $pal-red;
+      border-radius: 50px;
+      position: relative;
+      cursor: pointer;
+      outline: none;
+      margin: 0 10px;
+      transition: all 0.3s ease;
+
+      &::before, &::after {
+        position: absolute;
+        content: '';
+      }
+
+      &::before {
+        top: 2px;
+        left: 2px;
+        bottom: 2px;
+        right: 2px;
+        background-color: $pal-white;
+        border-radius: 50px;
+        transition: all 0.3s ease;
+      }
+
+      &::after {
+        top: 3px;
+        left: 4px;
+        background-color: $pal-red;
+        width: 26px;
+        height: 26px;
+        border-radius: 50%;
+        transition: all 0.3s ease;
+      }
+    }
+
+    @include mobile {
+      input[type=checkbox]:checked ~ .modeIndicator-main {
+          visibility: hidden;
+        }
+
+      input[type=checkbox]:checked ~ .modeIndicator-expert {
+        visibility: visible;
+        right: 45px;
+      }
+    }
+
+    &Indicator {
+      &-main {
+        order: 1;
+      }
+
+      &-expert {
+        order: 3;
+      }
+
+      @include mobile {
+        position: absolute;
+        font-size: 0.85rem;
+        right: 6px;
+        top: calc(50% + 1px);
+        transform: translateY(-50%);
+        z-index: 1;
+
+        &-main {
+          visibility: visible;
+          right: 30px;
+        }
+
+        &-expert {
+          visibility: hidden;
+        }
+      }
+    }
+  }
+
+  // Stage ID Selector
+
+  .stages {
+    &Selector {
+      border: none;
+      border-bottom: 2px solid $pal-gray;
+      line-height: $size-medium;
+      font-size: $size-normal;
+      outline: none;
+      width: 120px;
+      text-align: center;
+    }
+  }
+
 
   .stageSteps {
     padding: 24px;
@@ -268,6 +428,81 @@ export default {
       }
     }
   }
+
+  .section {
+    padding-top: 30px;
+    &_title {
+      @include title-section;
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 60px;
+    }
+
+    @include mobile() {
+      padding-bottom: 10px;
+    }
+  }
+
+  .section-disruptions {
+    .section_ftr {
+      margin-top: 30px;
+    }
+
+    .addedSupp {
+      display: flex;
+      align-items: center;
+      border-radius: 15px;
+      box-shadow: $shadow-default;
+
+      &_header {
+        @include title-tile;
+        color: $pal-white;
+        border-radius: 15px 0 0 15px;
+        background: $pal-navy;
+        padding: 25px 40px;
+      }
+
+      &_content {
+        padding: 10px 20px;
+        display: flex;
+        align-items: center;
+
+        > img {
+          @extend %pokemon-slot;
+        }
+      }
+
+      @include mobile() {
+        flex-direction: column;
+
+        &_header {
+          width: 100%;
+          border-radius: 15px 15px 0 0;
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  .section-supports {
+    h2 {
+      text-align: left;
+      margin-bottom: 50px;
+      margin-top: 30px;
+    }
+
+    .supports {
+      li {
+        padding: 0;
+        margin: 5px;
+      }
+    }
+
+    .parties {
+      flex-wrap: wrap;
+    }
+  }
+
 
   .footer {
     padding: 30px 0 30px 0;

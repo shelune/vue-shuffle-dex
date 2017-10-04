@@ -40,8 +40,27 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-@import "../styles/base/_all.scss";
-@import "~bulma/bulma.sass";
-@import "../styles/components/_card.scss";
+@import "../../styles/base/_all.scss";
+
+
+// card styling in team section
+.card-team {
+  &_content {
+    border-bottom: 5px solid $pal-turquoise;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+
+  &_supports,
+  &_items {
+    >strong {
+      color: $pal-red;
+    }
+
+    .mega {
+      font-family: AvenirHeavy;
+    }
+  }
+}
 
 </style>

@@ -12,14 +12,7 @@
   }
 }
 
-.section-supports {
-  .parties {
-    flex-wrap: wrap;
-  }
-}
-
 .section-disruptions {
-
   .section_ftr {
     margin-top: 30px;
   }
@@ -72,5 +65,9 @@
       padding: 0;
       margin: 5px;
     }
+  }
+
+  .parties {
+    flex-wrap: wrap;
   }
 }
