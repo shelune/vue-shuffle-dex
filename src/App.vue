@@ -156,9 +156,53 @@ export default {
 </script>
 
 <style lang="scss">
-  @import "./styles/base/_all.scss";
-  @import "~bulma/bulma.sass";
-  @import "~easy-autocomplete/src/sass/easy-autocomplete.scss";
+@import "./styles/base/_all.scss";
+@import "~bulma/bulma.sass";
+@import "./styles/components/_all.scss";
+@import "~easy-autocomplete/src/sass/easy-autocomplete.scss";
+
+
+
+@font-face {
+  font-family: "AvenirRoman";
+  src: url("/static/fonts/Avenir-Roman.eot");
+  src: url("/static/fonts/Avenir-Roman.eot?#iefix") format("embedded-opentype"),
+  url("/static/fonts/Avenir-Roman.woff") format("woff"),
+  url("/static/fonts/Avenir-Roman.ttf") format("truetype"),
+  url("/static/fonts/Avenir-Roman#Avenir-Roman") format("svg");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "AvenirOblique";
+  src: url("/static/fonts/Avenir-Oblique.eot");
+  src: url("/static/fonts/Avenir-Oblique.eot?#iefix") format("embedded-opentype"),
+  url("/static/fonts/Avenir-Oblique.woff") format("woff"),
+  url("/static/fonts/Avenir-Oblique.ttf") format("truetype"),
+  url("/static/fonts/fonts/Avenir-Oblique#Avenir-Oblique") format("svg");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "AvenirLight";
+  src: url("/static/fonts/Avenir-Light.eot");
+  src: url("/static/fonts/Avenir-Light.eot?#iefix") format("embedded-opentype"),
+  url("/static/fonts/Avenir-Light.woff") format("woff"),
+  url("/static/fonts/Avenir-Light.ttf") format("truetype"),
+  url("/static/fonts/Avenir-Light#Avenir-Light") format("svg");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "AvenirHeavy";
+  src: url("/static/fonts/Avenir-85Heavy.eot");
+  src: url("/static/fonts/Avenir-85Heavy.eot?#iefix") format("embedded-opentype"),
+  url("/static/fonts/Avenir-85Heavy.woff") format("woff"),
+  url("/static/fonts/Avenir-85Heavy.ttf") format("truetype"),
+  url("/static/fonts/Avenir-85Heavy#Avenir-85Heavy") format("svg");
+  font-style: normal;
+}
+
 
   html {
       font-size: 16px;
@@ -486,7 +530,6 @@ export default {
 
   .section-supports {
     h2 {
-      text-align: left;
       margin-bottom: 50px;
       margin-top: 30px;
     }

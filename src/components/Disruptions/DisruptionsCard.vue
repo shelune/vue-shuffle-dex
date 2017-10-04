@@ -45,6 +45,43 @@ export default {
 <style scoped lang="scss">
 @import "../../styles/base/_all.scss";
 @import "~bulma/bulma.sass";
-@import "../../styles/components/_card.scss";
+
+// card styling in disruptions section
+.card-disruptions {
+  .disruptions {
+    > li {
+      margin: 20px 0 10px 0;
+      padding-bottom: 10px;
+      border-bottom: 5px solid $pal-turquoise;
+
+      &:first-of-type {
+        margin-top: 0;
+      }
+
+      &:not(:only-of-type):last-of-type {
+        border-bottom: none;
+      }
+    }
+
+    ul {
+      padding-left: 30px;
+
+      >li {
+        margin: 10px 0 5px 0;
+        padding-bottom: 5px;
+        border-bottom: 2px solid $pal-turquoise;
+
+        &:first-of-type {
+          margin-top: 0;
+        }
+
+        &:last-of-type {
+          border-bottom: none;
+        }
+      }
+    }
+  }
+}
+
 
 </style>

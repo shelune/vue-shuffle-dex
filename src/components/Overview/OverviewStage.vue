@@ -142,7 +142,142 @@ export default {
 <style scoped lang="scss">
 @import "../../styles/base/_all.scss";
 @import "~bulma/bulma.sass";
-@import "../../styles/components/_card.scss";
+
+
+// card styling in overview section
+.card-overview {
+  box-shadow: $shadow-default, inset 0 5px $pal-navy;
+  background: $pal-white;
+  color: $pal-black;
+  padding: 40px;
+  border-radius: 0 0 30px 0;
+  text-align: center;
+
+  h2 {
+    @include title-card;
+    margin-bottom: 20px;
+    position: relative;
+    display: inline-block;
+  }
+
+  .glance {
+    position: relative;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 40px;
+
+    &:after {
+      position: absolute;
+      content: '';
+      width: 100%;
+      height: 5px;
+      background: $pal-red;
+      bottom: -10px;
+      left: 0;
+    }
+
+    >strong {
+      display: inline-block;
+      text-align: left;
+    }
+
+    >span {
+      display: inline-block;
+      text-align: right;
+    }
+
+    &:last-of-type {
+      &:after {
+        display: none;
+      }
+    }
+  }
+}
+
+
+.glance-layout {
+  display: none;
+
+  @include mobile() {
+    display: block;
+    text-align: center;
+    >strong {
+      color: $pal-red;
+    }
+  }
+}
+
+.stage_visuals {
+  display: flex;
+  align-items: center;
+
+  >img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    max-width: 200px;
+  }
+
+  @include mobile() {
+    display: none;
+  }
+}
+
+.stage_supportLimit {
+  position: absolute;
+  bottom: -40px;
+  left: -40px;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-size: 100px;
+  border: 5px solid $pal-white;
+  box-shadow: $shadow-default;
+  background-color: $pal-turquoise;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  z-index: 1;
+
+  &:after {
+    @extend %tooltip;
+    content: 'Number of supports you have';
+    left: 125%;
+    bottom: 10px;
+  }
+
+  &:hover {
+    &:after {
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+
+  &-4 {
+    background-image: url("./../../assets/img/misc/supportLim-4.png");
+  }
+
+  &-3 {
+    background-image: url("./../../assets/img/misc/supportLim-3.png");
+  }
+
+  @include mobile() {
+    top: -40px;
+    left: -10px;
+  }
+}
+
+@include tablet-only() {
+  >.columns {
+    display: block;
+
+    .is-7 {
+      width: 100%;
+    }
+  }
+}
+
 
 .modal {
   &.show {

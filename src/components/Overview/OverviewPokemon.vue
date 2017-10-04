@@ -98,10 +98,99 @@ export default {
 <style scoped lang="scss">
 @import "../../styles/base/_all.scss";
 @import "~bulma/bulma.sass";
-@import "../../styles/components/_card.scss";
 
 .column {
   text-align: center;
+}
+
+// card styling in overview section
+
+// card styling in overview section
+.card-overview {
+  box-shadow: $shadow-default, inset 0 5px $pal-navy;
+  background: $pal-white;
+  color: $pal-black;
+  padding: 40px;
+  border-radius: 0 0 30px 0;
+  text-align: center;
+
+  h2 {
+    @include title-card;
+    margin-bottom: 20px;
+    position: relative;
+    display: inline-block;
+  }
+
+  .glance {
+    position: relative;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 40px;
+
+    &:after {
+      position: absolute;
+      content: '';
+      width: 100%;
+      height: 5px;
+      background: $pal-red;
+      bottom: -10px;
+      left: 0;
+    }
+
+    > strong {
+      display: inline-block;
+      text-align: left;
+    }
+
+    > span {
+      display: inline-block;
+      text-align: right;
+    }
+
+    &:last-of-type {
+      &:after {
+        display: none;
+      }
+    }
+  }
+
+  &-pokemon {
+    margin-left: 20px;
+
+    h2 {
+      margin-right: 30px;
+    }
+
+    .stage_pokemonThumbnail {
+      display: block;
+      width: 60px;
+      height: 60px;
+      background-size: 60px;
+      border-radius: 50%;
+      background-color: transparent;
+      position: absolute;
+      right: -65px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    @include mobile() {
+      margin: 0 10px;
+
+      h2 {
+        margin-right: 0;
+      }
+
+      .stage_pokemonThumbnail {
+        margin: 0 auto;
+        transform: none;
+        top: 0;
+        right: 0;
+        position: relative;
+      }
+    }
+  }
 }
 
 </style>
