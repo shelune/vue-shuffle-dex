@@ -15,22 +15,22 @@ Vue.use(VueResource)
 const router = new VueRouter({
   routes: [
     {
-      path: '/home',
+      path: '/home/:stageId',
       name: 'home',
-      component: App,
-      children: [
-        {
-          path: '/stage/:stageId',
-          name: 'stage',
-          component: Stage
-        }
-      ]
+      component: App
     },
     {
       path: '*',
-      redirect: 'home'
+      component: App
     }
   ]
+})
+
+router.beforeEach((to, from, next) => {
+  console.log('from', from)
+  console.log('to', to)
+
+  next()
 })
 
 new Vue({

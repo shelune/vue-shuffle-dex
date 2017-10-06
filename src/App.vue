@@ -28,13 +28,12 @@
   </div>
   <div class="container">
     <!-- STAGE COMPONENT -->
-    <!-- <router-view></router-view> -->
     <div class="stageSteps is-clearfix">
       <a href="#0" class="is-pulled-left" @click.prevent="back()"> &larr; Previous</a>
       <a href="#0" class="is-pulled-right" @click.prevent="next()" :style="{marginTop: '0'}">Next &rarr;</a>
     </div>
 
-    <stage :stageIdApp="this.stageIdApp" :mode="stageMode"></stage>
+   <stage :stageIdApp="this.stageIdApp" :mode="stageMode"></stage>
 
     <div class="stageSteps is-clearfix">
       <a href="#0" class="is-pulled-left" @click.prevent="back()"> &larr; Previous</a>
@@ -68,7 +67,7 @@ import * as Resources from './resources'
 export default {
   data() {
     return {
-      stageIdApp: 0,
+      stageIdApp: this.$route.params.stageId,
       stageUrl: '',
       stageMode: 'main',
       stickUp: false,
@@ -87,6 +86,9 @@ export default {
   watch: {
     stageMode() {
       this.autoComplete(this.stageMode)
+    },
+    $route() {
+      this.stageIdApp = this.$route.params.stageId
     }
   },
   methods: {
@@ -146,6 +148,7 @@ export default {
     }
   },
   mounted () {
+    console.log('current stage: ', this.stageIdApp)
     this.$nextTick(() => {
       window.addEventListener('scroll', this.calculatePosY);
       this.calculatePosY()
