@@ -67,7 +67,7 @@ import * as Resources from './resources'
 export default {
   data() {
     return {
-      stageIdApp: this.$route.params.stageId,
+      stageIdApp: !isNaN(this.$route.params.stageId) ? this.$route.params.stageId : 0,
       stageUrl: '',
       stageMode: 'main',
       stickUp: false,
@@ -88,7 +88,7 @@ export default {
       this.autoComplete(this.stageMode)
     },
     $route() {
-      this.stageIdApp = this.$route.params.stageId
+      this.stageIdApp = !isNaN(this.$route.params.stageId) ? this.$route.params.stageId : 0
     }
   },
   methods: {
@@ -104,10 +104,21 @@ export default {
       console.log('pressed Enter does nothing though... Should send you away but idk')
     },
     next() {
-      this.stageIdApp = _.parseInt(this.stageIdApp) + 1
+      this.$router.push({
+        name: 'home',
+        params: {
+          stageId: _.parseInt(this.stageIdApp) + 1
+        }
+      })
+      //this.stageIdApp = _.parseInt(this.stageIdApp) + 1
     },
     back() {
-      this.stageIdApp = _.parseInt(this.stageIdApp) - 1
+      this.$router.push({
+        name: 'home',
+        params: {
+          stageId: _.parseInt(this.stageIdApp) - 1
+        }
+      })
     },
     toggleMode() {
       if (this.stageMode == 'main') {

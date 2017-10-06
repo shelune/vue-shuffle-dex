@@ -6,7 +6,6 @@ import VueResource from 'vue-resource'
 import App from './App'
 
 // OUTER WRAPPER STAGE //
-import Stage from 'components/Stage.vue'
 
 Vue.use(VueRouter)
 Vue.use(VueResource)
