@@ -177,12 +177,12 @@ export default {
       left: 0;
     }
 
-    >strong {
+    > strong {
       display: inline-block;
       text-align: left;
     }
 
-    >span {
+    > span {
       display: inline-block;
       text-align: right;
     }
@@ -192,19 +192,22 @@ export default {
         display: none;
       }
     }
-  }
-}
 
 
-.glance-layout {
-  display: none;
+    &-layout {
+      display: none;
+      cursor: pointer;
 
-  @include mobile() {
-    display: block;
-    text-align: center;
-    >strong {
-      color: $pal-red;
+      @include mobile() {
+        display: block;
+        text-align: center;
+
+        > strong {
+          color: $pal-red;
+        }
+      }
     }
+
   }
 }
 
@@ -290,7 +293,15 @@ export default {
   }
 
   &-close {
-    background-color: transparentize($pal-black, 0.7);
+    background-color: $pal-red;
+
+    &:hover {
+      background-color: $pal-white;
+
+      &::after, &::before {
+        background: $pal-red;
+      }
+    }
   }
 }
 

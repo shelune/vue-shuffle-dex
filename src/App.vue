@@ -26,6 +26,12 @@
       </div>
     </nav>
   </div>
+  <div class="container-fluid" v-show="showAlert">
+    <div class="alert alert-info">
+      <p>You need to press <u>'Go' / 'Enter'</u> to go to stage (the delayed go-to-stage function is disabled).</p>
+      <p>Also, you're able to put stage number in the address bar to go to intended stage now. E.g <code>'../home/620'</code> to go to stage 620. <a class="delete" @click="showAlert = false"></a></p>
+    </div>
+  </div>
   <div class="container">
     <!-- STAGE COMPONENT -->
     <div class="stageSteps is-clearfix">
@@ -71,6 +77,7 @@ export default {
       stageUrl: '',
       stageMode: 'main',
       stickUp: false,
+      showAlert: true,
       stickyStyling: {
         margin: 0,
         position: 'fixed',
@@ -101,7 +108,12 @@ export default {
       }
     },
     submit() {
-      console.log('pressed Enter does nothing though... Should send you away but idk')
+      this.$router.push({
+        name: 'home',
+        params: {
+          stageId: _.parseInt(this.stageIdApp)
+        }
+      })
     },
     next() {
       this.$router.push({
@@ -402,7 +414,6 @@ export default {
     }
   }
 
-
   .stageSteps {
     padding: 24px;
     margin: 0;
@@ -560,7 +571,6 @@ export default {
     }
   }
 
-
   .footer {
     padding: 30px 0 30px 0;
 
@@ -577,6 +587,23 @@ export default {
     }
   }
 
+  .alert {
+    text-align: center;
+    position: relative;
+    padding: 5px 60px;
+
+    &-info {
+      color: white;
+      background-color: $pal-red;
+    }
+
+    .delete {
+      position: absolute;
+      right: 40px;
+      top: calc(50% - 10px);
+    }
+  }
+
   @include mobile() {
     .nav-right {
         margin-right: 20px;
@@ -588,6 +615,12 @@ export default {
         .nav-item {
             justify-content: flex-end;
         }
+    }
+
+    .alert {
+      .delete {
+        position: static;
+      }
     }
 
     footer {

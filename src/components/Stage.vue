@@ -34,7 +34,7 @@ export default {
     SectionSupports
   },
   watch: {
-    stageIdApp() {
+    $route() {
       this.getUrlFromId()
       this.updateStageData()
     },
@@ -43,12 +43,12 @@ export default {
       this.updateStageData()
     }
   },
-  props: ['stageIdApp', 'mode'],
+  props: ['mode'],
   methods: {
-    updateStageData: _.debounce(function () {
+    updateStageData() {
       let processorConfig = {
         url: this.stageUrlStage,
-        id: this.stageIdApp
+        id: this.$route.params.stageId
       }
       Processor.getStage(processorConfig).then((data) => {
         console.log('stage phase: ', this.stageUrlStage);
@@ -64,10 +64,14 @@ export default {
           console.log('encountered error when getting stage')
         }
       })
-    }, 1000),
+    },
     getUrlFromId () {
-      this.stageUrlStage = Resources.getStageUrl(this.mode, this.stageIdApp)
+      this.stageUrlStage = Resources.getStageUrl(this.mode, this.$route.params.stageId)
     }
+  },
+  mounted() {
+    this.getUrlFromId()
+    this.updateStageData()
   }
 }
 </script>
