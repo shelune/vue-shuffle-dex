@@ -103,7 +103,7 @@ export default {
     },
     updateOtherSlots() {
       let supports = Processor.getOtherSupports(this.stageData.recommendedParty)
-      console.log('support choices: ', supports)
+      //console.log('support choices: ', supports)
 
       // NEED REWORKING
       _.each(supports, (support) => {

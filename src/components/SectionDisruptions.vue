@@ -81,7 +81,7 @@ export default {
       let disruptionsCollection = _.compact(_.split(this.stageData.disruptions, '\n'))
       let disruptionBoard = '', disruptionInitial = '', disruptionTimer = '', disruptionCond = '', disruptionCondTrigger = ''
 
-      console.log('disruptions:', disruptionsCollection)
+      //console.log('disruptions:', disruptionsCollection)
 
       _.map(disruptionsCollection, (line) => {
         if (_.includes(_.toLower(line), 'board:') && line.length > line.indexOf(':')) {
@@ -126,11 +126,11 @@ export default {
 
         if (this.checkHasKey(line, ['moves:', 'turn:', 'health:', '%:', 'hp:'])) {
           disruptionCond = _.join(_.drop(_.split(line, ':')), ' ')
-          console.log('source disruption condition: ', line)
+          //console.log('source disruption condition: ', line)
           disruptionCondTrigger = _.trim(_.split(line, ':')[0])
           this.disruptionConditionTrigger = disruptionCondTrigger
 
-          console.log('conditions variation 1st check:', disruptionCond)
+          //console.log('conditions variation 1st check:', disruptionCond)
 
           if (!_.includes(disruptionCond, '/')) {
             this.disruptionCondition = _.split(disruptionCond, '.')

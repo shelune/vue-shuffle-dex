@@ -51,14 +51,14 @@ export default {
         id: this.$route.params.stageId
       }
       Processor.getStage(processorConfig).then((data) => {
-        console.log('stage phase: ', this.stageUrlStage);
+        //console.log('stage phase: ', this.stageUrlStage);
         if (data) {
           this.stageData = data
           let sranking = data.srankingStrategy
           let srankMoves = _.includes(sranking, 'at least') ? sranking.match(/\d+/g, '')[0] : null
           this.stageData.srankMoves = srankMoves
-          console.log('sranking: ', this.stageData.srankMoves)
-          console.log('FINAL STAGE DATA: ', this.stageData)
+          //console.log('sranking: ', this.stageData.srankMoves)
+          //console.log('FINAL STAGE DATA: ', this.stageData)
           $('#stage-selector').blur()
         } else {
           console.log('encountered error when getting stage')
@@ -70,8 +70,10 @@ export default {
     }
   },
   mounted() {
-    this.getUrlFromId()
-    this.updateStageData()
+    if (this.$route.params.stageId) {
+      this.getUrlFromId()
+      this.updateStageData()
+    }
   }
 }
 </script>

@@ -10,9 +10,9 @@
   <div class="container is-fluid" :style="[stickUp ? stickyStyling : null, {margin: '0'}]">
     <nav class="level nav-stages">
       <div class="level-left">
-        <form><strong>Stage</strong>
+        <form @keyup.enter.prevent="submit" @submit="submit"><strong>Stage</strong>
           <span class="eac">
-            <input id="stage-selector" v-model="stageIdApp" class="stagesSelector" type="text" placeholder="?" @keyup.enter.prevent="submit">
+            <input id="stage-selector" v-model="stageIdApp" class="stagesSelector" type="text" placeholder="?">
           </span>
         </form>
       </div>
@@ -107,7 +107,9 @@ export default {
         this.stickUp = false
       }
     },
-    submit() {
+    submit(e) {
+      console.log('submit stage')
+      e.preventDefault()
       this.$router.push({
         name: 'home',
         params: {

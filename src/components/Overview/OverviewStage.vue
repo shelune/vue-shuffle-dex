@@ -66,16 +66,16 @@ export default {
   props: ['stageData', 'mode'],
   computed: {
     srankCount() {
-      console.log(`${this.moves / 2} / ${this.moves}`);
+      //console.log(`${this.moves / 2} / ${this.moves}`);
       if (this.time.length > 1) {
-        console.log('srank in time')
+        //console.log('srank in time')
         return this.sRank
       } else {
         if (this.sRank) {
-          console.log('srank provided', this.sRank)
+          //console.log('srank provided', this.sRank)
           return `${this.sRank} / ${this.moves}`
         }
-        console.log('srank not provided')
+        //console.log('srank not provided')
         return `${_.floor(this.moves / 2)} / ${this.moves}`
       }
     }
