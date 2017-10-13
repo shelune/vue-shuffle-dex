@@ -14,7 +14,7 @@ Vue.use(VueResource)
 const router = new VueRouter({
   routes: [
     {
-      path: '/:stageId',
+      path: '/stage/:stageId',
       name: 'home',
       component: App
     },

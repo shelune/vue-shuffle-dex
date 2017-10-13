@@ -1,8 +1,7 @@
-import Vue from 'vue'
 import _ from 'lodash'
 
-const mainStageCap = 620;
-const expertStageCap = 49;
+const mainStageCap = 620
+const expertStageCap = 49
 
 const pokemonCollectionUrl = './static/scripts/pokemonCollection.json'
 const stageCollectionUrl = './static/scripts/stageCollection.json'
@@ -80,16 +79,16 @@ const stageCollections = [
   }
 ];
 
-function getStageUrl(mode, stageId) {
+function getStageUrl (mode, stageId) {
   let targetPhase = _.find(stageCollections, phase => {
     return stageId <= phase.levelCap
   })
 
-  if (mode == 'main') {
+  if (mode === 'main') {
     return stageId > 0 && stageId <= mainStageCap ? './static/scripts/stageGuides/' + targetPhase.stageUrl + '.json' : ''
   }
 
-  if (mode == 'expert') {
+  if (mode === 'expert') {
     return stageId > 0 && stageId <= expertStageCap ? './static/scripts/expertGuides/expert.json' : ''
   }
 }

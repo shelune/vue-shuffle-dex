@@ -29,7 +29,7 @@
   <div class="container-fluid" v-show="showAlert">
     <div class="alert alert-info">
       <p>You need to press <u>'Go' / 'Enter'</u> to go to stage (the delayed go-to-stage function is disabled).</p>
-      <p>Also, you're able to put stage number in the address bar to go to intended stage now. E.g <code>'../#/620'</code> to go to stage 620. <a class="delete" @click="showAlert = false"></a></p>
+      <p>Also, you're able to put stage number in the address bar to go to intended stage now. E.g <code>'../#/stage/620'</code> to go to stage 620. <a class="delete" @click="showAlert = false"></a></p>
     </div>
   </div>
   <div class="container">

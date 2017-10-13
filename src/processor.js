@@ -76,7 +76,7 @@ const typeColors = [
   }
 ]
 
-function getStage(config) {
+function getStage (config) {
   return api.get(config.url)
     .then(resp => {
       return _.find(resp.body, (stageObj) => {
@@ -88,14 +88,14 @@ function getStage(config) {
     })
 }
 
-function getTypeColor(type) {
+function getTypeColor (type) {
   let color = _.find(typeColors, (pair) => {
-    return pair.type == type.toLowerCase()
+    return pair.type === type.toLowerCase()
   })
   return color.code
 }
 
-function getCaptureRate(source) {
+function getCaptureRate (source) {
   let captureRates = breakLine(source)
 
   let captureRateBase = captureRates[0].slice(5, -1)
@@ -108,23 +108,23 @@ function getCaptureRate(source) {
   }
 }
 
-function getMembers(team) {
+function getMembers (team) {
   // break team string into array of members
   return _.words(team, /[^, ]+/g)
 }
 
-function getMegaSupports(source) {
+function getMegaSupports (source) {
   // get the mega array in brackets
   return _.words(source, /\[(.*?)\]/g)
 }
 
-function getOtherSupports(source) {
+function getOtherSupports (source) {
   // break the suggestions into mega & support arrays, drop the mega array
   let supportsArr = _.drop(breakLine(source))
   return _.words(_.compact(supportsArr), /[^, ]+/g)
 }
 
-function getCollectionData() {
+function getCollectionData () {
   // fetch the pokemonCollection blob
   let url = './static/scripts/pokemonCollection.json'
 
@@ -137,10 +137,9 @@ function getCollectionData() {
     })
 }
 
-function getStagePokemon(config) {
+function getStagePokemon (config) {
   // match pokemon name with full pokemon data from serebii
-  let divisionMega = {}, divisionOthers = {},
-      divisionMain = [], divisionSpecial = [], divisionExpert = []
+  let divisionMega = {}, divisionOthers = {}, divisionMain = [], divisionSpecial = [], divisionExpert = []
 
   return getCollectionData()
   .then((collection) => {
@@ -156,24 +155,24 @@ function getStagePokemon(config) {
       return _.find(divisionMega, (pokemon) => {
         return isIncluded(config.name, pokemon.pokemonName)
       })
-    } else if (config.separateDivision == '') {
+    } else if (config.separateDivision === '') {
       return _.find(divisionOthers, (pokemon) => {
         return isIncluded(config.name, pokemon.pokemonName)
       })
     } else {
-      if (config.separateDivision == 'main') {
+      if (config.separateDivision === 'main') {
         return _.find(divisionMain, (pokemon) => {
           return isIncluded(config.name, pokemon.pokemonName) && !_.toLower(pokemon.pokemonName).includes('mega ')
         })
       }
 
-      if (config.separateDivision == 'expert') {
+      if (config.separateDivision === 'expert') {
         return _.find(divisionExpert, (pokemon) => {
           return isIncluded(config.name, pokemon.pokemonName)
         })
       }
 
-      if (config.separateDivision == 'special') {
+      if (config.separateDivision === 'special') {
         if (config.name.toLowerCase().includes('costume')) {
           return isIncluded(config.name, pokemon.pokemonName)
         }
@@ -185,19 +184,11 @@ function getStagePokemon(config) {
   })
 }
 
-function breakLine(string) {
-  if (string) {
-		return string.split('\n');
-	}
+function breakLine (string) {
+  return string ? string.split('\n') : ''
 }
 
-function breakSentences(config) {
-  if (config.string) {
-    return config.string.split(config.mark)
-  }
-}
-
-function isIncluded(target, source) {
+function isIncluded (target, source) {
   return _.toLower(source).includes(_.toLower(target))
 }
 
