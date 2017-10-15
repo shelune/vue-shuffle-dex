@@ -946,7 +946,9 @@
     "srank": 620,
     "time": "0:40",
     "captureRate": "Base: 1%\nBonus: 3% /3s",
-    "pokemon": 4
+    "pokemon": 4,
+    "basePower": 60,
+    "ability": "Block Shot"
   },
   {
     "stageNo": 51,
@@ -957,6 +959,8 @@
     "srank": 640,
     "time": "0:50",
     "captureRate": "Base: 1%\nBonus: 4% /3s",
-    "pokemon": 4
+    "pokemon": 4,
+    "basePower": 80,
+    "ability": "Last-Ditch Effort"
   }
 ]
