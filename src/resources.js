@@ -1,7 +1,7 @@
 import _ from 'lodash'
 
-const mainStageCap = 620
-const expertStageCap = 49
+const mainStageCap = 640
+const expertStageCap = 51
 
 const pokemonCollectionUrl = './static/scripts/pokemonCollection.json'
 const stageCollectionUrl = './static/scripts/stageCollection.json'
@@ -74,10 +74,10 @@ const stageCollections = [
     stageUrl: 'pw'
   },
   {
-    levelCap: 620,
+    levelCap: 640,
     stageUrl: 'zc'
   }
-];
+]
 
 function getStageUrl (mode, stageId) {
   let targetPhase = _.find(stageCollections, phase => {
