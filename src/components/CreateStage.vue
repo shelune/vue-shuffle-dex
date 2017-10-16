@@ -68,7 +68,7 @@
           <div class="field-body">
             <div class="field">
               <p class="control">
-                <input class="input" type="number" placeholder="Icon" v-model="icon">
+                <input class="input" type="text" placeholder="Icon" v-model="icon">
               </p>
             </div>
           </div>
@@ -315,6 +315,7 @@
         <div class="field">
           <div class="control">
             <button class="button is-primary" @click.prevent="addStage">Submit</button>
+            <button class="button is-info" @click.prevent="giveDummyData">Dummy</button>
           </div>
         </div>
       </div>
@@ -356,6 +357,7 @@
 </template>
 
 <script>
+import { CREATE_STAGE_MUTATION } from '../constants/graphql'
 export default {
   data() {
     return {
@@ -387,8 +389,68 @@ export default {
     }
   },
   methods: {
-    createStage() {
+    getCaptureRate(base, bonus) {
+      return `Base: ${base}% \nBonus: ${bonus}% /move`
+    },
+    getDisruptions(board = 'None', initial = 'None', timer = 'None', support = 'None', cond = 'None') {
+      return `Board: ${board}
+      Initial: ${initial}
+      Timer: ${timer}
+      Added Support: ${support}
+      ${cond}
+      `
+    },
+    getTeam(mega, supports) {
+      return `[${mega}], ${supports}`
+    },
+    giveDummyData() {
+      this.ability = 'Cheer'
+      this.basePower = 90
+      this.captureRate= 'Base: 10% \n Bonus: 3% /move'
+      this.clearingStrategy = 'Nope. Nuke it.'
+      this.disruptions = ''
+      this.hitPts = 98765
+      this.icon = '01'
+      this.initialBoardSetup = ''
+      this.moves = 18
+      this.name = 'Missing No'
+      this.pokemon = parseInt(this.supportCount)
+      this.recommendedParty = ''
+      this.srankingStrategy = ''
+      this.stageNo = 999
+      this.type = 'Normal'
+      this.suggestedTeam = ''
+      this.suggestedSrank = ''
+    },
+    addStage() {
+      const data = {
+        ability: this.ability,
+        basePower: this.basePower,
+        captureRate: this.getCaptureRate(this.captureRateBase, this.captureRateBonus),
+        clearingStrategy: this.clearingStrategy,
+        disruptions: this.getDisruptions(this.disruptionBoard, this.disruptionInitial, this.disruptionTimer, this.disruptionAdded, this.disruptionCondition),
+        hitPts: this.hitPts,
+        icon: this.icon,
+        initialBoardSetup: this.initialBoardSetup,
+        moves: this.moves,
+        name: this.name,
+        pokemon: parseInt(this.supportCount),
+        recommendedParty: this.recommendedParty,
+        srankingStrategy: this.srankingStrategy,
+        stageNo: this.stageNo,
+        type: this.type,
+        suggestedTeam: this.getTeam(this.suggestedClearingMega, this.suggestedClearingSupports),
+        suggestedSrank: this.getTeam(this.suggestedSrankMega, this.suggestedSrankSupports)
+      }
 
+      this.$apollo.mutate({
+        mutation: CREATE_STAGE_MUTATION,
+        variables: data
+      }).then(data => {
+        console.log(data)
+      }).catch(error => {
+        console.log(error)
+      })
     }
   }
 }
