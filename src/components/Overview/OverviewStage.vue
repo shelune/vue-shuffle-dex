@@ -123,6 +123,8 @@ export default {
     updateLayout() {
       if (this.stageData.initialBoardSetup && this.stageData.initialBoardSetup.includes('http')) {
         this.layout = this.stageData.initialBoardSetup
+      } else {
+        this.layout = '/static/img/pikachu-angry.svg'
       }
     },
     updateSupportLim() {

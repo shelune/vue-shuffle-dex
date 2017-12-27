@@ -108,7 +108,7 @@ export default {
       }
     },
     submit(e) {
-      console.log('submit stage')
+      console.log('submit stage', this.stageIdApp);
       e.preventDefault()
       this.$router.push({
         name: 'home',
@@ -158,7 +158,13 @@ export default {
             } else {
               self.stageIdApp = _.trim(_.toString(stageId))
             }
-            self.$forceUpdate()
+
+            self.$router.push({
+              name: 'home',
+              params: {
+                stageId: _.parseInt(self.stageIdApp)
+              }
+            })
           },
         },
         highlightPhrase: false,
