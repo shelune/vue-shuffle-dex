@@ -179,7 +179,7 @@ export default {
     }
   },
   mounted () {
-    console.log('current stage: ', this.stageIdApp)
+    // console.log('current stage: ', this.stageIdApp)
     this.$nextTick(() => {
       window.addEventListener('scroll', this.calculatePosY);
       this.calculatePosY()
