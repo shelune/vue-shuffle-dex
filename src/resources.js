@@ -1,7 +1,7 @@
 import _ from 'lodash'
 
-const mainStageCap = 640
-const expertStageCap = 51
+const mainStageCap = 670
+const expertStageCap = 52
 
 const pokemonCollectionUrl = './static/scripts/pokemonCollection.json'
 const stageCollectionUrl = './static/scripts/stageCollection.json'
@@ -76,6 +76,10 @@ const stageCollections = [
   {
     levelCap: 640,
     stageUrl: 'zc'
+  },
+  {
+    levelCap: 670,
+    stageUrl: 'mt'
   }
 ]
 

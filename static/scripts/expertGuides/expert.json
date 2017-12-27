@@ -962,5 +962,17 @@
     "pokemon": 4,
     "basePower": 80,
     "ability": "Last-Ditch Effort"
+  },
+  {
+    "stageNo": 52,
+    "icon": 835,
+    "name": "Deoxys-S",
+    "hitPts": 17690,
+    "type": "Psychic",
+    "srank": 670,
+    "time": "0:30",
+    "captureRate": "Base: 1%\nBonus: 5% /3s",
+    "pokemon": 4,
+    "clearingStrategy": "Follow the strat <a href=\"https://www.reddit.com/r/PokemonShuffle/comments/7j9li1/guide_to_stages_641_670_ex_52_sranks/dr991vk/\">here</a>. This is the hardest Ex stage so far."
   }
 ]

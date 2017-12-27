@@ -1,5 +1,4 @@
-[
-  {
+[{
     "stageNo": "Zaffiro Coast"
   },
   {
@@ -540,7 +539,7 @@
     "clearingStrategy": "The board is rather bad so AlolaChu / Meganium with Block Shot offer a lot here. M-Beedrill is still your best bet against such bulky Water stage. Though stage overall so M+5 is probably even needed.",
     "srankingStrategy": "You'll probably need the 5k5-coin package just to make sure you can S-Rank this comfortably. Shaymin-L can stand in if you're confident in your tapping skill and skip DD. Quite risky though.",
     "suggestedTeam": "[Beedrill], SinnohChu SL5, Luxray maxed, Shaymin-L SL5 _ Itemless",
-    "suggestedSrank": "[Tyranitar], Sivally SL4, Zapdos lvl20 SL4, Virizion lvl15 SL4 _ M+4, DD, MS",
+    "suggestedSrank": "[Tyranitar], Sivally SL4, Zapdos lvl20 SL4, Virizion lvl15 SL4 _ M+5, DD, MS",
     "basePower": 70,
     "ability": "Stabilize"
   },
@@ -553,9 +552,9 @@
     "type": "Water",
     "captureRate": "Base: 6%\nBonus: 3% /move",
     "pokemon": 4,
-    "clearingStrategy": "Puzzle stage. B2 > C6, E6 > B5, F4 > E6, A5 > E6, E6 > C4. Then proceed. Luxray performs very well here due to the skyfall after puzzle. Without it, you still shouldn't have much trouble though.",
+    "clearingStrategy": "Puzzle stage. B2 > C6, E6 > B5, E6  > F4, A5 > E6, E6 > C4. Then proceed. Luxray performs very well here due to the skyfall after puzzle. Without it, you still shouldn't have much trouble though.",
     "srankingStrategy": "Possible itemless but add M+5 in case you find it too hard.",
-    "suggestedTeam": "[Beedrill], Shaymin maxed, Meganium lvl14 SL5 (BShot), Luxray maxed _ Itemless",
+    "suggestedTeam": "[Beedrill], Shaymin maxed, Meganium lvl14 SL5 (BShot), Luxray maxed _ Itemless\n\n[Beedrill], Virizion lvl15 SL4, Zapdos lvl20 SL4, UnovaChu lvl15 SL4 (HyperBolt) _ Itemless",
     "suggestedSrank": "[Beedrill], Shaymin maxed, Meganium lvl14 SL5 (BShot), Luxray maxed _ Itemless",
     "basePower": 50,
     "ability": "Counterattack+"
@@ -571,7 +570,7 @@
     "pokemon": 4,
     "clearingStrategy": "Pupitar as a support seems decent here, giving lots of free combos. The rest is quite similar to Larvitar stage, so just nuke it down.",
     "srankingStrategy": "You can either go with Tapper + Bursts or Tapper + Big Wave / Ground Force here. Aggron + Jirachi is wonderful here, but not strictly required. M+5 can help you secure S-Rank comfortably",
-    "suggestedTeam": "[Aggron], Jirachi SL2, A-Greninja maxed, Machamp maxed _ Itemless",
+    "suggestedTeam": "[Aggron], Jirachi SL2, A-Greninja maxed, Machamp maxed _ Itemless\n\n[Steelix], Jirachi SL4, Machamp maxed, Buzzwole lvl7 _ Itemless",
     "suggestedSrank": "[Aggron], Jirachi SL2, A-Greninja maxed, Machamp maxed _ Itemless",
     "basePower": 60,
     "ability": "Mega Boost"
@@ -585,9 +584,9 @@
     "type": "Water",
     "captureRate": "Base: 4%\nBonus: 4% /move",
     "pokemon": 4,
-    "clearingStrategy": "Shaymin-L can help a lot with the disruptions. I heard Luxray is good here? Anyway, just use a ton of bursts along with Sleep Charm will work, but M+5 is not too bad since this stage is not easy.",
+    "clearingStrategy": "Shaymin-L can help a lot with the disruptions. I heard Luxray is good here? Anyway, just use a ton of bursts along with Sleep Charm will work, but M+5 is not too bad since this stage is not easy. Hyper Bolt is not reliable but can be come handy in the last few turns",
     "srankingStrategy": "M+5 with MS and a Tapper should give you this S-Rank, though not too reliably. Add Sivally and DD to alleviate this problem.",
-    "suggestedTeam": "[Beedrill], Shaymin maxed, Meganium lvl14 SL5 (BShot), Luxray maxed _ Itemless",
+    "suggestedTeam": "[Beedrill], Shaymin maxed, Meganium lvl14 SL5 (BShot), Luxray maxed _ Itemless\n\n[Beedrill], Virizion lvl15 SL4, Zapdos lvl20 SL4, UnovaChu lvl15 SL4 (HyperBolt) _ Itemless",
     "suggestedSrank": "[Tyranitar], Virizion lvl15 SL3, Emolga lvl15 SL4, Shaymin-L lvl15 SL4 _ M+5, MS",
     "basePower": 60,
     "ability": "Three Force"
@@ -617,9 +616,9 @@
     "type": "Rock",
     "captureRate": "Base: 7%\nBonus: 5% /move",
     "pokemon": 4,
-    "clearingStrategy": "Quite a hard & bulky stage. M-Aggron with Jirachi works fine here with some luck. M-Steelix with a blank spot has potential too. This stage is more about combos since it has nearly 35k HP.",
+    "clearingStrategy": "Quite a hard & bulky stage. M-Tyranitar actually fares better than M-Aggron due to the added Tyranitar icons at start. To be honest, combo boosters don't do much here since the disruptions are quite harsh. Go with bursts instead if you just want to clear this.",
     "srankingStrategy": "At least M+5 is needed. Hopefully a 5k5-coin package is enough with Metal Combo / Big Wave team. You'll need a stacked team though. If you're not confident, just go with a sole C-1 since this glorious beast deserves it.",
-    "suggestedTeam": "[Tyranitar], Groudon lvl16 SL5 (Quake), Machamp maxed, Greninja maxed _ Itemless",
+    "suggestedTeam": "[Tyranitar], Groudon lvl16 SL5 (Quake), Machamp maxed, Greninja maxed _ Itemless\n\n[Tyranitar], Groudon lvl20 SL3 (BarShot), Machamp maxed, A-Greninja maxed _ Itemless",
     "suggestedSrank": "[Tyranitar], Groudon lvl16 SL5 (Quake), Machamp maxed, Greninja maxed _ M+5, MS",
     "basePower": 80,
     "ability": "Eject"
@@ -635,7 +634,7 @@
     "disruptions": "Added Support: Deoxys",
     "pokemon": 4,
     "clearingStrategy": "Not sure if you can clear this itemless? M+5 is at least needed with this added support and horrible disruptions. We've just recenly got Trevenant SS to Shot Out so probably that can help but still you have to deal more than 2k8 damage per turn on average.",
-    "srankingStrategy": "Just go with full item. Even that may not guarantee S-Rank if you let your guard down. A Zoroark SL5 may increase your chance a lot.",
+    "srankingStrategy": "Just go with full item. Even that may not guarantee S-Rank if you let your guard down. A Zoroark SL5 may increase your chance a lot. Another strat is to use M-Heracross, Sivally and Duskull. Don't focus on the block column since it won't end until half of the stage.",
     "suggestedTeam": "[Tyranitar], Hoopa-U maxed, Yveltal lvl15, Zoroark lvl13 SL3 _ M+5, MS, DD, C-1",
     "suggestedSrank": "[Tyranitar], Hoopa-U maxed, Yveltal lvl15, Zoroark lvl13 SL5 _ M+5, MS, DD, C-1",
     "basePower": 80,
@@ -643,42 +642,157 @@
   },
   {
     "stageNo": 641,
-    "captureRate": "Base: 7%\nBonus: 5% /move"
+    "icon": 243,
+    "name": "Wooper",
+    "moves": 8,
+    "hitPts": 35280,
+    "type": "Ground",
+    "captureRate": "Base: 7%\nBonus: 4% /move",
+    "pokemon": 3,
+    "clearingStrategy": "Clearing should not be a problem as long as you bring some Tapper. Sivally fits well here but any combo booster would just be fine. Beware of the blocks though.",
+    "suggestedTeam": "[S-Ray], Sivally SL5, A-Greninja maxed _ Itemless",
+    "suggestedSrank": "[S-Ray], Sivally SL5, A-Greninja maxed _ Itemless",
+    "basePower": 30,
+    "ability": "Quirky+"
   },
   {
     "stageNo": 642,
-    "captureRate": "Base: 7%\nBonus: 5% /move"
+    "icon": 162,
+    "name": "Chansey",
+    "moves": 12,
+    "hitPts": 24033,
+    "type": "Normal",
+    "captureRate": "Base: 8%\nBonus: 5% /move",
+    "pokemon": 4,
+    "clearingStrategy": "Very bulky stage. Also starting layout isn't the nicest one. Hitmonlee helps a lot here, otherwise you'll have to rely on Conkeldurr to clear this.",
+    "suggestedTeam": "[S-Charizard-X], Machamp maxed, Buzzwole lvl15, Hitmonlee maxed _ Itemless",
+    "suggestedSrank": "[Tyranitar], Machamp maxed, Buzzwole lvl15, Hitmonlee maxed _ M+5, MS",
+    "basePower": 60,
+    "ability": "Mega Boost"
   },
   {
     "stageNo": 643,
-    "captureRate": "Base: 7%\nBonus: 5% /move"
+    "icon": 692,
+    "name": "Frillish (Male)",
+    "moves": 5,
+    "hitPts": 6125,
+    "type": "Ghost",
+    "captureRate": "Base: 10%\nBonus: 7% /move",
+    "pokemon": 4,
+    "clearingStrategy": "Dusknoir seems to be the MVP here. Barriers at the beginning so a maxed Driftblim would be the best here. Otherwise just bring your best bursters.",
+    "srankingStrategy": "Add in M+5 for safety purpose. Still burster is the way to go. Should be doable itemless if Dusknoir is maxed.",
+    "suggestedTeam": "[Beedrill], Duskull maxed, Hoopa-U maxed (RT), Dusknoir maxed _ Itemless",
+    "suggestedSrank": "[Beedrill], Duskull maxed, Hoopa-U maxed (RT), Dusknoir maxed _ Itemless",
+    "basePower": 50,
+    "ability": "Barrier Bash"
   },
   {
     "stageNo": 644,
-    "captureRate": "Base: 7%\nBonus: 5% /move"
+    "icon": 144,
+    "name": "Quagsire",
+    "moves": 16,
+    "hitPts": 21087,
+    "type": "Ground",
+    "captureRate": "Base: 8%\nBonus: 5% /move",
+    "pokemon": 4,
+    "clearingStrategy": "Some Quagsire and Wooper in the board along with blocks. You can go dual BlockShot with another SO here. Still lots of HP so quite a hard stage",
+    "suggestedTeam": "[S-Ray], Popplio lvl13 SL4 (BlShot), A-Greninja maxed, Vanilluxe lvl15 SL4 (SO) _ Itemless",
+    "suggestedSrank": "[Tyranitar], Popplio lvl14 SL3 (BlShot), Rowlet maxed, A-Greninja maxed _ M+5, DD, MS",
+    "basePower": 60,
+    "ability": "Ground Forces"
   },
   {
     "stageNo": 645,
-    "captureRate": "Base: 7%\nBonus: 5% /move"
+    "icon": 318,
+    "name": "Blissey",
+    "moves": 10,
+    "hitPts": 22743,
+    "type": "Normal",
+    "captureRate": "Base: 6%\nBonus: 4% /move",
+    "pokemon": 4,
+    "clearingStrategy": "Have some Blissey and rocks / blocks here and there. Extremely bulky. If you don't have Hitmonlee (which is very useful here), Noivern can be okay too but risky. You may need M+5 just to pass this.",
+    "suggestedTeam": "[Tyranitar], Sivally SL5, Machamp maxed, Buzzwole lvl10 _ M+5, MS",
+    "suggestedSrank": "[S-Ray], Machamp maxed (RT), Buzzwole lvl15, Hitmonlee maxed (SO) _ M+5",
+    "basePower": 70,
+    "ability": "Power of 5"
   },
   {
     "stageNo": 646,
-    "captureRate": "Base: 7%\nBonus: 5% /move"
+    "icon": 627,
+    "name": "Tympole",
+    "moves": 9,
+    "hitPts": 12250,
+    "type": "Water",
+    "captureRate": "Base: 8%\nBonus: 6% /move",
+    "pokemon": 3,
+    "clearingStrategy": "Another 3-mon filler stage. AlolaChu with SO works well here since it has itself in the starting board. Tapper is the go-to Mega as usual. Lots of rock though so Mega S-Ray might be better here.",
+    "srankingStrategy": "The starting skyfall may be too much to deal with so M+5 should be sufficient for this.",
+    "suggestedTeam": "[Beedrill], Sivally SL5, AlolaChu maxed (SO) _ Itemless",
+    "suggestedSrank": "[S-Ray], AlolaChu maxed (SO), Sivally SL3 _ M+5",
+    "basePower": 40,
+    "ability": "Astonish"
   },
   {
     "stageNo": 647,
-    "captureRate": "Base: 7%\nBonus: 5% /move"
+    "icon": 694,
+    "name": "Jellicent (Male)",
+    "moves": 10,
+    "hitPts": 32032,
+    "type": "Ghost",
+    "captureRate": "Base: 6%\nBonus: 8% /move",
+    "pokemon": 4,
+    "clearingStrategy": "Incredibly bulky. Ugh. 34k HP within 10 moves so you'd better wish for some luck. Either Spookify+ or Sinister Power team can work here, but the former seems better. Bringing Jellicent doesn't seem to help with all this barriers. Might need M+5 and possibly MS to comfortably go by.",
+    "suggestedSrank": "[Tyranitar], Yveltal lvl15 SL2, Hoopa-U lvl10 SL5 (RT), Zoroark lvl13 SL2 _ M+5, DD, MS",
+    "basePower": 60,
+    "ability": "Prank"
   },
   {
     "stageNo": 648,
-    "captureRate": "Base: 7%\nBonus: 5% /move"
+    "icon": 839,
+    "name": "Castform (Sunny)",
+    "moves": 12,
+    "hitPts": 8190,
+    "type": "Fire",
+    "captureRate": "Base: 9%\nBonus: 2% /move",
+    "pokemon": 4,
+    "clearingStrategy": "Puzzle here. C4 > B2, D2 > B4, E4 > F2, A3 > B4 then match the Castforms. If you're lucky, Quirky+ should take care of the extra icon for you. Proceed to burst it down with Lando-T, Kyogre RShot, Volcanion, etc. Regirock is nice here if you just want to pass.",
+    "srankingStrategy": "At least M+5 is needed. However, once you've solved the puzzle, one good UP proc can take care of this stage.",
+    "suggestedTeam": "[Gyarados], Regirock maxed (LDE), Lando-T maxed (RT), A-Greninja maxed (UP) _ Itemless",
+    "suggestedSrank": "[S-Ray], Lando-T lvl13 SL5 (RT), A-Greninja lvl15 SL5 (UP), Groudon lvl30 _ M+5",
+    "basePower": 60,
+    "ability": "Burn+"
   },
   {
     "stageNo": 649,
-    "captureRate": "Base: 7%\nBonus: 5% /move"
+    "icon": 808,
+    "name": "Tyrunt",
+    "moves": 15,
+    "hitPts": 14700,
+    "type": "Rock",
+    "captureRate": "Base: 4%\nBonus: 8% /move",
+    "pokemon": 4,
+    "clearingStrategy": "Frequent block disruptions so Meganium / Popplio does wonder here. Pick another good burst and you should be good to go",
+    "srankingStrategy": "Doable itemless but M+5 should make this easier.",
+    "suggestedTeam": "[Gyarados], Popplio lvl15 SL4 (BlShot), Lando-T maxed, A-Greninja maxed (UP) _ Itemless",
+    "suggestedSrank": "[Aggron], A-Greninja maxed (UP), Popplio lvl14 SL3 (BlShot), Hitmonlee maxed _ Itemless",
+    "basePower": 50,
+    "ability": "Rock Break"
   },
   {
     "stageNo": 650,
-    "captureRate": "Base: 7%\nBonus: 5% /move"
+    "icon": 837,
+    "name": "Yveltal (Shiny)",
+    "moves": 18,
+    "hitPts": 36750,
+    "type": "Dark",
+    "captureRate": "Base: 5%\nBonus: 7% /move",
+    "disruptions": "Added: Yveltal (Shiny)",
+    "pokemon": 4,
+    "clearingStrategy": "Actually a boss stage. Insane amount of barriers so M-Diancie can help somewhat but you prolly need at least M+5 to beat this. Bring your best bursters since the added Yveltal-Shiny makes it impossible to combo well",
+    "srankingStrategy": "Full items for sure. M-Hera with Sivally can work here but still you'll need some luck. Tappers also work but you'll need to be confident with your skills. Take your best bursts also.",
+    "suggestedTeam": "[Tyranitar], Machamp maxed (RT), Lucario lvl10 SL2, Buzzwole lvl15 SL2 _ M+5, DD, MS",
+    "suggestedSrank": "[Tyranitar], Machamp maxed (RT), Lucario lvl10 SL2, Buzzwole lvl15 SL2 _ Full Items",
+    "basePower": 80,
+    "ability": "Hyper Drain"
   }
 ]
