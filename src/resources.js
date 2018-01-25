@@ -74,7 +74,7 @@ const stageCollections = [
     stageUrl: 'pw'
   },
   {
-    levelCap: 640,
+    levelCap: 650,
     stageUrl: 'zc'
   },
   {
